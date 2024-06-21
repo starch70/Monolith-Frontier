@@ -159,6 +159,7 @@
     prototypes: [ NFMobAghostGear ] # Frontier MobAghostGear<NFMobAghostGear
   - type: BypassInteractionChecks
   - type: BankAccount # Frontier
+  - type: SupermatterImmune # Goobstation
 
 - type: entity
   id: ActionAGhostShowSolar
