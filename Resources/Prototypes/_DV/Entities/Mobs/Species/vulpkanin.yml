@@ -138,6 +138,7 @@
     cosmeticOnly: false # Frontier
   - type: TallWhitelist # Frontier
     scale: 1.2 # Frontier
+  - type: FootPrints # WD EDIT
 
 - type: entity
   save: false

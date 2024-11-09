@@ -164,6 +164,7 @@
   - type: LightningTarget
     priority: 1 # Mono
     lightningExplode: false
+  - type: FootPrints # WD EDIT
 
 # Used for mobs that can enter combat mode and can attack.
 - type: entity

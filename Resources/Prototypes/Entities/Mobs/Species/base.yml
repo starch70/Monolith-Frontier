@@ -324,6 +324,7 @@
   - type: Targeting # Shitmed Change
   - type: SurgeryTarget # Shitmed Change
   - type: ExaminableCharacter # WWDP
+  - type: FootPrints # WD EDIT
 
 - type: entity
   save: false
