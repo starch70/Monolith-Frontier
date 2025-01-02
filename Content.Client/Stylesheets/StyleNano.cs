@@ -44,8 +44,7 @@ namespace Content.Client.Stylesheets
                     $"/Fonts/NotoSans{ds}/NotoSans{ds}-{sv}.ttf",
                     $"/Fonts/NotoSans/NotoSansSymbols-{sv}.ttf",
                     "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf",
-                    // Removing Chinese font since it's missing
-                    // "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
+                    "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
                 },
                 size
             );
@@ -60,8 +59,7 @@ namespace Content.Client.Stylesheets
                     path,
                     $"/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
                     "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf",
-                    // Removing Chinese font since it's missing
-                    // "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
+                    "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
                 },
                 size
             );
