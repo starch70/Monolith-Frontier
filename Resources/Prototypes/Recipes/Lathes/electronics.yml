@@ -61,7 +61,7 @@
     Steel: 100
     Glass: 500
     Bananium: 100
-    
+
 - type: latheRecipe
   abstract: true
   parent: BaseCircuitboardRecipe
@@ -279,12 +279,10 @@
   id: AnomalyVesselExperimentalCircuitboard
   result: AnomalyVesselExperimentalCircuitboard
 
-# Frontier: no recipes for the anomaly synchronizer
-# - type: latheRecipe
-#   parent: BaseSilverCircuitboardRecipe
-#   id: AnomalySynchronizerCircuitboard
-#   result: AnomalySynchronizerCircuitboard
-# End Frontier
+- type: latheRecipe
+  parent: BaseSilverCircuitboardRecipe
+  id: AnomalySynchronizerCircuitboard
+  result: AnomalySynchronizerCircuitboard
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
@@ -618,8 +616,14 @@
   parent: BaseCircuitboardRecipe
   id: HolopadMachineCircuitboard
   result: HolopadMachineCircuitboard
-  
+
 - type: latheRecipe
   parent: BaseBluespaceCircuitboardRecipe
   id: AiCoreElectronics
   result: AiCoreElectronics
+
+# Assmos - Crystallizer
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: CrystallizerMachineCircuitboard
+  result: CrystallizerMachineCircuitboard
