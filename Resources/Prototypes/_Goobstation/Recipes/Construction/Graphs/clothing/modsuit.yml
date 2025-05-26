@@ -132,3 +132,8 @@
 
   - node: captain
     entity: ClothingModsuitCaptain
+
+# Mono Changes Start
+  - node: pmc
+    entity: ClothingModsuitPMC
+# Mono Changes End
