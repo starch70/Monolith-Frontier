@@ -122,6 +122,22 @@
 
 - type: latheRecipe
   parent: BaseTileRecipe
+  id: FloorTileItemDarkPavementVertical
+  result: FloorTileItemDarkPavementVertical
+
+- type: latheRecipe
+  parent: BaseTileRecipe
+  id: FloorTileItemDarkOffset
+  result: FloorTileItemDarkOffset
+
+- type: latheRecipe
+  parent: BaseTileRecipe
+  id: FloorTileItemDarkSquiggly
+  result: FloorTileItemDarkSquiggly
+
+# White steel tiles
+- type: latheRecipe
+  parent: BaseTileRecipe
   id: FloorTileItemWhite
   result: FloorTileItemWhite
 
@@ -185,6 +201,11 @@
   parent: BaseTileRecipe
   id: FloorTileItemSteelMaint
   result: FloorTileItemSteelMaint
+
+- type: latheRecipe
+  parent: BaseTileRecipe
+  id: FloorTileItemTechmaintDark
+  result: FloorTileItemTechmaintDark
 
 # Wood
 - type: latheRecipe
