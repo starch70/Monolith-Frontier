@@ -1147,7 +1147,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -2.5,-5.5
       parent: 1
-- proto: LockerWallMaterialsFuelPlasmaFilled2
+- proto: LockerWallMaterialsFuelUraniumFilled2
   entities:
   - uid: 139
     components:
@@ -1175,7 +1175,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -8.5,-4.5
       parent: 1
-- proto: PortableGeneratorPacmanShuttle
+- proto: PortableGeneratorSuperPacmanShuttle
   entities:
   - uid: 143
     components:

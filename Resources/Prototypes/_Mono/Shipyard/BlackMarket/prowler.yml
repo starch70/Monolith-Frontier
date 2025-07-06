@@ -24,7 +24,7 @@
   - Pirate
   - Pursuit
   engine:
-  - Plasma
+  - Uranium
 
 - type: gameMap
   id: Prowler
