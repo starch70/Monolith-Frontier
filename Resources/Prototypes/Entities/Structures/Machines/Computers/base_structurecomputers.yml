@@ -81,7 +81,8 @@
   - type: Wires
     boardName: wires-board-name-computer
     layoutId: Computer
-    # Mono changes start - buffer for power outages
+    # Mono changes start
+    # Mono - buffer for power outages
   - type: Battery
     maxCharge: 100
     startingCharge: 100
@@ -91,6 +92,13 @@
     idleLoad: 5
     batteryRechargeRate: 250
     batteryRechargeEfficiency: 0.95
+    # Mono - ambience
+  - type: AmbientOnPowered
+  - type: AmbientSound
+    volume: -6
+    range: 4
+    sound:
+      path: /Audio/Ambience/Objects/vending_machine_hum.ogg
     # Mono changes end
 #
 #     This is overwritten by children, so needs to be defined there

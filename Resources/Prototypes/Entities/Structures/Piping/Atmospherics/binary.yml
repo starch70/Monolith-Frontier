@@ -165,8 +165,8 @@
       node: passivegate
     - type: AmbientSound
       enabled: true
-      volume: -9
-      range: 5
+      volume: -10 # mono - changed from -9
+      range: 2.5 # mono - changed from 5
       sound:
         path: /Audio/Ambience/Objects/gas_hiss.ogg
     - type: AtmosMonitoringConsoleDevice

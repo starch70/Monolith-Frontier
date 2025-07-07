@@ -147,8 +147,8 @@
     hasLampOnSpawn: LightTube
   - type: AmbientOnPowered
   - type: AmbientSound
-    volume: -15
-    range: 2
+    volume: -5 # Mono -5 from -15
+    range: 4 # Mono 4 from 2
     sound:
       path: /Audio/Ambience/Objects/light_hum.ogg
   - type: DamageOnInteract
@@ -254,8 +254,8 @@
   parent: AlwaysPoweredWallLight
   components:
     - type: AmbientSound
-      volume: -15
-      range: 2
+      volume: -7 # Mono -7 from -15
+      range: 3 # Mono 3 from 2
       sound:
         path: /Audio/Ambience/Objects/light_hum.ogg
     - type: Sprite
