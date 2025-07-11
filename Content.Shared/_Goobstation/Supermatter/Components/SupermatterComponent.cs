@@ -310,12 +310,12 @@ public sealed partial class SupermatterComponent : Component
     //Explosion totalIntensity value
     [ViewVariables(VVAccess.ReadOnly)]
     [DataField("totalIntensity")]
-    public float TotalIntensity= 15000f; // mono - tune down, 500k was too funny
+    public float TotalIntensity= 25000f; // mono - tune down, 500k was too funny
 
     //Explosion totalIntensity value for overmass
     [ViewVariables(VVAccess.ReadOnly)]
-    [DataField("totalIntensity")]
-    public float TotalIntensityOvermass= 50000f;
+    [DataField("totalIntensityOvermass")]
+    public float TotalIntensityOvermass= 75000f;
 
     //Explosion radius value
     [ViewVariables(VVAccess.ReadOnly)]
