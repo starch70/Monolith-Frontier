@@ -1,4 +1,4 @@
-namespace Content.Shared.Supermatter.Components;
+namespace Content.Shared._Goobstation.Supermatter.Components;
 
 [RegisterComponent]
 public sealed partial class SupermatterFoodComponent : Component

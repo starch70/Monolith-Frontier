@@ -20,10 +20,10 @@ using Content.Server.Atmos.EntitySystems;
 using Content.Server.Chat.Systems;
 using Content.Server.Explosion.EntitySystems;
 using Content.Server.Explosion.Components;
-using Content.Shared.Supermatter.Components;
-using Content.Shared.Supermatter.Systems;
+using Content.Shared._Goobstation.Supermatter.Components;
+using Content.Shared._Goobstation.Supermatter.Systems;
 
-namespace Content.Server.Supermatter.Systems
+namespace Content.Server._Goobstation.Supermatter.Systems
 {
     [UsedImplicitly]
     public sealed class SupermatterSystem : SharedSupermatterSystem
