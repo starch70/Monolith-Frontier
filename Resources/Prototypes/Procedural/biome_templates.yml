@@ -1,3 +1,12 @@
+# SPDX-FileCopyrightText: 2023 Cheackraze
+# SPDX-FileCopyrightText: 2023 Kara
+# SPDX-FileCopyrightText: 2024 Ed
+# SPDX-FileCopyrightText: 2024 Nemanja
+# SPDX-FileCopyrightText: 2025 metalgearsloth
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Contains several biomes
 - type: biomeTemplate
   id: Continental
@@ -62,7 +71,7 @@
       allowedTiles:
         - FloorAsteroidSand
       entities:
-        - WallRockSand
+        - MonoPlanetmapOreSand
     - !type:BiomeDummyLayer
       id: Loot
     # Fill layer
@@ -151,7 +160,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRock
+        - MonoPlanetmapOreBase
     - !type:BiomeDummyLayer
       id: Loot
     # Water
@@ -278,7 +287,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockBasalt
+        - MonoPlanetmapOreBasalt
     - !type:BiomeDummyLayer
       id: Loot
     # Fill basalt
@@ -386,7 +395,7 @@
         cellularDistanceFunction: Euclidean
         cellularReturnType: Distance2
       entities:
-        - WallRockSnow
+        - MonoPlanetmapOreSnow
     # Ice tiles
     - !type:BiomeTileLayer
       tile: FloorIce
@@ -475,7 +484,7 @@
       allowedTiles:
         - FloorChromite
       entities:
-        - WallRockChromite
+        - MonoPlanetmapOreChromite
     # chasm time
 #    - !type:BiomeEntityLayer
 #      allowedTiles:
@@ -538,7 +547,7 @@
       allowedTiles:
         - FloorAsteroidSand
       entities:
-        - WallRock
+        - MonoPlanetmapOreBase
     - !type:BiomeDummyLayer
       id: Loot
     - !type:BiomeTileLayer
