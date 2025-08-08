@@ -85,6 +85,17 @@
   interruptable: true
   priority: 1
 
+- type: ambientMusic
+  id: Forest
+  sound:
+    params:
+      volume: -8
+    collection: AmbienceForest
+  rules: InForest
+  fadeIn: true
+  interruptable: true
+  priority: 1
+
 ## Fallback if nothing else found
 - type: ambientMusic
   id: General
@@ -242,6 +253,11 @@
     - /Audio/Ambience/ambidanger2.ogg
     - /Audio/Ambience/ambimine.ogg
 
+- type: soundCollection
+  id: AmbienceForest
+  files:
+  - /Audio/_Mono/Ambience/ambiforest_day.ogg
+
 ## Background noise on station, separate to ambient music.
 - type: soundCollection
   id: AmbienceStation
@@ -290,6 +306,16 @@
       tiles:
         - TrainLattice
       range: 4
+
+- type: rules
+  id: InForest
+  rules:
+  - !type:NearbyEntitiesRule
+    count: 5
+    whitelist:
+      tags:
+      - FloraTree
+    range: 10
 
 - type: rules
   id: NearMedical

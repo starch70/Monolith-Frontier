@@ -47,6 +47,9 @@
     offset: 0,0.9
   - type: Physics
     bodyType: Static
+  - type: Tag # Mono
+    tags:
+    - FloraTree
   - type: Fixtures
     fixtures:
       fix1:

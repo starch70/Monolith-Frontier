@@ -337,3 +337,8 @@
 
 - type: Tag
   id: SurvivalBox
+
+# ambience
+
+- type: Tag
+  id: FloraTree
