@@ -19,6 +19,22 @@
     - FloorAsteroidSandUnvariantized
     entities:
     - FloraRockSolid
+  # Fauna Placement
+  - !type:BiomeEntityLayer
+    threshold: 0.05
+    noise:
+      seed: 1
+      noiseType: Cellular
+      frequency: 2
+      lacunarity: 15
+      fractalType: FBm
+      octaves: 2
+      cellularDistanceFunction: Euclidean
+      cellularReturnType: Distance2
+    allowedTiles:
+    - FloorDesertPlanet
+    entities:
+    - MonoFaunaDesert
   # Rock decals
   - !type:BiomeDecalLayer
     allowedTiles:

@@ -144,6 +144,22 @@
       entities:
         - FloraTree
         - FloraTreeLarge
+    # Fauna Placement
+    - !type:BiomeEntityLayer
+      threshold: 0.05
+      noise:
+        seed: 1
+        noiseType: Cellular
+        frequency: 2
+        lacunarity: 15
+        fractalType: FBm
+        octaves: 2
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      allowedTiles:
+      - FloorPlanetGrass
+      entities:
+      - MonoFaunaForest
     # Rock formations
     - !type:BiomeEntityLayer
       allowedTiles:

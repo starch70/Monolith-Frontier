@@ -1259,12 +1259,6 @@
     tags:
     - DoorBumpOpener
     - FootstepSound
-  - type: GhostRole
-    prob: 0.25
-    name: ghost-role-information-kangaroo-name
-    description: ghost-role-information-kangaroo-description
-    rules: ghost-role-information-nonantagonist-rules
-  - type: GhostTakeoverAvailable
   - type: Vocal
     sounds:
       Unsexed: Kangaroo

@@ -1,0 +1,77 @@
+# Desert fauna
+
+- type: entityTable
+  id: MonoFaunaDesert
+  table: !type:GroupSelector
+    children:
+    - id: MobLizard
+      weight: 0.5
+    - id: MobSnake
+      weight: 0.25
+    - id: MobKangaroo
+      weight: 0.25
+
+- type: entity
+  id: MonoFaunaDesert
+  parent: MarkerBase
+  name: planet fauna spawner
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: EntityTableSpawner
+    offset: 0
+    table: !type:NestedSelector
+      tableId: MonoFaunaDesert
+
+# Forest fauna
+
+- type: entityTable
+  id: MonoFaunaForest
+  table: !type:GroupSelector
+    children:
+    - id: MobFox
+      weight: 0.1
+    - id: MobGoat
+      weight: 0.05
+    - id: MobFerret
+      weight: 0.1
+    - id: MobBee
+      weight: 0.025
+    - id: MobButterfly
+      weight: 0.025
+    - id: MobPossum
+      weight: 0.025
+    - id: MobRaccoon
+      weight: 0.025
+    - id: MobFrog
+      weight: 0.001
+    - id: MobChicken
+      weight: 0.033
+    - id: MobChicken1
+      weight: 0.033
+    - id: MobChicken2
+      weight: 0.033
+    - id: MobDuckMallard
+      weight: 0.025
+    - id: MobDuckWhite
+      weight: 0.025
+    - id: MobDuckBrown
+      weight: 0.025
+    - id: MobGoose
+      weight: 0.025
+
+- type: entity
+  id: MonoFaunaForest
+  parent: MarkerBase
+  name: planet fauna spawner
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: EntityTableSpawner
+    offset: 0
+    table: !type:NestedSelector
+      tableId: MonoFaunaForest
