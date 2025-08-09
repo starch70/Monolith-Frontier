@@ -9952,3 +9952,28 @@ Entries:
   id: 1110
   time: '2025-08-08T18:19:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1813
+- author: starch70
+  changes:
+    - type: Add
+      message: Added a permanent desert planet below you can warp to. Lavaland?
+    - type: Fix
+      message: Fixed tiles on desert planets being destructible.
+    - type: Fix
+      message: Fixed dark grass showing up as missing textures.
+  id: 1111
+  time: '2025-08-08T20:15:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1815
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Pirate scaf suits renamed appropiately.
+  id: 1112
+  time: '2025-08-08T21:27:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1816
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Desert planet disabled temporarily pending issue resolution.
+  id: 1113
+  time: '2025-08-09T02:18:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1817
