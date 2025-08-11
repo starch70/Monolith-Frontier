@@ -87,3 +87,62 @@
           DesertStone:
             min: 2
             max: 5
+
+- type: entity
+  name: sand
+  id: hydroponicsSand
+  parent: hydroponicsSoil
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: Structures/Hydroponics/misc.rsi
+    state: sand
+    noRot: true
+  - type: Construction
+    graph: SandGraph
+    node: SandNode
+
+- type: construction
+  id: Sand
+  name: sand pile
+  description: Somehow works as a growing spot.
+  graph: SandGraph
+  startNode: start
+  targetNode: SandNode
+  category: construction-category-furniture
+  icon:
+    sprite: Structures/Hydroponics/misc.rsi
+    state: sand
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+- type: constructionGraph
+  id: SandGraph
+  start: start
+  graph:
+  - node: start
+    actions:
+    - !type:DestroyEntity {}
+    edges:
+    - to: SandNode
+      completed:
+      - !type:SnapToGrid { }
+      steps:
+      - tag: SandMaterial
+        name: desert sand
+        icon:
+          sprite: _Mono/Objects/Misc/desert_sand.rsi
+          state: icon
+        doAfter: 6
+
+  - node: SandNode
+    entity: hydroponicsSand
+    edges:
+    - to: start
+      steps:
+      - tool: Prying # you may think digging would be better, but digging would just remove the plant lol
+        doAfter: 1
