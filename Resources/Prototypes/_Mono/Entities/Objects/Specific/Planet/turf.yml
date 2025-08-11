@@ -1,0 +1,65 @@
+- type: entity
+  id: DesertStone
+  name: rock
+  parent: BaseItem
+  description: Its a stone.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/desert_stone.rsi
+    state: icon
+  - type: Item
+    size: Small
+  - type: Tag
+    tags:
+    - RockMaterial
+  - type: MeleeWeapon
+    heavyStaminaCost: 5
+    wideAnimationRotation: -35
+    damage:
+      types:
+        Blunt: 15
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+
+- type: entity
+  id: DesertSand
+  name: sand
+  parent: BaseItem
+  description: Its just some sand.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/desert_sand.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: Tag
+    tags:
+    - SandMaterial
+
+- type: entity
+  parent: FloraRockSolid
+  id: FloraRockSolidPlanet
+  suffix: planet
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 25
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/break_stone.ogg
+          params:
+            volume: -6
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          DesertStone:
+            min: 2
+            max: 5

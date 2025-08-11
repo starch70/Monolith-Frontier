@@ -95,12 +95,17 @@
           Log:
             min: 1
             max: 3
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialCloth1:
+            min: 0
+            max: 4
 
 - type: entity
   parent: BaseFlora
   id: FloraPilumaPlant
   name: piluma plant
-  description: A cluster of tall stalks, it's stalks contains a small amount of nutrients and water, perfect for an emergency meal.
+  description: A cluster of tall stalks. Edible for food and water, but hallucinogenic in nature.
   components:
   - type: Sprite
     sprite: _Mono/Objects/Flora/flora_32x.rsi

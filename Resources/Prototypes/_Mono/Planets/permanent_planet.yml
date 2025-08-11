@@ -74,7 +74,7 @@
     - FloorDesertPlanet
     - FloorAsteroidSandUnvariantizedPlanet
     entities:
-    - FloraRockSolid
+    - FloraRockSolidPlanet
   # Flora Placement
   # Piluma
   - !type:BiomeEntityLayer
