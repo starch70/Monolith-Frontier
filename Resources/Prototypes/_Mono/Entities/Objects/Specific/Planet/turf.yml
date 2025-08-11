@@ -34,15 +34,35 @@
   name: sand
   parent: BaseItem
   description: Its just some sand.
+  suffix: Full
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/desert_sand.rsi
     state: icon
+  - type: Stack
+    stackType: DesertSand
+    count: 250
   - type: Item
     size: Tiny
   - type: Tag
     tags:
     - SandMaterial
+
+- type: entity
+  parent: DesertSand
+  id: DesertSand1
+  suffix: 1
+  components:
+  - type: Stack
+    count: 1
+
+- type: entity
+  parent: DesertSand
+  id: DesertSand50
+  suffix: 50
+  components:
+  - type: Stack
+    count: 50
 
 - type: entity
   parent: FloraRockSolid
