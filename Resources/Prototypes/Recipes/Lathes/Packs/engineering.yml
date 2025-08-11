@@ -90,4 +90,5 @@
   - EmitterCircuitboard
   - TelecomServerCircuitboard
   - SMESAdvancedMachineCircuitboard
+  - CrystallizerMachineCircuitboard # Mono/Funky
   # - HolopadMachineCircuitboard # Frontier: use NF variant
