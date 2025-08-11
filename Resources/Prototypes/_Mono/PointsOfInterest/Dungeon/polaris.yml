@@ -16,8 +16,8 @@
   id: Polaris
   parent: BasePOI
   name: 'Polaris Bioresearch Center'
-  minimumDistance: 5500
-  maximumDistance: 12500
+  minimumDistance: 10000
+  maximumDistance: 15000
   spawnGroup: Optional
   gridPath: /Maps/_Mono/POI/Dungeons/polaris.yml
   addComponents:

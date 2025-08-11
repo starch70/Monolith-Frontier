@@ -14,15 +14,15 @@
 # Notes: upgraded zenith as a ruin w/ tech disks
 - type: pointOfInterest
   id: Zenith
-  parent: BasePOI
+  parent: BaseMobilePOI
   name: 'ADS Zenith CK-395'
-  minimumDistance: 12500
-  maximumDistance: 16500
+  minimumDistance: 10000
+  maximumDistance: 15000
   spawnGroup: Optional
   gridPath: /Maps/_Mono/POI/Dungeons/zenith_poi.yml
   addComponents:
   - type: IFF
-    color: "#328da8"
+    color: "#44bfe3"
     flags: [HideLabel]
 
 - type: gameMap

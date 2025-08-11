@@ -14,21 +14,21 @@
 # Notes:
 - type: pointOfInterest
   id: AutomatedTanker
-  parent: BasePOI
-  name: 'Automated Inter-Sector Tanker'
-  minimumDistance: 8500
-  maximumDistance: 9500
+  parent: BaseMobilePOI
+  name: 'Automated Inter Sector Tanker'
+  minimumDistance: 10000
+  maximumDistance: 15000
   spawnGroup: Optional
   gridPath: /Maps/_Mono/POI/Dungeons/ruin_tanker.yml
   addComponents:
   - type: IFF
-    color: "#328da8"
+    color: "#44bfe3"
     flags: [HideLabel]
     readOnly: true
 
 - type: gameMap
   id: AutomatedTanker
-  mapName: 'Automated Inter-Sector Tanker'
+  mapName: 'Automated Inter Sector Tanker'
   mapPath: /Maps/_Mono/POI/Dungeons/ruin_tanker.yml
   minPlayers: 0
   stations:
@@ -36,7 +36,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Automated Inter-Sector Tanker'
+          mapNameTemplate: 'Automated Inter Sector Tanker'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt
