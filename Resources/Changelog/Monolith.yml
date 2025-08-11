@@ -10230,3 +10230,24 @@ Entries:
   id: 1142
   time: '2025-08-11T15:36:44.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1812
+- author: Ilya246
+  changes:
+    - type: Add
+      message: You can now build containment field generators.
+  id: 1143
+  time: '2025-08-11T16:36:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1859
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Mechs can now be sold. USSP bounty enjoyers rejoice.
+  id: 1144
+  time: '2025-08-11T16:50:04.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1861
+- author: Onezero0
+  changes:
+    - type: Fix
+      message: Removed nanotrasen references in event announcements.
+  id: 1145
+  time: '2025-08-11T17:08:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1862
