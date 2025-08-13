@@ -36,7 +36,6 @@ trait-language-freespeak-desc =
 
 trait-language-elyran-name = Elyran
 trait-language-elyran-desc =
-    Elyran Standard is the official tongue of the Republic of Elyra.
     Constructed using elements of Farsi - Arabic - and Turkish - influence from all three of these languages can be seen throughout its grammar and vocabulary.
 
 trait-language-valyrianstandard-name = Valyrian Standard
