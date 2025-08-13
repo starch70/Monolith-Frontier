@@ -10387,3 +10387,44 @@ Entries:
   id: 1161
   time: '2025-08-13T14:00:45.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1885
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: >-
+        Fixed lathe upgrade kits not being in any lathes - they now are in
+        protolathe.
+  id: 1162
+  time: '2025-08-13T15:37:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1891
+- author: Scyron
+  changes:
+    - type: Add
+      message: Added faction specific languages.
+  id: 1163
+  time: '2025-08-13T15:45:18.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1890
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Mini jetpack is now 2x2 in inventory.
+  id: 1164
+  time: '2025-08-13T15:45:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1887
+- author: Cojoke-dot
+  changes:
+    - type: Tweak
+      message: Cortical Borers now eject from their host if they ghost
+  id: 1165
+  time: '2025-08-13T15:47:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1883
+- author: Ark
+  changes:
+    - type: Tweak
+      message: Cortical Borer no longer appears on thermals.
+    - type: Tweak
+      message: Cortical Borer no longer has a status icon.
+    - type: Tweak
+      message: Cortical Borer do-after is now silent.
+  id: 1166
+  time: '2025-08-13T15:47:50.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1886
