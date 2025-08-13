@@ -48,9 +48,10 @@ language-Freespeak-description =
     A rarely heard language outside of the colossus sector, developed over time through isolation from the main systems and lost colonies abandoned to die on this edge of civilized space.
     Usually equated to slurred speach, relying more on tone to have the words mean something.
 
+# Mono - edited to remove mentions of elyran republic, or whatever it was
 language-Elyran-name = Elyran Standard
 language-Elyran-description =
-    Elyran Standard is the official tongue of the Republic of Elyra. Constructed using elements of Farsi - Arabic - and Turkish.
+    Constructed using elements of Farsi - Arabic - and Turkish.
     Influence from all three of these languages can be seen throughout its grammar and vocabulary.
 
 language-Canilunzt-name = Canilunzt
