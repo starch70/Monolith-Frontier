@@ -4,6 +4,7 @@
 // SPDX-FileCopyrightText: 2022 metalgearsloth
 // SPDX-FileCopyrightText: 2022 mirrorcult
 // SPDX-FileCopyrightText: 2024 Leon Friedrich
+// SPDX-FileCopyrightText: 2025 Ilya246
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
