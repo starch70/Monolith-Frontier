@@ -2,7 +2,7 @@
 // SPDX-FileCopyrightText: 2025 significant harassment
 // SPDX-FileCopyrightText: 2025 starch
 //
-// SPDX-License-Identifier: MIT-3.0-or-later
+// SPDX-License-Identifier: MIT
 
 using Content.Client.CombatMode;
 using Content.Client.Hands.Systems;
