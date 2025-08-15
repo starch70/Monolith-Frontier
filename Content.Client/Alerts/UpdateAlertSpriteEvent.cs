@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2024 Nemanja
+// SPDX-FileCopyrightText: 2025 Coenx-flex
+// SPDX-FileCopyrightText: 2025 Cojoke
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Alert;
 using Robust.Client.GameObjects;
 
@@ -11,11 +17,14 @@ public record struct UpdateAlertSpriteEvent
 {
     public Entity<SpriteComponent> SpriteViewEnt;
 
+    public EntityUid ViewerEnt;
+
     public AlertPrototype Alert;
 
-    public UpdateAlertSpriteEvent(Entity<SpriteComponent> spriteViewEnt, AlertPrototype alert)
+    public UpdateAlertSpriteEvent(Entity<SpriteComponent> spriteViewEnt, EntityUid viewerEnt, AlertPrototype alert)
     {
         SpriteViewEnt = spriteViewEnt;
+        ViewerEnt = viewerEnt;
         Alert = alert;
     }
 }

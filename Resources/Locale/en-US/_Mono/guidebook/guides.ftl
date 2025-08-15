@@ -22,7 +22,12 @@ guide-entry-tovek = ADMX-23 TOVEK Hybrid EMP Pod
 
 # Generic guides
 guide-entry-fentanyl = Fentanyl Production
+guide-entry-letoferol = Letoferol & Chimeras
 guide-entry-radios = Broadband & Shortband
 
 # Rules
 guide-entry-monolith-rules = Monolith Rules
+
+# Creatures
+guide-entry-creatures = Creatures of the Sector
+guide-entry-cortical-borer = Cortical Borer
