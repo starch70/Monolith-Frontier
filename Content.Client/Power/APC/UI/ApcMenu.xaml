@@ -88,15 +88,14 @@
                         </PanelContainer>
                         <PanelContainer VerticalExpand="True" HorizontalExpand="True" Margin="6 3 6 3" MinWidth="85">
                             <PanelContainer.PanelOverride>
-                                <graphics:StyleBoxFlat BorderThickness="3" BorderColor="#303030" BackgroundColor="#0d0d0d"/>
+                                <graphics:StyleBoxFlat BorderThickness="3" BorderColor="#303030" BackgroundColor="#141a1c"/>
                             </PanelContainer.PanelOverride>
                             <controls:SegmentDisplay Name="PowerLabel"
-                                                     MaxHeight="40"
                                                      HorizontalAlignment="Center"
                                                      VerticalAlignment="Center"
                                                      HorizontalExpand="True"
                                                      Margin="2 1 2 1"
-                                                     DigitCount="7"/>
+                                                     DigitCount="7"/> <!-- If you can get higher than 9999999 watts, you might have a problem -->
                     </PanelContainer>
                     </BoxContainer>
                 </BoxContainer>
