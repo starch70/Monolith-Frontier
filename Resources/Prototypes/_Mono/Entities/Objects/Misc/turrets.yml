@@ -188,4 +188,3 @@
     shape:
     - 0,0,3,3
     sprite: _Mono/Objects/Weapons/Sentries/sentry.rsi
-    state: normal_uac_sentry_handheld
