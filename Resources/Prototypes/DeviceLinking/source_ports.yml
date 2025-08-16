@@ -106,7 +106,7 @@
   id: AirDanger
   name: signal-port-name-air-danger
   description: signal-port-description-air-danger
-  defaultLinks: [ DoorBolt ]
+  defaultLinks: [ DoorBolt, On ] # Mono - added off for emergency lighting
 
 - type: sourcePort
   id: AirWarning
@@ -118,7 +118,7 @@
   id: AirNormal
   name: signal-port-name-air-normal
   description: signal-port-description-air-normal
-  defaultLinks: [ DoorBolt ]
+  defaultLinks: [ DoorBolt, Off ] # Mono - added off for emergency lighting
 
 - type: sourcePort
   id: Decaying
