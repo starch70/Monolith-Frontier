@@ -39,6 +39,21 @@
       - SecurityUplink
 
 - type: listing
+  id: UplinkSecurityMk290
+  name:  uplink-security-sentry-mk290-name
+  description: uplink-security-sentry-mk290-desc
+  productEntity: WeaponTurretMk290Packed
+  cost:
+    FederationMilitaryCredit: 100
+  categories:
+  - UplinkSecurityWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - SecurityUplink
+
+- type: listing
   id: UplinkSecurityMR8C
   name:  uplink-security-mr8c-name
   description: uplink-security-mr8c-desc
