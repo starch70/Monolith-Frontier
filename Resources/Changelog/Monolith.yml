@@ -10578,3 +10578,19 @@ Entries:
   id: 1182
   time: '2025-08-16T16:11:37.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1921
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Frontier EVA suits are now 3x2 instead of 4x3.
+    - type: Fix
+      message: Fixed EVA suit duffel bags not being able to fit all their contents.
+  id: 1183
+  time: '2025-08-16T18:17:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1926
+- author: starch70
+  changes:
+    - type: Add
+      message: Added 2 more fighters to Tumour.
+  id: 1184
+  time: '2025-08-16T18:17:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1924
