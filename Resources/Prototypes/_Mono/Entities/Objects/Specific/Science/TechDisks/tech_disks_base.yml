@@ -27,7 +27,7 @@
       tags:
       - TechDiskMono
 
- - type: weightedRandom
+- type: weightedRandom
   id: TechDiskTierWeightsNormal
   weights:
     1: 1
