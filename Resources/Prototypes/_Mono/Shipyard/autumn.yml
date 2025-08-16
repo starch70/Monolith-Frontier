@@ -8,7 +8,7 @@
   id: Autumn
   parent: BaseVessel
   name: TSF-SKR Autumn
-  description: A long-range cargo freighter. The cargo bay is (relatively) heavily armored, and the ship is equipped with a heavy FTL drive. Armed with 4x 57mms.
+  description: A long-range cargo freighter. The cargo bay is (relatively) heavily armored with a plastitanium inner layer, and the ship is equipped with a heavy FTL drive. Armed with 4x 57mms.
   price: 110200
   category: Large
   group: Shipyard
