@@ -66,6 +66,7 @@
     shuttles:
     - QJ490
     - QJ270
+    - Zephyr
 
 - type: entity
   id: LedokolAttatchmentComputer
