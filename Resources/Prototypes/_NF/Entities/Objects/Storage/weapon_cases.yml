@@ -59,11 +59,11 @@
     sprite: _NF/Objects/Storage/Cases/guncaseshort.rsi
     size: Normal
     shape:
-    - 0,0,3,1
+    - 0,0,3,3 # Mono
   - type: Storage
     maxItemSize: Normal
     grid:
-    - 0,0,3,1
+    - 0,0,3,3 # Mono
     whitelist:
       components:
       - Gun
