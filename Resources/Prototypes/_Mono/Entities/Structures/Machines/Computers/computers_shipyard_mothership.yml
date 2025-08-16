@@ -51,7 +51,7 @@
 - type: entity
   id: HiveCarrierComputer
   parent: BaseCarrierComputer
-  name: tumour carrier console
+  name: zephyr carrier console
   components:
   - type: ShipyardListing
     shuttles:
