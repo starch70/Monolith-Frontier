@@ -9,7 +9,7 @@
   components:
   - type: Item
     shape:
-    - 0,0,3,2
+    - 0,0,2,1
   - type: Armor
     modifiers:
       coefficients: # Made to have no protection - Mono
