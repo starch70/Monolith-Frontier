@@ -83,6 +83,21 @@
   - UsspBasicGuns
 
 - type: technology
+  id: UsspAk410
+  name: research-technology-ussp-guns-ak410
+  icon:
+    sprite: _Mono/Objects/Weapons/Guns/Snipers/ak410.rsi
+    state: icon
+  discipline: UsspWeapons
+  tier: 2
+  cost: 25000
+  recipeUnlocks:
+  - WeaponRifleAK410USSP
+  technologyPrerequisites:
+  - UsspBasicGuns
+  - UsspMediumGuns
+
+- type: technology
   id: UsspAdvancedGuns
   name: research-technology-ussp-guns-advanced
   icon:
