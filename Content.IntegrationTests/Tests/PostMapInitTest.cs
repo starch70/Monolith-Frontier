@@ -30,7 +30,7 @@ namespace Content.IntegrationTests.Tests
     public sealed class PostMapInitTest
     {
         private const bool SkipTestMaps = true;
-        private const string TestMapsPath = "/Maps/_NF/Test/"; // Frontier: _NF
+        private const string TestMapsPath = "/Maps/_Mono/Test/"; // Mono: _Mono
 
         // Frontier: TODO - define this to our set of maps of interest
         private static readonly string[] NoSpawnMaps =
@@ -66,8 +66,6 @@ namespace Content.IntegrationTests.Tests
             "/Maps/_NF/POI/tinnia.yml", // Contains syndicate rubber stamp
             "/Maps/_NF/POI/lpbravo.yml", // Contains syndicate rubber stamp
             "/Maps/_NF/Shuttles/Admin/fishbowl.yml", // Contains CentComm folder
-            "/Maps/_NF/Shuttles/Nfsd/paladin.yml", // Contains EXP-2100g "Duster"
-            "/Maps/_NF/Shuttles/Nfsd/rogue.yml", // Contains EXP-320g "Friendship"
             // End Frontier
         };
 
@@ -167,7 +165,7 @@ namespace Content.IntegrationTests.Tests
             var protoManager = server.ResolveDependency<IPrototypeManager>();
             var loader = server.System<MapLoaderSystem>();
 
-            var mapFolder = new ResPath("/Maps/_NF"); // Frontier: add _NF
+            var mapFolder = new ResPath("/Maps/_Mono"); // Mono
             var maps = resourceManager
                 .ContentFindFiles(mapFolder)
                 .Where(filePath => filePath.Extension == "yml" && !filePath.Filename.StartsWith(".", StringComparison.Ordinal))
@@ -455,9 +453,11 @@ namespace Content.IntegrationTests.Tests
                 // Frontier: FIXME - hacky test fix
                 .Where(x =>
                     x.ID == PoolManager.TestMap || // Frontier: check test map
-                    (x.MapPath.ToString().StartsWith("/Maps/_NF") && // Frontier: check frontier maps only
-                    !x.MapPath.ToString().StartsWith("/Maps/_NF/Shuttles") && // Frontier: skip shuttles (not loaded as maps)
-                    !x.MapPath.ToString().StartsWith("/Maps/_NF/POI")) // Frontier: skip POIs (not loaded as maps)
+                    (x.MapPath.ToString().StartsWith("/Maps/_Mono") && // Mono: check Mono maps only
+                    !x.MapPath.ToString().StartsWith("/Maps/_Mono/Shuttles") && // Mono: skip shuttles (not loaded as maps)
+                    !x.MapPath.ToString().StartsWith("/Maps/_Mono/Deprecated") && // Mono: skip deprecated (not loaded as maps)
+                    !x.MapPath.ToString().StartsWith("/Maps/_Mono/ShuttleEvent") && // Mono: skip shuttleevents (not loaded as maps)
+                    !x.MapPath.ToString().StartsWith("/Maps/_Mono/POI")) // Mono: skip POIs (not loaded as maps)
                     )
                 // End Frontier
                 .Select(x => x.ID)
@@ -484,7 +484,7 @@ namespace Content.IntegrationTests.Tests
 
             var gameMaps = protoManager.EnumeratePrototypes<GameMapPrototype>().Select(o => o.MapPath).ToHashSet();
 
-            var mapFolder = new ResPath("/Maps/_NF"); // Frontier
+            var mapFolder = new ResPath("/Maps/_Mono"); // Mono
             var maps = resourceManager
                 .ContentFindFiles(mapFolder)
                 .Where(filePath => filePath.Extension == "yml" && !filePath.Filename.StartsWith(".", StringComparison.Ordinal))
