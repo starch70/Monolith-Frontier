@@ -1,3 +1,15 @@
+// SPDX-FileCopyrightText: 2022 theashtronaut
+// SPDX-FileCopyrightText: 2023 Nemanja
+// SPDX-FileCopyrightText: 2023 metalgearsloth
+// SPDX-FileCopyrightText: 2023 qwerltaz
+// SPDX-FileCopyrightText: 2024 Mervill
+// SPDX-FileCopyrightText: 2024 slarticodefast
+// SPDX-FileCopyrightText: 2025 ArtisticRoomba
+// SPDX-FileCopyrightText: 2025 ScyronX
+// SPDX-FileCopyrightText: 2025 chromiumboy
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Numerics;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Atmos;
@@ -136,6 +148,7 @@ namespace Content.Client.Atmos.UI
                 else
                 {
                     // oh shit of fuck its more than 4 this ui isn't gonna look pretty anymore
+                    CDeviceMixes.RemoveAllChildren();
                     for (var i = 1; i < msg.NodeGasMixes.Length; i++)
                     {
                         GenerateGasDisplay(msg.NodeGasMixes[i], CDeviceMixes);
