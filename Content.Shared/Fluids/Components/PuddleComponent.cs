@@ -37,5 +37,6 @@ namespace Content.Shared.Fluids.Components
 
         [ViewVariables]
         public Entity<SolutionComponent>? Solution;
+
     }
 }
