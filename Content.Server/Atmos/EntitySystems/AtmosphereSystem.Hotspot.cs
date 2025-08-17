@@ -7,6 +7,7 @@ using Content.Shared.Database;
 using Robust.Shared.Audio;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
 namespace Content.Server.Atmos.EntitySystems
@@ -49,8 +50,8 @@ namespace Content.Server.Atmos.EntitySystems
                 ExcitedGroupResetCooldowns(tile.ExcitedGroup);
 
             // If the hotspot is too weak to exist/doesn't have the correct conditions, yeet it for deletion at the end of the tick
-            if ((tile.Hotspot.Temperature < Atmospherics.FireMinimumTemperatureToExist) || (tile.Hotspot.Volume <= 1f && tile.PuddleSolutionFlammability == 0)
-                || tile.Air == null || tile.Air.GetMoles(Gas.Oxygen) < 0.5f || (tile.Air.GetMoles(Gas.Plasma) < 0.5f && tile.Air.GetMoles(Gas.Tritium) < 0.5f))
+            if ((tile.Hotspot.Temperature < Atmospherics.FireMinimumTemperatureToExist) || (tile.Hotspot.Volume <= 1f)
+                || tile.Air == null || tile.Air.GetMoles(Gas.Oxygen) < 0.5f || (tile.Air.GetMoles(Gas.Plasma) < 0.5f && tile.Air.GetMoles(Gas.Tritium) < 0.5f) && tile.PuddleSolutionFlammability == 0)
             {
                 tile.Hotspot = new Hotspot();
                 tile.Hotspot.Type = tile.PuddleSolutionFlammability > 0 ? HotspotType.Puddle : HotspotType.Gas;
@@ -223,6 +224,7 @@ namespace Content.Server.Atmos.EntitySystems
                 RaiseLocalEvent(entity, ref fireEvent);
             }
         }
+
         /// <summary>
         /// Used for reagent fires to ensure the temperature doesn't get too far out of control.
         /// </summary>
