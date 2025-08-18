@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 Whatstone
 # SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 significant harassment
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -100,6 +101,16 @@
   - WeaponPistolPollock
   ## Cyborg Modules
   - BorgModuleMercenary # mono
+#Mono start
+  - WeaponLMGRatel
+  - WeaponShotgunBigBuddy
+  - WeaponShotgunBigJohnny
+  - WeaponShotgunEnforcerMerc
+  - WeaponRifleVulcanMerc
+  - WeaponRiflePrometheus
+  - WeaponRifleVulcanFCMC
+  - WeaponShotgunKammererNF
+#Mono end
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecated

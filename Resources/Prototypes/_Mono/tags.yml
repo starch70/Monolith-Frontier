@@ -37,7 +37,10 @@
   id: Magazine7.62x51mmLowCapacityFMJ
 
 - type: Tag
-  id: Magazine7.62x51mmBox
+  id: Magazine7.62x51mmBoxSmall
+
+- type: Tag
+  id: Magazine7.62x51mmBoxBig
 
 #7.62x54mmR tags
 
@@ -57,6 +60,12 @@
 
 - type: Tag
   id: Magazine68x52mmCaseless
+
+- type: Tag
+  id: Magazine68x52mmCaselessBoxSmall
+
+- type: Tag
+  id: Magazine68x52mmCaselessBoxBig
 
 #5.56x45mm tags
 
@@ -206,6 +215,9 @@
 
 - type: Tag
   id: WeaponShotgunBigJohnny
+
+- type: Tag
+  id: WeaponShotgunBigBuddy
 
 - type: Tag
   id: ShellShotgun23x75mmBuckshot
