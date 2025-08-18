@@ -89,6 +89,21 @@
   - TsfBasicGuns
 
 - type: technology
+  id: TsfGrizzly
+  name: research-technology-tsfmc-grizzly
+  icon:
+    sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi
+    state: icon
+  discipline: TsfmcWeaponry
+  tier: 2
+  cost: 40000
+  recipeUnlocks:
+  - WeaponLMGGrizzlyTSF
+  technologyPrerequisites:
+  - TsfBasicGuns
+  - TsfAnnie
+
+- type: technology
   id: TsfMarsocGuns
   name: research-technology-tsfmc-mr8
   icon:

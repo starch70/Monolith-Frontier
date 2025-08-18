@@ -220,9 +220,8 @@
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
 
-
 - type: entity
-  name: TCA MMG-308 "Grizzly" (7.62x51mm)
+  name: TCA MMG-68 "Grizzly" (6.8x52mm Caseless)
   parent: [BaseWeaponLightMachineGun, BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponLMGGrizzly
   description: A medium machine gun chambered in 6.8x52mm Caseless, accepts both box and standard magazines. A label on the side reads "FOR MILITARY USE ONLY". The weight of the machine gun make it hard to wield easily.
@@ -251,7 +250,11 @@
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/heavy_rifle_1.ogg
   - type: ChamberMagazineAmmoProvider
     soundRack:
-      path: /Audio/Weapons/Guns/Cock/batrifle_cock.ogg
+      path: /Audio/Weapons/Guns/Cock/lmg_cock.ogg
+    soundBoltClosed:
+      path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
+    soundBoltOpened:
+      path: /Audio/Weapons/Guns/Bolt/lmg_bolt_open.ogg
   - type: Item
     sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-inhands.rsi
     shape:
@@ -260,9 +263,9 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: AmmoBox68x52mmCaselessBig
-        insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
+        startingItem: AmmoBox68x52mmCaseless
+        insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
         priority: 2
         whitelist:
           tags:
@@ -348,8 +351,8 @@
       gun_magazine:
         name: Magazine
         startingItem: AmmoBox7.62x51mmFMJ
-        insertSound: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/hpistol_magout.ogg
+        insertSound: /Audio/Weapons/Guns/MagIn/lmg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/lmg_magout.ogg
         priority: 2
         whitelist:
           tags:

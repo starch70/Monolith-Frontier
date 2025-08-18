@@ -100,6 +100,22 @@
     Plasteel: 1200
     Plastic: 900
 
+# TSF Grizzly
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponLMGGrizzlyTSF
+  result: WeaponLMGGrizzly
+  categories:
+  - GPMGs
+  - MGs
+  - Ballistic
+  - Weapons
+  materials:
+    Steel: 3500
+    Plasteel: 2000
+    Plastic: 1200
+
 # Rogues MlA-73
 
 - type: latheRecipe
