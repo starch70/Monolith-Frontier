@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 significant harassment
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 Entries:
 - author: Ark
   changes:
@@ -10625,3 +10631,33 @@ Entries:
   id: 1187
   time: '2025-08-17T02:11:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1927
+- author: starch70
+  changes:
+    - type: Fix
+      message: Fixed a certain debug research being available ingame.
+  id: 1188
+  time: '2025-08-17T17:36:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1932
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Link to the guidebook on chimeras on examine. Some extra edits too.
+  id: 1189
+  time: '2025-08-17T21:01:56.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1934
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Nerfed the amount of heat reagent fires can make.
+  id: 1190
+  time: '2025-08-17T23:49:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1937
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Autumn to CO shipyard.
+    - type: Remove
+      message: Retired Seraphim
+  id: 1191
+  time: '2025-08-18T00:18:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1928
