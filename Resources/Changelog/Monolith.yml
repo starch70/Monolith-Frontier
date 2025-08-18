@@ -10661,3 +10661,26 @@ Entries:
   id: 1191
   time: '2025-08-18T00:18:14.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/1928
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Fixed laser drills not working on expedition.
+  id: 1192
+  time: '2025-08-18T20:16:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1942
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: 'PTK-1500e: damage 15->40 blunt, 15->400 structural'
+  id: 1193
+  time: '2025-08-18T20:38:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1939
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: letoferal syringe cost 350->500 tc
+    - type: Fix
+      message: Fixes some chimera getting uninfected and instantly reinfected on death
+  id: 1194
+  time: '2025-08-18T21:47:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1945
