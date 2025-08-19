@@ -1,0 +1,76 @@
+- type: entity
+  id: RandomHumanoidSpawnerMarsocFtl
+  name: MARSOC fire team leader
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocFtl
+
+- type: randomHumanoidSettings
+  id: MarsocFtl
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-ftl-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocFTLGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitaryLeader
+    - NamesLastMilitary
+
+- type: entity
+  id: RandomHumanoidSpawnerMarsocOperative
+  name: MARSOC operative
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocOperative
+
+- type: randomHumanoidSettings
+  id: MarsocOperative
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-operative-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocOperativeGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitaryLeader
+    - NamesLastMilitary
+
+- type: roleLoadout
+  id: RoleSurvivalTankOnly
+  groups:
+  - GroupEVATank
