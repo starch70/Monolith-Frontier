@@ -120,6 +120,31 @@ public sealed class SolutionInjectOnCollideSystem : EntitySystem
                     continue;
                 }
             }
+            if (!injector.Comp.PierceArmor && _inventory.TryGetSlotEntity(target, "jumpsuit", out var jumpsuit)) // no penetrating armor with at least some percentage of piercing resist
+            {
+                var blocked = false;
+                if (TryComp<ArmorComponent>(jumpsuit, out var armor))
+                {
+                    var maxResistances = injector.Comp.MaxArmorResistances;
+                    var armorCoefficients = armor.Modifiers.Coefficients;
+                    foreach (var coefficient in maxResistances.Coefficients)
+                    {
+                        if (armorCoefficients.ContainsKey(coefficient.Key) && armorCoefficients[coefficient.Key] < coefficient.Value)
+                        {
+                            blocked = true;
+                            break;
+                        }
+                    }
+                }
+                if (blocked)
+                {
+                    // Only show popup to attacker
+                    if (source != null)
+                        _popup.PopupEntity(Loc.GetString(injector.Comp.BlockedByJumpsuitPopupMessage, ("weapon", injector.Owner), ("target", target)), target, source.Value, PopupType.SmallCaution);
+
+                    continue;
+                }
+            }
 
             // Check if the target has anything equipped in a slot that would block injection
             if (injector.Comp.BlockSlots != SlotFlags.NONE)
