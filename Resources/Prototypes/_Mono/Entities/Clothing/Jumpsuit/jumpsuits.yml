@@ -39,7 +39,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformTSFMCMOPP
+  id: ClothingUniformTsfmcMopp
   name: TSFMC type-49C MOPP suit
   description: A heavy protective suit. It'll slow you down a bit, but it'll make sure nothing you don't want gets in your body. Be the bane of all Chimeras.
   components:
