@@ -20,5 +20,5 @@
   id: Plastitanium
   name: plastitanium
   icon: { sprite: /Textures/_Mono/Objects/Materials/plastitanium.rsi, state: plastitanium }
-  spawn: MaterialPlastitanium1
+  spawn: SheetPlastitanium1
   maxCount: 100
