@@ -1,3 +1,5 @@
+# FTL
+
 - type: entity
   id: RandomHumanoidSpawnerMarsocFtl
   name: MARSOC fire team leader
@@ -31,8 +33,12 @@
     roleLoadout: [ RoleSurvivalTankOnly ]
   - type: RandomMetadata
     nameSegments:
-    - NamesFirstMilitaryLeader
+    - NamesFirstMilitary
     - NamesLastMilitary
+  - type: Company
+    companyName: TSF
+
+# Operative
 
 - type: entity
   id: RandomHumanoidSpawnerMarsocOperative
@@ -67,8 +73,170 @@
     roleLoadout: [ RoleSurvivalTankOnly ]
   - type: RandomMetadata
     nameSegments:
-    - NamesFirstMilitaryLeader
+    - NamesFirstMilitary
     - NamesLastMilitary
+  - type: Company
+    companyName: TSF
+
+# Marksman (MR-8C)
+
+- type: entity
+  id: RandomHumanoidSpawnerMarsocMarksman
+  name: MARSOC marksman
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocMarksman
+
+- type: randomHumanoidSettings
+  id: MarsocMarksman
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-marksman-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocMarksmanGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: Company
+    companyName: TSF
+
+# Corpsman
+
+- type: entity
+  id: RandomHumanoidSpawnerMarsocCorpsman
+  name: MARSOC corpsman
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocCorpsman
+
+- type: randomHumanoidSettings
+  id: MarsocCorpsman
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-corpsman-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocCorpsmanGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: Company
+    companyName: TSF
+
+# SGO
+
+- type: entity
+  id: RandomHumanoidSpawnerMarsocSGO
+  name: MARSOC smart gun operator
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocSGO
+
+- type: randomHumanoidSettings
+  id: MarsocSGO
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-sgo-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocSGOGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: Company
+    companyName: TSF
+
+# Autorifleman
+
+- type: entity
+  id: RandomHumanoidSpawnerMarsocAutorifleman
+  name: MARSOC autorifleman
+  suffix: MARSOC, Ghostrole
+  components:
+  - type: Sprite
+    layers:
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: RandomHumanoidSpawner
+    settings: MarsocAutorifleman
+
+- type: randomHumanoidSettings
+  id: MarsocAutorifleman
+  parent: EventHumanoidMindShielded
+  randomizeName: false
+  components:
+  - type: GhostRole
+    name: ghost-role-information-marsoc-autorifleman-name
+    description: ghost-role-information-marsoc-description
+    rules: ghost-role-information-marsoc-rules
+    raffle:
+      settings: short
+  - type: Loadout
+    prototypes: [ MarsocAutoriflemanGear ]
+    roleLoadout: [ RoleSurvivalTankOnly ]
+  - type: RandomMetadata
+    nameSegments:
+    - NamesFirstMilitary
+    - NamesLastMilitary
+  - type: Company
+    companyName: TSF
 
 - type: roleLoadout
   id: RoleSurvivalTankOnly

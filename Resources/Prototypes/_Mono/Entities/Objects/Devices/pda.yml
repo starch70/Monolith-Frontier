@@ -189,6 +189,18 @@
   components:
   - type: Pda
     id: TsfMarsocFTLIDCard
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - MedTekCartridge
+    - WantedListCartridge
+    - LogProbeCartridge
+    - AstroNavCartridge
+    - MailMetricsCartridge # Frontier
+  - type: Geiger # Mono
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
@@ -198,3 +210,15 @@
   components:
   - type: Pda
     id: TsfMarsocIDCard
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - MedTekCartridge
+    - WantedListCartridge
+    - LogProbeCartridge
+    - AstroNavCartridge
+    - MailMetricsCartridge # Frontier
+  - type: Geiger # Mono
