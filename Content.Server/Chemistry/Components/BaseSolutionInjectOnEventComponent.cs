@@ -59,6 +59,8 @@ public abstract partial class BaseSolutionInjectOnEventComponent : Component
     /// </remarks>
     [DataField]
     public LocId BlockedByArmorPopupMessage = "melee-inject-failed-armor"; // Goobstation - Armor resisting syringe gun
+    [DataField]
+    public LocId BlockedByJumpsuitPopupMessage = "melee-inject-failed-jumpsuit"; // Mono - Armor resisting syringe gun
 
     /// <summary>
     /// If anything covers any of these slots then the injection fails.
