@@ -1,4 +1,9 @@
-﻿using Content.Shared.Damage; // Goobstation - Armor resisting syringe gun
+// SPDX-FileCopyrightText: 2024 Tayrtahn
+// SPDX-FileCopyrightText: 2025 starch
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.Damage; // Goobstation - Armor resisting syringe gun
 using Content.Shared.FixedPoint;
 using Content.Shared.Inventory;
 
