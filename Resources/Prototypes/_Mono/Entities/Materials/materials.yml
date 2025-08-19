@@ -133,7 +133,7 @@
   parent: MaterialBase
   id: SheetPlastitanium
   name: plastitanium
-  description: A commonly produced high-strength alloy. Even if its rare here, its in abundant in core sectors.
+  description: A commonly produced high-strength alloy. Even if its rare here, its extremely abundant in core sectors.
   suffix: Full
   components:
   - type: Sprite
