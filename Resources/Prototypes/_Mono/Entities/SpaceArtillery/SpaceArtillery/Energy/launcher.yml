@@ -104,7 +104,7 @@
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/autopulse_laser_fire_01.ogg
     soundEmpty:
-      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+      path: /Audio/Weapons/click.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 300
