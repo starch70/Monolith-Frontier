@@ -87,7 +87,7 @@
   - type: StaticPrice
     price: 4000
   - type: Sprite
-    sprite: _Mono/Objects/ShuttleWeapons/t35.rsi # Temp
+    sprite: _Mono/Objects/ShuttleWeapons/t54.rsi
     layers:
     - state: space_artillery
   - type: Appearance
