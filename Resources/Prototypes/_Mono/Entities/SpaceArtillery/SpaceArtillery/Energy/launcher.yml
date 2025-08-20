@@ -54,13 +54,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 2500
+        damage: 15000
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 2000
+        damage: 12500
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -121,13 +121,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 2500
+        damage: 15000
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 1750
+        damage: 11500
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -187,13 +187,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 800
+        damage: 8000
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 600
+        damage: 6000
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -319,6 +319,17 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipDymereProjectile
     fireCost: 2400
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 25000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 3
