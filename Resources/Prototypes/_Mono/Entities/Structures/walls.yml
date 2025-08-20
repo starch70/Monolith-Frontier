@@ -135,6 +135,17 @@
   id: WallPlastitaniumCapital
   suffix: CAPITAL ONLY
   components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 9000 # No ram-meta
   - type: Destructible
     thresholds:
     - trigger:
@@ -159,6 +170,17 @@
     snap:
     - Wall
   components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 4500 # No ram-meta
   - type: Destructible
     thresholds:
     - trigger:
