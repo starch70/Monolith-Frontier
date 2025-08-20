@@ -19,3 +19,23 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsSecurity ]
+
+# Flyssa ports
+
+- type: entity
+  parent: AirlockShuttleNfsdCapital
+  id: AirlockShuttleNfsdCapitalLocked
+  suffix: CAPITAL ONLY, TSFMC, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurity ]
+
+- type: entity
+  parent: AirlockGlassShuttleNfsdCapital
+  id: AirlockGlassShuttleNfsdCapitalLocked
+  suffix: CAPITAL ONLY, TSFMC, Glass, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurity ]
