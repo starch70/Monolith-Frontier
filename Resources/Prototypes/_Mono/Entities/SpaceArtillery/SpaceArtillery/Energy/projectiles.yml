@@ -27,7 +27,7 @@
     layers:
     - state: plasmashot
   - type: Ammo
-    muzzleFlash: MuzzleFlashEffectPurpLaser
+    muzzleFlash: MuzzleFlashEffectPlasmaPulser
   - type: ShipWeaponProjectile
   - type: RadarBlip
     radarColor: "#C92BCC"
@@ -67,7 +67,7 @@
     - state: plasmashot
     scale: 0.6, 0.6
   - type: Ammo
-    muzzleFlash: MuzzleFlashEffectPurpLaser
+    muzzleFlash: MuzzleFlashEffectPlasmaPulser
   - type: ShipWeaponProjectile
   - type: RadarBlip
     radarColor: "#C92BCC"
