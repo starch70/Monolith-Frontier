@@ -10,7 +10,7 @@
     state: alive
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - CarpCallerMachineCircuitboard
   position: -2, -3
@@ -23,7 +23,7 @@
     state: icon
   discipline: Experimental
   tier: 2 # normal magboots are t1 so t2
-  cost: 5000
+  cost: 50000
   recipeUnlocks:
   - ClothingShoesBootsMagVoid
   position: -1, 0

@@ -8,7 +8,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - ConstructionBagOfHolding
   - NFBlueprintConstructionBagOfHolding
@@ -22,7 +22,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - ClothingOuterHardsuitBasic
   position: 2, 6
@@ -35,7 +35,7 @@
     state: icon
   discipline: Industrial
   tier: 1
-  cost: 10000
+  cost: 50000
   recipeUnlocks:
   - ClothingOuterHardsuitAtmos
   - ClothingOuterHardsuitEngineering
@@ -58,7 +58,7 @@
     state: icon
   discipline: Industrial
   tier: 2
-  cost: 10000
+  cost: 50000
   recipeUnlocks:
   - ClothingOuterHardsuitCap
   - ClothingOuterHardsuitEngineeringWhite
@@ -78,7 +78,7 @@
     state: icon
   discipline: Industrial
   tier: 3
-  cost: 15000
+  cost: 65000
   recipeUnlocks:
     - ClothingOuterHardsuitMaximPrototype
 #    - ClothingHeadHelmetAncient

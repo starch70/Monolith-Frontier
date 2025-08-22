@@ -17,6 +17,7 @@
   - WeaponShotgunBigBuddy
   technologyPrerequisites:
   - MercArmementSimple
+  - SuperParts
   position: 6, 1
 
 - type: technology
@@ -34,6 +35,7 @@
   - WeaponRifleVulcanMerc
   technologyPrerequisites:
   - MercArmementBasic
+  - ConcentratedLaserWeaponry
   position: 5, 1
 
 - type: technology
@@ -49,4 +51,6 @@
   - WeaponRiflePrometheus
   - WeaponRifleVulcanFCMC
   - WeaponShotgunKammererNF
+  technologyPrerequisites:
+  - AdvancedParts
   position: 4, 1

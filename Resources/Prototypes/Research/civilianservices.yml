@@ -43,7 +43,7 @@
     state: seedextractor
   discipline: CivilianServices
   tier: 1
-  cost: 7500 # Delta Price. 5000 is pre-adjustment.
+  cost: 15000 # Delta Price. 5000 is pre-adjustment.
   recipeUnlocks:
   - BorgModuleGardening
   - BorgModuleHarvesting
@@ -54,6 +54,8 @@
   - PlantAnalyzer # Frontier
   - NFBlueprintPlantAnalyzerEmpty # Frontier
   #- NFBlueprintPlantBagOfHolding # Frontier
+  technologyPrerequisites:
+  - AdvancedParts
   position: -6, 3
 
 - type: technology
@@ -64,7 +66,7 @@
     state: hamtr
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 15000
   recipeUnlocks:
   - HamtrHarness
   - HamtrLArm
@@ -85,7 +87,7 @@
     state: cameracase
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 10000
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
   #  - SurveillanceCameraWirelessRouterCircuitboard # Frontier - Removal of range limits made it useless to build
@@ -95,6 +97,8 @@
   - SurveillanceWirelessCameraMonitorCircuitboard
   - TelecomServerCircuitboard
   #  - HolopadMachineCircuitboard # Frontier: needs work before use
+  technologyPrerequisites:
+  - AdvancedParts
   position: -5, 2
 
 - type: technology
@@ -105,13 +109,15 @@
     state: television
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 15000
   recipeUnlocks:
   - ComputerTelevisionCircuitboard
   - SynthesizerInstrument
   - DawInstrumentMachineCircuitboard
   - MassMediaCircuitboard
   - JukeboxCircuitBoard
+  technologyPrerequisites:
+  - AudioVisualCommunication
   position: -6, 2
 
 - type: technology
@@ -122,7 +128,7 @@
     state: janitor
   discipline: CivilianServices
   tier: 1
-  cost: 5000
+  cost: 15000
   recipeUnlocks:
   - BorgModuleAdvancedCleaning
   position: -5, 4
@@ -135,7 +141,7 @@
     state: display
   discipline: CivilianServices
   tier: 1
-  cost: 7500
+  cost: 17500
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
   - BiogeneratorMachineCircuitboard
@@ -153,7 +159,7 @@
     state: astroice
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 15000
   recipeUnlocks:
   - FauxTileAstroGrass
   - FauxTileMowedAstroGrass
@@ -171,12 +177,14 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 15000
   recipeUnlocks:
   - StasisBedMachineCircuitboard
   - CryoPodMachineCircuitboard
   - CryostasisBeaker
   - SyringeCryostasis
+  technologyPrerequisites:
+  - AdvancedTreatment
   position: -4, 3
 
 # Shitmed Change Start
@@ -188,7 +196,7 @@
     state: e-scalpel-on
   discipline: CivilianServices
   tier: 2
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - BorgModuleAdvancedTreatment
   - BorgModuleDefibrillator
@@ -198,6 +206,8 @@
   - AdvancedRetractor
   - BorgModuleAdvancedSurgery
   - DefibrillatorCompact # Mono
+  technologyPrerequisites:
+  - AdvancedParts
   position: -3, 3
 
 - type: technology
@@ -208,7 +218,7 @@
     state: eyes
   discipline: CivilianServices
   tier: 2
-  cost: 15000
+  cost: 65000
   recipeUnlocks:
   - JawsOfLifeLeftArm
   - JawsOfLifeRightArm
@@ -219,6 +229,8 @@
   - BasicCyberneticEyes
   - SecurityCyberneticEyes
   - MedicalCyberneticEyes
+  technologyPrerequisites:
+  - SuperParts
   position: -3, 4
 # Shitmed Change End
 
@@ -230,12 +242,14 @@
     state: advmop
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 20000
   recipeUnlocks:
   - AdvMopItem
   - MegaSprayBottle
   - NFBlueprintAdvMopItem # Frontier
   - ReinforcedJug # Frontier
+  technologyPrerequisites:
+  - RoboticCleanliness
   position: -5, 5
 
 - type: technology
@@ -246,7 +260,7 @@
     state: honker
   discipline: CivilianServices
   tier: 2
-  cost: 7500
+  cost: 25000
   recipeUnlocks:
   - HonkerHarness
   - HonkerLArm
@@ -257,6 +271,8 @@
   - HonkerPeripheralsElectronics
   - HonkerTargetingElectronics
   - MechEquipmentHorn
+  technologyPrerequisites:
+  - AdvancedParts
   position: -6, 5
 
 - type: technology
@@ -267,10 +283,13 @@
     state: icon
   discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 30000
   recipeUnlocks:
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
+  technologyPrerequisites:
+  - AdvancedParts
+  - AdvancedCleaning
   position: -5, 6
 
     # Tier 3
@@ -307,7 +326,7 @@
     state: beakerbluespace
   discipline: CivilianServices
   tier: 3
-  cost: 10000
+  cost: 80000
   recipeUnlocks:
   - BluespaceBeaker
   - SyringeBluespace
@@ -317,4 +336,6 @@
   - NFBlueprintSyringeBluespace # Frontier
   - NFBlueprintJugBluespace # Frontier
   - NFBlueprintVialBluespace # Frontier
+  technologyPrerequisites:
+  - SuperParts
   position: -4, 4

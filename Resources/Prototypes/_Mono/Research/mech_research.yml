@@ -37,6 +37,7 @@
   - RipleyUpgradeKit
   technologyPrerequisites:
   - RipleyAPLU
+  - AdvancedParts
   position: 7, -3
 
 - type: technology
@@ -97,6 +98,7 @@
   - WeaponMechCombatUltraRifle
   technologyPrerequisites:
   - Ripley2
+  - SuperParts
   position: 8, -3
 
 - type: technology

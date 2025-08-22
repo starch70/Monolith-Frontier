@@ -17,4 +17,7 @@
   - WeaponSubMachineSmart
   - MagazineSmart
   - MagazineSmartLMG
-  position: 3, 1
+  technologyPrerequisites:
+  - AdvancedParts
+  - ConcentratedLaserWeaponry
+  position: 6, 4
