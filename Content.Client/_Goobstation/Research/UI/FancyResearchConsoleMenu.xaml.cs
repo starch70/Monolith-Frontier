@@ -2,7 +2,7 @@ using System.Linq;
 using System.Numerics;
 using Content.Client.Research;
 using Content.Client.UserInterface.Controls;
-using Content.Goobstation.Client.Research.UI;
+using Content.Client._Goobstation.Research.UI;
 using Content.Shared._Goobstation.Research;
 using Content.Shared.Access.Systems;
 using Content.Shared.Research.Components;

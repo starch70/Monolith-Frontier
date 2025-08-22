@@ -7,8 +7,7 @@ using Content.Shared.Emag.Systems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
-using Content.Goobstation.Common.Pirates;
-using Content.Goobstation.Common.Research; // R&D Console Rework
+using Content.Shared._Goobstation.Research; // R&D Console Rework
 using System.Linq; // R&D Console Rework
 
 namespace Content.Server.Research.Systems;
@@ -30,17 +29,6 @@ public sealed partial class ResearchSystem
 
     private void OnConsoleUnlock(EntityUid uid, ResearchConsoleComponent component, ConsoleUnlockTechnologyMessage args)
     {
-        // goob edit - spirates
-        var eqe = EntityQueryEnumerator<ResourceSiphonComponent>();
-        while (eqe.MoveNext(out var siphon))
-        {
-            if (siphon.Active)
-            {
-                _popup.PopupEntity(Loc.GetString("console-block-something"), args.Actor);
-                return;
-            }
-        }
-        // goob edit end
 
         var act = args.Actor;
 
