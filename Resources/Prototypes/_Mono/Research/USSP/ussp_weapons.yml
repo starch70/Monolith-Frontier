@@ -23,6 +23,7 @@
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunEmpty
   - AmmoBox9x19mmFMJ
+  position: 14, -2
 
 - type: technology
   id: UsspPracticeAmmo
@@ -42,6 +43,7 @@
   - AmmoBox45_magnumPractice
   - Magazine9x19mmSubMachineGunPractice
   - AmmoBox9x19mmPractice
+  position: 13, -2
 
 - type: technology
   id: UsspIncendiaryAmmo
@@ -61,6 +63,7 @@
   - AmmoBox45_magnumIncendiary
   - Magazine9x19mmSubMachineGunIncendiary
   - AmmoBox9x19mmIncendiary
+  position: 12, -2
 
 - type: technology
   id: UsspMediumGuns
@@ -81,6 +84,7 @@
   - Magazine7.62x39mmEmpty
   technologyPrerequisites:
   - UsspBasicGuns
+  position: 14, -3
 
 - type: technology
   id: UsspAk410
@@ -96,6 +100,7 @@
   technologyPrerequisites:
   - UsspBasicGuns
   - UsspMediumGuns
+  position: 13, -3
 
 - type: technology
   id: UsspAdvancedGuns
@@ -116,6 +121,7 @@
   - AmmoBox23x75mmDozd
   technologyPrerequisites:
   - UsspMediumGuns
+  position: 14, -4
 
 - type: technology
   id: UsspAdvancedAmmo
@@ -132,3 +138,4 @@
   - AmmoBox23x75mmFlashbang
   technologyPrerequisites:
   - UsspAdvancedGuns
+  position: 13, -4
