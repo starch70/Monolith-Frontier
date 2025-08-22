@@ -39,7 +39,7 @@
   cost: 5000
   recipeUnlocks:
   - DemagTSF
-  position: 22, 13
+  position: 23, 10
 
 - type: technology
   id: TsfmcMopp

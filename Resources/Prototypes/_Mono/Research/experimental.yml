@@ -26,4 +26,6 @@
   cost: 50000
   recipeUnlocks:
   - ClothingShoesBootsMagVoid
+  technologyPrerequisites:
+  - MagnetsTechAdvanced
   position: -1, 0

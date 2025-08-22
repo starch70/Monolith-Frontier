@@ -23,7 +23,7 @@
   - MachineGCSHighCircuitboard
   technologyPrerequisites:
   - ShuttleCtla25DriveResearch
-  position: 1, 5
+  position: 0, 8
 
 - type: technology
   id: ShuttleRadarResearch
@@ -39,7 +39,7 @@
   - ComputerIFFCircuitboard
   technologyPrerequisites:
   - ShuttleCtla25DriveResearch
-  position: 0, 4
+  position: -1, 7
 
 - type: technology
   id: ShuttleCtla25DriveResearch
@@ -52,7 +52,9 @@
   cost: 50000
   recipeUnlocks:
   - MachineDriveCTLA25Circuitboard
-  position: 0, 5
+  technologyPrerequisites:
+  - AdvancedParts
+  position: -1, 8
 
 - type: technology
   id: ShuttleCtlaAdvancedDriveResearch
@@ -68,4 +70,5 @@
   - MachineDriveCTLA50Circuitboard
   technologyPrerequisites:
   - ShuttleCtla25DriveResearch
-  position: 0, 6
+  - SuperParts
+  position: -1, 9
