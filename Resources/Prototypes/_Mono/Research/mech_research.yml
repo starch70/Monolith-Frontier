@@ -21,7 +21,7 @@
   - RipleyCentralElectronics
   - RipleyPeripheralsElectronics
   - MechEquipmentGrabber
-  position: 7, -2
+  position: 13, 3
 
 - type: technology
   id: Ripley2
@@ -38,7 +38,7 @@
   technologyPrerequisites:
   - RipleyAPLU
   - AdvancedParts
-  position: 7, -3
+  position: 13, 2
 
 - type: technology
   id: Clarke
@@ -59,7 +59,7 @@
   - ClarkePeripheralsElectronics
   technologyPrerequisites:
   - Ripley2
-  position: 7, -4
+  position: 12, 1
 
 - type: technology
   id: HONKWeapons
@@ -99,7 +99,8 @@
   technologyPrerequisites:
   - Ripley2
   - SuperParts
-  position: 8, -3
+  - ExplosiveTechnology
+  position: 13, 2
 
 - type: technology
   id: ExplosiveMechAmmunition
@@ -114,7 +115,7 @@
   - WeaponMechCombatMissileRack8
   technologyPrerequisites:
   - ExplosiveTechnology
-  position: 5, -2
+  position: 14, 2
 
 - type: technology
   id: Durand
@@ -140,7 +141,7 @@
   - WeaponMechCombatShotgunIncendiary
   technologyPrerequisites:
   - Gygax
-  position: 8, -4
+  position: 13, 1
 
 - type: technology
   id: Broadsword
@@ -179,7 +180,7 @@
   - IFFMechaGreenTriangle
   technologyPrerequisites:
   - Gygax
-  position: 7, -5
+  position: 12, 0
 
 - type: technology
   id: Halberd
@@ -197,7 +198,7 @@
   - MediumMechTOW
   technologyPrerequisites:
   - Broadsword
-  position: 7, -6
+  position: 12, -1
 
 - type: technology
   id: Sabre
@@ -213,7 +214,7 @@
   technologyPrerequisites:
   - Halberd
   - Durand
-  position: 8, -5
+  position: 13, 0
 
 - type: technology
   id: Flail
@@ -239,7 +240,7 @@
   - HeavyMechProjector
   technologyPrerequisites:
   - Broadsword
-  position: 6, -5
+  position: 11, 0
 
 - type: technology
   id: Spyglass
@@ -256,7 +257,7 @@
   - EWACMechaJammer
   technologyPrerequisites:
   - Flail
-  position: 5, -5
+  position: 10, 0
 
 - type: technology
   id: Mace
@@ -271,4 +272,4 @@
   - MaceHarness
   technologyPrerequisites:
   - Flail
-  position: 6, -6
+  position: 11, -1

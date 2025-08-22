@@ -17,7 +17,7 @@
   technologyPrerequisites:
   - RogueStealthsuit
   - RogueEmag
-  position: 15, 25
+  position: 14, 20
 
 - type: technology
   id: RogueJaws
@@ -32,7 +32,7 @@
   - JawsOfLifeRogue
   technologyPrerequisites:
   - RogueSyndicateTacsuits
-  position: 12, 24
+  position: 11, 19
 
 - type: technology
   id: RogueHypospray
@@ -47,7 +47,7 @@
   - HyposprayRogue
   technologyPrerequisites:
   - RogueSyndicateTacsuits
-  position: 12, 23
+  position: 11, 18
 
 - type: technology
   id: RogueEmag
@@ -62,7 +62,7 @@
   - EmagRogue
   technologyPrerequisites:
   - RogueAdvancedEquipment
-  position: 14, 21
+  position: 13, 16
 
 - type: technology
   id: RogueEmag2
@@ -78,7 +78,7 @@
   technologyPrerequisites:
   - RogueEmag
   - RogueSyndicateTacsuitsT3
-  position: 13, 22
+  position: 12, 17
 
 - type: technology
   id: RogueThermals
@@ -93,4 +93,4 @@
   - ClothingEyesThermalVisionGoggles
   technologyPrerequisites:
   - RogueBasicEquipment
-  position: 12, 20
+  position: 11, 15

@@ -208,8 +208,8 @@
   - ChemicalPayload
   - NFBlueprintSignallerAdvanced # Frontier
   technologyPrerequisites:
-  - SuperParts
-  position: 6, -1
+  - AdvancedParts
+  position: 11, 4
 
 - type: technology
   id: SpecialMeans
