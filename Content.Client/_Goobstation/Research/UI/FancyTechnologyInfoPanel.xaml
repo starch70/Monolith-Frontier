@@ -1,20 +1,28 @@
 <Control xmlns="https://spacestation14.io"
          xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:customControls="clr-namespace:Content.Client.Administration.UI.CustomControls;assembly=Content.Client"
-         Margin="5"
-         MinWidth="450"
+         Margin="0"
+         MinWidth="400"
+         SetWidth="400"
          VerticalExpand="True"
          HorizontalExpand="True">
     <BoxContainer Orientation="Vertical"
-            VerticalExpand="True"
-            HorizontalExpand="True">
+                  VerticalExpand="True"
+                  HorizontalExpand="True">
+    <PanelContainer Name="ResearchesContainer" VerticalExpand="True" HorizontalExpand="True">
+        <PanelContainer.PanelOverride>
+            <gfx:StyleBoxFlat BackgroundColor="#191919" />
+        </PanelContainer.PanelOverride>
+    <BoxContainer Orientation="Vertical"
+            VerticalExpand="False"
+            HorizontalExpand="False">
         <BoxContainer
             Name="InfoContainer"
             Orientation="Vertical"
             VerticalExpand="True"
-            HorizontalExpand="True"
+            HorizontalExpand="False"
             Margin="5"
-            SizeFlagsStretchRatio="3">
+            SizeFlagsStretchRatio="1">
             <BoxContainer Orientation="Horizontal"
                     HorizontalExpand="True">
                 <BoxContainer Orientation="Horizontal"
@@ -30,7 +38,7 @@
                                  Margin="4"/>
                 </BoxContainer>
                 <Control HorizontalExpand="True"
-                         SizeFlagsStretchRatio="2"/>
+                         SizeFlagsStretchRatio="1"/>
             </BoxContainer>
             <Label Name="TechnologyNameLabel"
                     StyleClasses="LabelKeyText"
@@ -43,7 +51,7 @@
                     Margin="0 4"/>
         </BoxContainer>
         <Control SizeFlagsStretchRatio="1"
-                 HorizontalExpand="True"/>
+                 HorizontalExpand="False"/>
         <BoxContainer
             Orientation="Vertical"
             VerticalExpand="True"
@@ -103,5 +111,7 @@
                 </PanelContainer>
             </BoxContainer>
         </BoxContainer>
+    </BoxContainer>
+    </PanelContainer>
     </BoxContainer>
 </Control>

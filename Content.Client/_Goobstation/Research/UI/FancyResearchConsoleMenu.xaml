@@ -5,7 +5,8 @@
                       xmlns:goob="clr-namespace:Content.Client._Goobstation.Research.UI"
                       xmlns:ui="clr-namespace:Content.Client._Goobstation.Research.UI"
                       Title="{Loc 'research-console-menu-title'}"
-                      SetSize="1260 850">
+                      SetSize="1660 850"
+                      Resizable="False">
     <BoxContainer Orientation="Vertical"
                   HorizontalExpand="True"
                   VerticalExpand="True">
