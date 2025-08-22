@@ -2,6 +2,7 @@
                  xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
                  xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
                  xmlns:goob="clr-namespace:Content.Goobstation.Client.Research.UI"
+                 xmlns:ui="clr-namespace:Content.Client._Goobstation.Research.UI"
                  Margin="5"
                  HorizontalExpand="False">
     <BoxContainer Orientation="Vertical" SetSize="80 80">
@@ -13,7 +14,7 @@
                                        BorderColor="#4972A1"
                                        BorderThickness="2"/>
             </PanelContainer.PanelOverride>
-            <goob:DrawButton Name="Button"
+            <ui:DrawButton Name="Button"
                              Access="Public"
                              ModulateSelfOverride="#00000000"
                              HorizontalExpand="True"/>
