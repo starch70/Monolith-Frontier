@@ -8,10 +8,13 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 20000
   recipeUnlocks:
   - ClothingEyesNightVisionGoggles
   - ClothingHelmetAttachmentNVGsBasic
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 1, 6
 
 - type: technology
   id: ThermalVisionTech
@@ -21,7 +24,10 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 15000
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
   - ClothingHelmetAttachmentInfraredBasic
+  technologyPrerequisites:
+  - NightVisionTech
+  position: 1, 7

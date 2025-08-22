@@ -1,3 +1,26 @@
+# SPDX-FileCopyrightText: 2023 T-Stalker
+# SPDX-FileCopyrightText: 2023 Ubaser
+# SPDX-FileCopyrightText: 2023 brainfood1183
+# SPDX-FileCopyrightText: 2023 chromiumboy
+# SPDX-FileCopyrightText: 2023 metalgearsloth
+# SPDX-FileCopyrightText: 2024 AndresE55
+# SPDX-FileCopyrightText: 2024 Debug
+# SPDX-FileCopyrightText: 2024 Dvir
+# SPDX-FileCopyrightText: 2024 Ed
+# SPDX-FileCopyrightText: 2024 Emisse
+# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
+# SPDX-FileCopyrightText: 2024 GeneralGaws
+# SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson
+# SPDX-FileCopyrightText: 2024 Nemanja
+# SPDX-FileCopyrightText: 2024 Whatstone
+# SPDX-FileCopyrightText: 2024 checkraze
+# SPDX-FileCopyrightText: 2025 BeeRobynn
+# SPDX-FileCopyrightText: 2025 deltanedas
+# SPDX-FileCopyrightText: 2025 dustylens
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Tier 1
 
 - type: technology
@@ -8,9 +31,10 @@
     state: fab-idle
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 15000
   recipeUnlocks:
   - ProximitySensor
+  position: -2, -2
 
 - type: technology
   id: BasicAnomalousResearch
@@ -20,7 +44,7 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - AnomalyScanner
   - AnomalyLocator
@@ -28,6 +52,7 @@
   - BorgModuleAnomaly
   - APECircuitboard
   - AnomalyVesselCircuitboard
+  position: -3, -2
 
 - type: technology
   id: BasicXenoArcheology
@@ -37,12 +62,13 @@
     state: display
   discipline: Experimental
   tier: 1
-  cost: 5000
+  cost: 15000
   recipeUnlocks:
   - NodeScanner
   - BorgModuleArtifact
   - AnalysisComputerCircuitboard
   - ArtifactAnalyzerMachineCircuitboard
+  position: -4, -2
 
 # Frontier: no tech disks
 # - type: technology
@@ -66,10 +92,11 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 7500
+  cost: 22500
   recipeUnlocks:
   - ClothingShoesBootsMagSci
   - NFClothingShoesBootsMoon # Frontier ClothingShoesBootsMoon<NFClothingShoesBootsMoon
+  position: -2, -1
 
 - type: technology
   id: AnomalyCoreHarnessing
@@ -79,9 +106,13 @@
     state: icon
   discipline: Experimental
   tier: 1
-  cost: 10000
+  cost: 15000
   recipeUnlocks:
   - WeaponGauntletGorilla
+  technologyPrerequisites:
+  - BasicAnomalousResearch
+  - AdvancedParts
+  position: -3, -3
 
 # Tier 2
 
@@ -93,11 +124,12 @@
     state: advanced_matter_bin
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 40000
   recipeUnlocks:
   - AdvancedCapacitorStockPart
   - AdvancedMatterBinStockPart
   - NanoManipulatorStockPart
+  position: 0, 0
 
 - type: technology
   id: AbnormalArtifactManipulation
@@ -107,9 +139,13 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
+  technologyPrerequisites:
+  - BasicXenoArcheology
+  - AdvancedParts
+  position: -4, -3
 
 - type: technology
   id: AdvancedAnomalyResearch
@@ -119,13 +155,15 @@
     state: base
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 25000
   recipeUnlocks:
   - WeaponPistolCHIMP
   # - AnomalySynchronizerCircuitboard # Frontier: doesn't make sense for Frontier
   - AnomalyVesselExperimentalCircuitboard
   technologyPrerequisites:
   - BasicAnomalousResearch
+  - AdvancedParts
+  position: -3, -4
 
 - type: technology
   id: DeterrenceTechnologies
@@ -135,11 +173,14 @@
     state: icon # Frontier base<icon
   discipline: Experimental
   tier: 2
-  cost: 7500
+  cost: 75000
   recipeUnlocks:
   # - WeaponParticleDecelerator # Frontier - Cancer gun that skip walls
   - HoloprojectorField
-  
+  technologyPrerequisites:
+  - AdvancedParts
+  position: -3, -1
+
 - type: technology
   id: AiTechnology
   name: research-technology-ai
@@ -148,9 +189,12 @@
     state: ai
   discipline: Experimental
   tier: 2
-  cost: 10000
+  cost: 100000
   recipeUnlocks:
   - AiCoreElectronics
+  technologyPrerequisites:
+  - SuperParts
+  position: -4, -1
 
 # Tier 3
 

@@ -15,6 +15,9 @@
   cost: 25000
   recipeUnlocks:
   - EnergyDaggerRogue
+  technologyPrerequisites:
+  - RogueBasicGuns
+  position: 18, 15
 
 - type: technology
   id: RoguePracticeAmmo
@@ -40,6 +43,7 @@
   - AmmoBox4.6x30mmPractice
   - Magazine12_gaugePractice
   - AmmoBox12_gaugePractice
+  position: 16, 16
 
 - type: technology
   id: RogueIncendiaryAmmo
@@ -65,6 +69,9 @@
   - AmmoBox4.6x30mmIncendiary
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
+  technologyPrerequisites:
+  - RogueEsword
+  position: 16, 15
 
 - type: technology
   id: RogueEsword
@@ -80,6 +87,8 @@
   - EnergySwordRogue
   technologyPrerequisites:
   - RogueEdagger
+  - RogueSyndicateTacsuits
+  position: 17, 15
 
 - type: technology
   id: HFSwordTech
@@ -94,6 +103,7 @@
   - HFSwordVT7
   technologyPrerequisites:
   - RogueEsword
+  position: 16, 14
 
 - type: technology
   id: RogueBasicGuns
@@ -103,7 +113,7 @@
     state: icon
   discipline: RogueWeaponry
   tier: 1
-  cost: 20000
+  cost: 30000
   recipeUnlocks:
   - WeaponSubMachineGunC20rRogue
   - WeaponRevolverPythonRogue
@@ -113,6 +123,7 @@
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunEmpty
   - AmmoBox9x19mmFMJ
+  position: 18, 16
 
 - type: technology
   id: RogueAdvancedGuns
@@ -122,7 +133,7 @@
     state: icon
   discipline: RogueWeaponry
   tier: 2
-  cost: 35000
+  cost: 55000
   recipeUnlocks:
   - WeaponRifleM90Rogue
   - WeaponSubMachineGunWt550Rogue
@@ -134,6 +145,7 @@
   - AmmoBox4.6x30mmFMJ
   technologyPrerequisites:
   - RogueBasicGuns
+  position: 18, 17
 
 - type: technology
   id: RogueCQCGuns
@@ -143,7 +155,7 @@
     state: icon
   discipline: RogueWeaponry
   tier: 2
-  cost: 35000
+  cost: 65000
   recipeUnlocks:
   - WeaponSubMachineGunAtreidesRogue
   - WeaponShotgunBulldogRogue
@@ -157,6 +169,8 @@
   - AmmoBox12_gaugeSlug
   technologyPrerequisites:
   - RogueBasicGuns
+  - RogueSyndicateTacsuits
+  position: 19, 17
 
 - type: technology
   id: RogueHristov
@@ -171,8 +185,9 @@
   - WeaponSniperHristovRogue
   - AmmoBox145x114mmBig
   technologyPrerequisites:
-  - RogueBasicGuns
   - RogueAdvancedGuns
+  - RogueSyndicateTacsuits
+  position: 18, 18
 
 - type: technology
   id: RogueSubsonic
@@ -182,7 +197,7 @@
     state: icon
   discipline: RogueWeaponry
   tier: 2
-  cost: 25000
+  cost: 35000
   recipeUnlocks:
   - WeaponRifleWSPRRogue
   - Magazine7.62x39mmSubsonic
@@ -191,5 +206,5 @@
   - Magazine635x40mmCaseless
   - AmmoBox635x40mmCaseless
   technologyPrerequisites:
-  - RogueBasicGuns
   - RogueAdvancedGuns
+  position: 19, 18

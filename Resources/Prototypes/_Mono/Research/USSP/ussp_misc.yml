@@ -16,6 +16,7 @@
   recipeUnlocks:
   - SeismicChargeUSSP
   - TearGasGrenadeUSSP
+  position: 16, 9
 
 - type: technology
   id: UsspMediumExplosives
@@ -26,6 +27,9 @@
   discipline: Ussp
   tier: 2
   cost: 50000
+  technologyPrerequisites:
+  - UsspBasicExplosives
   recipeUnlocks:
   - GrenadeShrapnelUSSP
   - GrenadeIncendiaryUSSP
+  position: 16, 10

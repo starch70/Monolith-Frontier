@@ -14,6 +14,7 @@
   recipeUnlocks:
   - ClothingOuterHardsuitM82cTsf
   - ClothingOuterHardsuitM82bTsf
+  position: 24, 10
 
 - type: technology
   id: TsfmcAdvancedEquipment
@@ -28,6 +29,7 @@
   - ClothingOuterHardsuitM86Tsf
   technologyPrerequisites:
   - TsfmcBasicEquipment
+  position: 25, 15
 
 - type: technology
   id: TsfmcExperimentalEquipment
@@ -44,3 +46,4 @@
   - TsfmcBasicEquipment
   - TsfmcAdvancedEquipment
   - TsfSynthalloy
+  position: 25, 17

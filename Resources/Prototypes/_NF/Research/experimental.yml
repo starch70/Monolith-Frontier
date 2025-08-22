@@ -8,10 +8,13 @@
     state: icon
   discipline: Experimental
   tier: 2
-  cost: 7500
+  cost: 25000
   recipeUnlocks:
   - RPED
   - NFBlueprintRped
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 1, 0
 
 # Tier 3
 
@@ -23,7 +26,7 @@
     state: super_matter_bin
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 75000
   recipeUnlocks:
   - SuperCapacitorStockPart
   - SuperMatterBinStockPart
@@ -31,6 +34,9 @@
   - NFBlueprintSuperCapacitorStockPart
   - NFBlueprintPicoManipulatorStockPart
   - NFBlueprintSuperMatterBinStockPart
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 0, -1
 
 - type: technology
   id: MagnetsTechAdvanced
@@ -40,12 +46,14 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 10000
+  cost: 40000
   recipeUnlocks:
   - ClothingShoesBootsMagAdv
   - NFBlueprintClothingShoesBootsMagAdv
   technologyPrerequisites:
   - MagnetsTech
+  - SuperParts
+  position: -2, 0
 
 - type: technology
   id: HardsuitsExperimentalRD
@@ -55,8 +63,9 @@
     state: icon
   discipline: Experimental
   tier: 3
-  cost: 15000
+  cost: 65000
   recipeUnlocks:
     - ClothingOuterHardsuitRd
   technologyPrerequisites:
   - HardsuitsArmored
+  position: 4, 7

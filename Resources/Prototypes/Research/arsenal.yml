@@ -42,7 +42,7 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 5000
+  cost: 25000
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
@@ -52,6 +52,7 @@
   # This is not roundstart since its a direct upgrade
   - WeaponCrusherGlaive
   - MechEquipmentKineticAccelerator # Goobstation
+  position: 1, 1
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -63,7 +64,7 @@
     state: fueltank
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 50000
   recipeUnlocks:
   - Magazine45_ACPPistolIncendiary
   - Magazine45_ACPSubMachineGunIncendiary
@@ -92,6 +93,9 @@
   - AmmoBox7.62x51mmIncendiary
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 2, 2
 
 - type: technology
   id: WeaponizedLaserManipulation
@@ -101,10 +105,13 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 7500
+  cost: 15000
   recipeUnlocks:
   - WeaponLaserCarbine
   - WeaponMechCombatFiredartLaser # Goobstation
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 3, 2
 
 - type: technology
   id: NonlethalAmmunition
@@ -114,10 +121,11 @@
     state: beanbag
   discipline: Arsenal
   tier: 1
-  cost: 5000
+  cost: 10000
   recipeUnlocks:
   - WeaponDisabler
   - WeaponMechCombatDisabler # Goobstation
+  position: 2, 1
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -129,7 +137,7 @@
     state: uranium
   discipline: Arsenal
   tier: 2
-  cost: 7500
+  cost: 25000
   recipeUnlocks:
   - Magazine45_ACPPistolUranium
   - Magazine45_ACPSubMachineGunUranium
@@ -158,6 +166,10 @@
   - AmmoBox7.62x51mmUranium
   - Magazine12_gaugeUranium
   - AmmoBox12_gaugeUranium
+  technologyPrerequisites:
+  - AdvancedParts
+  - DraconicMunitions
+  position: 2, 3
 
 - type: technology
   id: AdvancedRiotControl
@@ -167,12 +179,15 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 8000
+  cost: 16000
   recipeUnlocks:
   - Truncheon
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 3, -1
 
 - type: technology
   id: ExplosiveTechnology
@@ -182,7 +197,7 @@
     state: payload-explosive-armed
   discipline: Arsenal
   tier: 1
-  cost: 10000
+  cost: 40000
   recipeUnlocks:
   - SignallerAdvanced
   - SignalTrigger
@@ -192,6 +207,9 @@
   - ExplosivePayload
   - ChemicalPayload
   - NFBlueprintSignallerAdvanced # Frontier
+  technologyPrerequisites:
+  - AdvancedParts
+  position: 11, 4
 
 - type: technology
   id: SpecialMeans
@@ -201,9 +219,12 @@
     state: icon
   discipline: Arsenal
   tier: 1
-  cost: 5000
+  cost: 15000
   recipeUnlocks:
   - ClothingBackpackElectropack
+  technologyPrerequisites:
+  - AdvancedRiotControl
+  position: 4, -1
 
 # Tier 2
 
@@ -215,10 +236,13 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 30000
   recipeUnlocks:
   - WeaponLaserCannon
   - WeaponMechCombatSolarisLaser # Goobstation
+  technologyPrerequisites:
+  - WeaponizedLaserManipulation
+  position: 4, 2
 
 - type: technology
   id: WaveParticleHarnessing
@@ -228,9 +252,13 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 30000
   recipeUnlocks:
   - WeaponXrayCannon
+  technologyPrerequisites:
+  - ConcentratedLaserWeaponry
+  - SuperParts
+  position: 5, 2
 
 - type: technology
   id: BasicShuttleArmament
@@ -240,7 +268,7 @@
     state: full
   discipline: Arsenal
   tier: 2
-  cost: 10500
+  cost: 25000
   recipeUnlocks:
   - PowerCageRechargerCircuitboard
   - PowerCageSmall
@@ -255,6 +283,8 @@
   #  - ShuttleGunFriendshipCircuitboard # Frontier
   technologyPrerequisites:
   - SalvageWeapons
+  - AdvancedParts
+  position: 1, 4
 
 # Tier 3
 
@@ -266,12 +296,16 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 25000
   recipeUnlocks:
   - WeaponAdvancedLaser
   - PortableRecharger
   - NFBlueprintPortableRecharger # Frontier
   - WeaponMechCombatImmolationGun # Goobstation
+  technologyPrerequisites:
+  - WaveParticleHarnessing
+  - SuperParts
+  position: 6, 2
 
 - type: technology
   id: ExperimentalBatteryAmmo
@@ -281,10 +315,13 @@
     state: icon
   discipline: Arsenal
   tier: 3
-  cost: 15000
+  cost: 25000
   recipeUnlocks:
   - WeaponLaserSvalinn
   - NFBlueprintWeaponLaserSvalinn # Frontier
+  technologyPrerequisites:
+  - WaveParticleHarnessing
+  position: 6, 3
 
 # - type: technology #Frontier
 #  id: AdvancedShuttleWeapon

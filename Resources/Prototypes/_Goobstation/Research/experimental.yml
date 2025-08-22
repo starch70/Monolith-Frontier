@@ -6,7 +6,7 @@
     state: mod-core-standard
   discipline: Experimental
   tier: 2 # Mono
-  cost: 7500 # Mono
+  cost: 75000 # Mono
   recipeUnlocks:
   - ModsuitChestplate
   - ModsuitBoots
@@ -15,3 +15,6 @@
   - ModsuitShell
   - ModsuitPlatingExternal
   - ModsuitCoreStandard
+  position: 2, 5
+  technologyPrerequisites:
+  - HardsuitsBasic
