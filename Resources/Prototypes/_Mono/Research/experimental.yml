@@ -13,6 +13,7 @@
   cost: 5000
   recipeUnlocks:
   - CarpCallerMachineCircuitboard
+  position: -2, -3
 
 - type: technology
   id: BluespaceTethering
@@ -25,3 +26,4 @@
   cost: 5000
   recipeUnlocks:
   - ClothingShoesBootsMagVoid
+  position: -1, 0

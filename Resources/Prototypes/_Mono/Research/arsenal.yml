@@ -3,7 +3,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-
 - type: technology
   id: MercArmementAdvanced
   name: research-technology-merc-armement-advanced
@@ -18,6 +17,7 @@
   - WeaponShotgunBigBuddy
   technologyPrerequisites:
   - MercArmementSimple
+  position: 6, 1
 
 - type: technology
   id: MercArmementSimple
@@ -34,6 +34,7 @@
   - WeaponRifleVulcanMerc
   technologyPrerequisites:
   - MercArmementBasic
+  position: 5, 1
 
 - type: technology
   id: MercArmementBasic
@@ -48,3 +49,4 @@
   - WeaponRiflePrometheus
   - WeaponRifleVulcanFCMC
   - WeaponShotgunKammererNF
+  position: 4, 1

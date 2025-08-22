@@ -198,7 +198,7 @@
   - ExplosivePayload
   - ChemicalPayload
   - NFBlueprintSignallerAdvanced # Frontier
-  position: 3, -2
+  position: 6, -1
 
 - type: technology
   id: SpecialMeans

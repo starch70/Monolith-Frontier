@@ -21,6 +21,7 @@
   - RipleyCentralElectronics
   - RipleyPeripheralsElectronics
   - MechEquipmentGrabber
+  position: 7, -2
 
 - type: technology
   id: Ripley2
@@ -36,6 +37,7 @@
   - RipleyUpgradeKit
   technologyPrerequisites:
   - RipleyAPLU
+  position: 7, -3
 
 - type: technology
   id: Clarke
@@ -56,6 +58,7 @@
   - ClarkePeripheralsElectronics
   technologyPrerequisites:
   - Ripley2
+  position: 7, -4
 
 - type: technology
   id: HONKWeapons
@@ -69,6 +72,7 @@
   recipeUnlocks:
   - MechEquipmentHonkerBananaMortar
   - MechEquipmentHonkerMousetrapMortar
+  position: -7, 6
 
 - type: technology
   id: Gygax
@@ -93,6 +97,7 @@
   - WeaponMechCombatUltraRifle
   technologyPrerequisites:
   - Ripley2
+  position: 8, -3
 
 - type: technology
   id: ExplosiveMechAmmunition
@@ -107,6 +112,7 @@
   - WeaponMechCombatMissileRack8
   technologyPrerequisites:
   - ExplosiveTechnology
+  position: 5, -2
 
 - type: technology
   id: Durand
@@ -132,6 +138,7 @@
   - WeaponMechCombatShotgunIncendiary
   technologyPrerequisites:
   - Gygax
+  position: 8, -4
 
 - type: technology
   id: Broadsword
@@ -170,7 +177,7 @@
   - IFFMechaGreenTriangle
   technologyPrerequisites:
   - Gygax
-  - ExplosiveTechnology
+  position: 7, -5
 
 - type: technology
   id: Halberd
@@ -188,8 +195,7 @@
   - MediumMechTOW
   technologyPrerequisites:
   - Broadsword
-  - Gygax
-  - ExplosiveTechnology
+  position: 7, -6
 
 - type: technology
   id: Sabre
@@ -203,10 +209,9 @@
   recipeUnlocks:
   - SabreHarness
   technologyPrerequisites:
-  - Broadsword
   - Halberd
   - Durand
-  - Gygax
+  position: 8, -5
 
 - type: technology
   id: Flail
@@ -232,6 +237,7 @@
   - HeavyMechProjector
   technologyPrerequisites:
   - Broadsword
+  position: 6, -5
 
 - type: technology
   id: Spyglass
@@ -248,6 +254,7 @@
   - EWACMechaJammer
   technologyPrerequisites:
   - Flail
+  position: 5, -5
 
 - type: technology
   id: Mace
@@ -262,3 +269,4 @@
   - MaceHarness
   technologyPrerequisites:
   - Flail
+  position: 6, -6

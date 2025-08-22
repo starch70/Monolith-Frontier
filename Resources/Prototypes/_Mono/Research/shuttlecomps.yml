@@ -21,6 +21,7 @@
   - MachineGCSLowCircuitboard
   - MachineGCSMediumCircuitboard
   - MachineGCSHighCircuitboard
+  position: 1, 5
 
 - type: technology
   id: ShuttleRadarResearch
@@ -34,6 +35,7 @@
   recipeUnlocks:
   - AdvancedRadarConsoleCircuitboard
   - ComputerIFFCircuitboard
+  position: 0, 4
 
 - type: technology
   id: ShuttleCtla25DriveResearch
@@ -46,6 +48,7 @@
   cost: 5000
   recipeUnlocks:
   - MachineDriveCTLA25Circuitboard
+  position: 0, 5
 
 - type: technology
   id: ShuttleCtlaAdvancedDriveResearch
@@ -59,3 +62,4 @@
   recipeUnlocks:
   - MachineDriveCTLA25sCircuitboard
   - MachineDriveCTLA50Circuitboard
+  position: 0, 6

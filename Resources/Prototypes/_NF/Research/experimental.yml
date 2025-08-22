@@ -12,6 +12,7 @@
   recipeUnlocks:
   - RPED
   - NFBlueprintRped
+  position: -5, -1
 
 # Tier 3
 
@@ -31,6 +32,7 @@
   - NFBlueprintSuperCapacitorStockPart
   - NFBlueprintPicoManipulatorStockPart
   - NFBlueprintSuperMatterBinStockPart
+  position: -5, -3
 
 - type: technology
   id: MagnetsTechAdvanced
@@ -46,6 +48,7 @@
   - NFBlueprintClothingShoesBootsMagAdv
   technologyPrerequisites:
   - MagnetsTech
+  position: -2, 0
 
 - type: technology
   id: HardsuitsExperimentalRD

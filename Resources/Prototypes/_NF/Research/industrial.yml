@@ -12,6 +12,7 @@
   recipeUnlocks:
   - ConstructionBagOfHolding
   - NFBlueprintConstructionBagOfHolding
+  position: 2, -6
 
 - type: technology
   id: HardsuitsBasic
@@ -24,6 +25,7 @@
   cost: 5000
   recipeUnlocks:
   - ClothingOuterHardsuitBasic
+  position: 2, 6
 
 - type: technology
   id: HardsuitsSpecialized
@@ -44,6 +46,7 @@
   - ClothingOuterHardsuitPilot
   technologyPrerequisites:
   - HardsuitsBasic
+  position: 3, 6
 
 # Tier 2
 
@@ -63,6 +66,7 @@
   - ClothingOuterHardsuitLuxury
   technologyPrerequisites:
   - HardsuitsSpecialized
+  position: 4, 6
 
 # Tier 3
 
@@ -82,3 +86,4 @@
     - NFBlueprintClothingOuterHardsuitMaximPrototype
   technologyPrerequisites:
   - HardsuitsAdvanced
+  position: 5, 6
