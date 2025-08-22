@@ -2,9 +2,7 @@ using Content.Server.Power.EntitySystems;
 using Content.Server.Research.Components;
 using Content.Shared.UserInterface;
 using Content.Shared.Access.Components;
-using Content.Shared.Emag.Components;
 using Content.Shared.Emag.Systems;
-using Content.Shared.IdentityManagement;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
 using Content.Shared._Goobstation.Research; // R&D Console Rework
@@ -46,20 +44,6 @@ public sealed partial class ResearchSystem
 
         if (!UnlockTechnology(uid, args.Id, act))
             return;
-
-        if (!_emag.CheckFlag(uid, EmagType.Interaction))
-        {
-            var getIdentityEvent = new TryGetIdentityShortInfoEvent(uid, act);
-            RaiseLocalEvent(getIdentityEvent);
-
-            var message = Loc.GetString(
-                "research-console-unlock-technology-radio-broadcast",
-                ("technology", Loc.GetString(technologyPrototype.Name)),
-                ("amount", technologyPrototype.Cost),
-                ("approver", getIdentityEvent.Title ?? string.Empty)
-            );
-            _radio.SendRadioMessage(uid, message, component.AnnouncementChannel, uid, escapeMarkup: false);
-        }
 
         SyncClientWithServer(uid);
         UpdateConsoleInterface(uid, component);
