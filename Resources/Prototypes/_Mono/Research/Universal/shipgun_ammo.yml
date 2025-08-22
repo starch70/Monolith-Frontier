@@ -15,6 +15,7 @@
   cost: 20000
   recipeUnlocks:
   - CharonSlugUniversal
+  position: 18, -1
 
 - type: technology
   id: UniversalTorpedoAmmo
@@ -28,6 +29,7 @@
   recipeUnlocks:
   - ASM220TorpedoHEUniversal
   - ASM220TorpedoECMUniversal
+  position: 18, -2
 
 - type: technology
   id: UniversalTorpedoAmmoAdvanced
@@ -40,6 +42,7 @@
   cost: 20000
   recipeUnlocks:
   - ASM220TorpedoLOSATUniversal
+  position: 19, -2
 
 - type: technology
   id: Universal150mmAmmo
@@ -53,6 +56,7 @@
   recipeUnlocks:
   - 150mmApShellUniversal
   - 150mmEmpShellUniversal
+  position: 18, -3
 
 - type: technology
   id: UniversalLightFighterOrdinance
@@ -66,6 +70,7 @@
   recipeUnlocks:
   - GPOL50BombUniversal
   - ZenithRocketUniversal
+  position: 18, -4
 
 - type: technology
   id: UniversalAdvancedLightFighterOrdinance
@@ -78,3 +83,4 @@
   cost: 40000
   recipeUnlocks:
   - QuasarAcceleratorUniversal
+  position: 19, -4
