@@ -52,6 +52,7 @@
   # This is not roundstart since its a direct upgrade
   - WeaponCrusherGlaive
   - MechEquipmentKineticAccelerator # Goobstation
+  position: 1, 1
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -92,6 +93,7 @@
   - AmmoBox7.62x51mmIncendiary
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
+  position: 2, 2
 
 - type: technology
   id: WeaponizedLaserManipulation
@@ -105,6 +107,7 @@
   recipeUnlocks:
   - WeaponLaserCarbine
   - WeaponMechCombatFiredartLaser # Goobstation
+  position: 3, 2
 
 - type: technology
   id: NonlethalAmmunition
@@ -118,6 +121,7 @@
   recipeUnlocks:
   - WeaponDisabler
   - WeaponMechCombatDisabler # Goobstation
+  position: 2, 1
 
 #Frontier: restricted arsenal research ;Monolith: readded :)
 
@@ -158,6 +162,7 @@
   - AmmoBox7.62x51mmUranium
   - Magazine12_gaugeUranium
   - AmmoBox12_gaugeUranium
+  position: 2, 3
 
 - type: technology
   id: AdvancedRiotControl
@@ -173,6 +178,7 @@
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+  position: 3, -1
 
 - type: technology
   id: ExplosiveTechnology
@@ -192,6 +198,7 @@
   - ExplosivePayload
   - ChemicalPayload
   - NFBlueprintSignallerAdvanced # Frontier
+  position: 3, -2
 
 - type: technology
   id: SpecialMeans
@@ -204,6 +211,7 @@
   cost: 5000
   recipeUnlocks:
   - ClothingBackpackElectropack
+  position: 4, -1
 
 # Tier 2
 
@@ -219,6 +227,9 @@
   recipeUnlocks:
   - WeaponLaserCannon
   - WeaponMechCombatSolarisLaser # Goobstation
+  technologyPrerequisites:
+  - WeaponizedLaserManipulation
+  position: 4, 2
 
 - type: technology
   id: WaveParticleHarnessing
@@ -231,6 +242,9 @@
   cost: 10000
   recipeUnlocks:
   - WeaponXrayCannon
+  technologyPrerequisites:
+  - ConcentratedLaserWeaponry
+  position: 5, 2
 
 - type: technology
   id: BasicShuttleArmament
@@ -255,6 +269,7 @@
   #  - ShuttleGunFriendshipCircuitboard # Frontier
   technologyPrerequisites:
   - SalvageWeapons
+  position: 1, 4
 
 # Tier 3
 
@@ -272,6 +287,9 @@
   - PortableRecharger
   - NFBlueprintPortableRecharger # Frontier
   - WeaponMechCombatImmolationGun # Goobstation
+  technologyPrerequisites:
+  - WaveParticleHarnessing
+  position: 6, 2
 
 - type: technology
   id: ExperimentalBatteryAmmo
@@ -285,6 +303,9 @@
   recipeUnlocks:
   - WeaponLaserSvalinn
   - NFBlueprintWeaponLaserSvalinn # Frontier
+  technologyPrerequisites:
+  - WaveParticleHarnessing
+  position: 6, 3
 
 # - type: technology #Frontier
 #  id: AdvancedShuttleWeapon

@@ -11,6 +11,7 @@
   cost: 5000
   recipeUnlocks:
   - ProximitySensor
+  position: -2, -2
 
 - type: technology
   id: BasicAnomalousResearch
@@ -28,6 +29,7 @@
   - BorgModuleAnomaly
   - APECircuitboard
   - AnomalyVesselCircuitboard
+  position: -3, -2
 
 - type: technology
   id: BasicXenoArcheology
@@ -43,6 +45,7 @@
   - BorgModuleArtifact
   - AnalysisComputerCircuitboard
   - ArtifactAnalyzerMachineCircuitboard
+  position: -4, -2
 
 # Frontier: no tech disks
 # - type: technology
@@ -70,6 +73,7 @@
   recipeUnlocks:
   - ClothingShoesBootsMagSci
   - NFClothingShoesBootsMoon # Frontier ClothingShoesBootsMoon<NFClothingShoesBootsMoon
+  position: -2, -1
 
 - type: technology
   id: AnomalyCoreHarnessing
@@ -82,6 +86,7 @@
   cost: 10000
   recipeUnlocks:
   - WeaponGauntletGorilla
+  position: -3, -3
 
 # Tier 2
 
@@ -98,6 +103,7 @@
   - AdvancedCapacitorStockPart
   - AdvancedMatterBinStockPart
   - NanoManipulatorStockPart
+  position: -5, -2
 
 - type: technology
   id: AbnormalArtifactManipulation
@@ -110,6 +116,7 @@
   cost: 5000
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
+  position: -4, -3
 
 - type: technology
   id: AdvancedAnomalyResearch
@@ -126,6 +133,7 @@
   - AnomalyVesselExperimentalCircuitboard
   technologyPrerequisites:
   - BasicAnomalousResearch
+  position: -3, -4
 
 - type: technology
   id: DeterrenceTechnologies
@@ -139,7 +147,8 @@
   recipeUnlocks:
   # - WeaponParticleDecelerator # Frontier - Cancer gun that skip walls
   - HoloprojectorField
-  
+  position: -3, -1
+
 - type: technology
   id: AiTechnology
   name: research-technology-ai
@@ -151,6 +160,7 @@
   cost: 10000
   recipeUnlocks:
   - AiCoreElectronics
+  position: -4, -1
 
 # Tier 3
 
