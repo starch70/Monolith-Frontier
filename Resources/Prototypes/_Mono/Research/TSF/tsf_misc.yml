@@ -13,7 +13,7 @@
   cost: 5000
   recipeUnlocks:
   - ForensicsScannerTSF
-  position: 23, -1
+  position: 23, 11
 
 - type: technology
   id: TsfPocketCrowbar
@@ -26,7 +26,7 @@
   cost: 6500
   recipeUnlocks:
   - CrowbarPocketTSF
-  position: 22, -2
+  position: 22, 10
 
 - type: technology
   id: TsfDemag
@@ -39,7 +39,7 @@
   cost: 5000
   recipeUnlocks:
   - DemagTSF
-  position: 22, -1
+  position: 22, 11
 
 - type: technology
   id: TsfmcMopp
@@ -55,7 +55,7 @@
   - ClothingHandsGlovesMoppTsf
   technologyPrerequisites:
   - TsfmcBasicEquipment
-  position: 19, -1
+  position: 19, 11
 
 - type: technology
   id: TsfEshield
@@ -68,7 +68,7 @@
   cost: 30000
   recipeUnlocks:
   - EnergyShieldTSF
-  position: 23, -5
+  position: 23, 7
 
 - type: technology
   id: TsfFlyssa
@@ -81,7 +81,7 @@
   cost: 100000
   recipeUnlocks:
   - FlyssaVoucherTSF
-  position: 21, 0
+  position: 21, 12
 
 - type: technology
   id: TsfMeds
@@ -95,7 +95,7 @@
   recipeUnlocks:
   - SutureTSF
   - MeshTSF
-  position: 21, -1
+  position: 21, 11
 
 - type: technology
   id: TsfNanofoam
@@ -110,7 +110,7 @@
   - NanolaminateFoamGrenadeTSF
   technologyPrerequisites:
     - TsfSynthalloy
-  position: 20, -4
+  position: 20, 8
 
 - type: technology
   id: TsfSynthalloy
@@ -123,7 +123,7 @@
   cost: 50000
   recipeUnlocks:
     - SynthalloyProductionTsf
-  position: 21, -2
+  position: 21, 10
 
 - type: technology
   id: TsfIndustrialStorage
@@ -137,7 +137,7 @@
   recipeUnlocks:
     - OreBoxFlatpackTSF
     - MaterialBoxFlatpackTSF
-  position: 22, 0
+  position: 22, 12
 
 - type: technology
   id: TsfIndustrialProcessing
@@ -150,7 +150,7 @@
   cost: 15000
   recipeUnlocks:
     - OreProcessorIndustrialMachineCircuitboard
-  position: 23, 0
+  position: 23, 12
 
 - type: technology
   id: TsfPortableRecharger
@@ -163,7 +163,7 @@
   cost: 15000
   recipeUnlocks:
     - PortableRecharger
-  position: 22, -5
+  position: 22, 7
 
 - type: technology
   id: TsfNvd
@@ -176,7 +176,7 @@
   cost: 15000
   recipeUnlocks:
     - ClothingEyesNightVisionGoggles
-  position: 21, -5
+  position: 21, 7
 
 - type: technology
   id: TsfMotionDetector
@@ -189,4 +189,4 @@
   cost: 20000
   recipeUnlocks:
   - MotionDetectorTSF
-  position: 21, -6
+  position: 21, 6

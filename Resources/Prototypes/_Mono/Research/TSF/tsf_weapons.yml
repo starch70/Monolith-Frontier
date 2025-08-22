@@ -28,7 +28,7 @@
   - Magazine8x65mmSKR
   - Magazine8x65mmEmpty
   - AmmoBox8x65mmSKR
-  position: 25, -4
+  position: 25, 8
 
 - type: technology
   id: TsfPracticeAmmo
@@ -51,7 +51,7 @@
   - Magazine45_ACPPistolPractice
   - Magazine45_ACPSubMachineGunPractice
   - AmmoBox45_ACPPractice
-  position: 24, -2
+  position: 24, 10
 
 - type: technology
   id: TsfIncendiaryAmmo
@@ -72,7 +72,7 @@
   - Magazine45_ACPPistolIncendiary
   - Magazine45_ACPSubMachineGunIncendiary
   - AmmoBox45_ACPIncendiary
-  position: 25, -2
+  position: 25, 10
 
 - type: technology
   id: TsfAnnie
@@ -90,7 +90,7 @@
   - AmmoBox7.62x39mmFMJ
   technologyPrerequisites:
   - TsfBasicGuns
-  position: 25, -5
+  position: 25, 7
 
 - type: technology
   id: TsfGrizzly
@@ -106,7 +106,7 @@
   technologyPrerequisites:
   - TsfBasicGuns
   - TsfAnnie
-  position: 26, -4
+  position: 26, 8
 
 - type: technology
   id: TsfMarsocGuns
@@ -125,7 +125,7 @@
   technologyPrerequisites:
   - TsfBasicGuns
   - TsfSynthalloy
-  position: 22, -4
+  position: 22, 8
 
 - type: technology
   id: TsfIcws
@@ -145,4 +145,4 @@
   - TsfBasicGuns
   - TsfSynthalloy
   - TsfMarsocGuns
-  position: 21, -4
+  position: 21, 8

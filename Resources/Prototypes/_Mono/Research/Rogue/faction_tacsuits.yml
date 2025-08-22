@@ -15,7 +15,7 @@
   recipeUnlocks:
   - ClothingOuterHardsuitPirateScafRogue
   - ClothingOuterVestWebRogue
-  position: 16, 2
+  position: 16, 32
 
 - type: technology
   id: RogueAdvancedEquipment
@@ -33,7 +33,7 @@
   - ClothingMaskGasSyndicateRogue
   technologyPrerequisites:
   - RogueBasicEquipment
-  position: 16, 3
+  position: 16, 33
 
 - type: technology
   id: RogueSyndicateTacsuits
@@ -50,7 +50,7 @@
   technologyPrerequisites:
   - RogueBasicEquipment
   - RogueAdvancedEquipment
-  position: 17, 3
+  position: 17, 33
 
 - type: technology
   id: RogueStealthsuit
@@ -65,7 +65,7 @@
   - ClothingOuterHardsuitCybersunStealthRogue
   technologyPrerequisites:
   - RogueSyndicateTacsuits
-  position: 17, 4
+  position: 17, 34
 
 - type: technology
   id: RogueSyndicateTacsuitsT3
@@ -81,7 +81,7 @@
 # - ClothingOuterHardsuitSyndieCommanderRogue
   technologyPrerequisites:
   - RogueSyndicateTacsuits
-  position: 18, 3
+  position: 18, 33
 
 - type: technology
   id: RogueRx01
@@ -96,4 +96,4 @@
   - ClothingModsuitRoguePowerCellRogue
   technologyPrerequisites:
   - RogueAdvancedEquipment
-  position: 16, 4
+  position: 16, 34

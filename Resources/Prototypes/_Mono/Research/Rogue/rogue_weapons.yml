@@ -15,7 +15,7 @@
   cost: 25000
   recipeUnlocks:
   - EnergyDaggerRogue
-  position: 18, 1
+  position: 18, 31
 
 - type: technology
   id: RoguePracticeAmmo
@@ -41,7 +41,7 @@
   - AmmoBox4.6x30mmPractice
   - Magazine12_gaugePractice
   - AmmoBox12_gaugePractice
-  position: 17, 1
+  position: 17, 31
 
 - type: technology
   id: RogueIncendiaryAmmo
@@ -67,7 +67,7 @@
   - AmmoBox4.6x30mmIncendiary
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
-  position: 17, 2
+  position: 17, 32
 
 - type: technology
   id: RogueEsword
@@ -83,7 +83,7 @@
   - EnergySwordRogue
   technologyPrerequisites:
   - RogueEdagger
-  position: 18, 0
+  position: 18, 30
 
 - type: technology
   id: HFSwordTech
@@ -98,7 +98,7 @@
   - HFSwordVT7
   technologyPrerequisites:
   - RogueEsword
-  position: 17, -1
+  position: 17, 29
 
 - type: technology
   id: RogueBasicGuns
@@ -118,7 +118,7 @@
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunEmpty
   - AmmoBox9x19mmFMJ
-  position: 19, 1
+  position: 19, 31
 
 - type: technology
   id: RogueAdvancedGuns
@@ -140,7 +140,7 @@
   - AmmoBox4.6x30mmFMJ
   technologyPrerequisites:
   - RogueBasicGuns
-  position: 19, 2
+  position: 19, 32
 
 - type: technology
   id: RogueCQCGuns
@@ -164,7 +164,7 @@
   - AmmoBox12_gaugeSlug
   technologyPrerequisites:
   - RogueBasicGuns
-  position: 20, 2
+  position: 20, 32
 
 - type: technology
   id: RogueHristov
@@ -180,7 +180,7 @@
   - AmmoBox145x114mmBig
   technologyPrerequisites:
   - RogueAdvancedGuns
-  position: 19, 3
+  position: 19, 33
 
 - type: technology
   id: RogueSubsonic
@@ -200,4 +200,4 @@
   - AmmoBox635x40mmCaseless
   technologyPrerequisites:
   - RogueAdvancedGuns
-  position: 20, 3
+  position: 20, 33
