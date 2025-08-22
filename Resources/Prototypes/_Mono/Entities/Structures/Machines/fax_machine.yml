@@ -18,3 +18,11 @@
   components:
   - type: FaxMachine
     name: "USSP Station Baikal Commisar"
+
+- type: entity
+  parent: [BaseStructureDisableToolUse, FaxMachineBase]
+  id: FaxMachineASRJupiter
+  suffix: POI, ASR Jupiter
+  components:
+  - type: FaxMachine
+    name: "ASR Jupiter-Class Carrier"

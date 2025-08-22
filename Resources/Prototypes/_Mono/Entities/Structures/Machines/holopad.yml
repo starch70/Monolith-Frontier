@@ -17,3 +17,11 @@
   components:
   - type: Label
     currentLabel: holopad-ussp-commissar
+
+- type: entity
+  parent: NFHolopadPoiBase
+  id: HolopadJupiter
+  suffix: ASR Jupiter
+  components:
+  - type: Label
+    currentLabel: holopad-asr-jupiter
