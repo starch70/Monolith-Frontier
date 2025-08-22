@@ -186,6 +186,7 @@
   - SmallGyroscopeMachineCircuitboard # Frontier
   technologyPrerequisites:
   - AdvancedParts
+  position: 1, 5
 
 - type: technology
   id: AdvancedAtmospherics
