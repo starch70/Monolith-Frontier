@@ -15,6 +15,7 @@
   cost: 25000
   recipeUnlocks:
   - EnergyDaggerRogue
+  position: 18, 1
 
 - type: technology
   id: RoguePracticeAmmo
@@ -40,6 +41,7 @@
   - AmmoBox4.6x30mmPractice
   - Magazine12_gaugePractice
   - AmmoBox12_gaugePractice
+  position: 17, 1
 
 - type: technology
   id: RogueIncendiaryAmmo
@@ -65,6 +67,7 @@
   - AmmoBox4.6x30mmIncendiary
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
+  position: 17, 2
 
 - type: technology
   id: RogueEsword
@@ -80,6 +83,7 @@
   - EnergySwordRogue
   technologyPrerequisites:
   - RogueEdagger
+  position: 18, 0
 
 - type: technology
   id: HFSwordTech
@@ -94,6 +98,7 @@
   - HFSwordVT7
   technologyPrerequisites:
   - RogueEsword
+  position: 17, -1
 
 - type: technology
   id: RogueBasicGuns
@@ -113,6 +118,7 @@
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunEmpty
   - AmmoBox9x19mmFMJ
+  position: 19, 1
 
 - type: technology
   id: RogueAdvancedGuns
@@ -134,6 +140,7 @@
   - AmmoBox4.6x30mmFMJ
   technologyPrerequisites:
   - RogueBasicGuns
+  position: 19, 2
 
 - type: technology
   id: RogueCQCGuns
@@ -157,6 +164,7 @@
   - AmmoBox12_gaugeSlug
   technologyPrerequisites:
   - RogueBasicGuns
+  position: 20, 2
 
 - type: technology
   id: RogueHristov
@@ -171,8 +179,8 @@
   - WeaponSniperHristovRogue
   - AmmoBox145x114mmBig
   technologyPrerequisites:
-  - RogueBasicGuns
   - RogueAdvancedGuns
+  position: 19, 3
 
 - type: technology
   id: RogueSubsonic
@@ -191,5 +199,5 @@
   - Magazine635x40mmCaseless
   - AmmoBox635x40mmCaseless
   technologyPrerequisites:
-  - RogueBasicGuns
   - RogueAdvancedGuns
+  position: 20, 3
