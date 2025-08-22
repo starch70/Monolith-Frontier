@@ -21,7 +21,6 @@
             <TextureRect
                 Name="ResearchDisplay"
                 TextureScale="2 2"
-                SetSize="64 64"
                 Stretch="KeepAspectCentered">
             </TextureRect>
         </PanelContainer>

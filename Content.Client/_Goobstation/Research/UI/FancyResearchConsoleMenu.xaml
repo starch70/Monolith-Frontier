@@ -35,20 +35,16 @@
                           Margin="0 0 0 10">
                 <PanelContainer Name="ResearchesContainer" VerticalExpand="True" HorizontalExpand="True">
                     <PanelContainer.PanelOverride>
-                        <gfx:StyleBoxFlat BackgroundColor="#000000FF" />
+                        <gfx:StyleBoxFlat BackgroundColor="#222226FF" />
                     </PanelContainer.PanelOverride>
-                    <AnimatedTextureRect Name="StaticSprite"
-                        HorizontalExpand="True"
-                        VerticalExpand="True">
-                        <ui:ResearchesContainerPanel
+                        <goob:ResearchesContainerPanel
                             HorizontalExpand="True"
                             VerticalExpand="True"
                             Name="DragContainer"
                             MouseFilter="Pass"
                             RectClipContent="True">
                             <!-- There lives all of technologies -->
-                        </ui:ResearchesContainerPanel>
-                    </AnimatedTextureRect>
+                        </goob:ResearchesContainerPanel>
                     <Button Name="RecenterButton" Text="{Loc 'research-console-menu-recenter-button'}" MinHeight="40" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5 -5"/>
                 </PanelContainer>
             </BoxContainer>
