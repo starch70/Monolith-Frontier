@@ -16,7 +16,7 @@
   recipeUnlocks:
   - SeismicChargeUSSP
   - TearGasGrenadeUSSP
-  position: 16, -9
+  position: 16, 9
 
 - type: technology
   id: UsspMediumExplosives
@@ -32,4 +32,4 @@
   recipeUnlocks:
   - GrenadeShrapnelUSSP
   - GrenadeIncendiaryUSSP
-  position: 16, -10
+  position: 16, 10

@@ -14,7 +14,7 @@
   cost: 50000
   recipeUnlocks:
   - ProwlerVoucherRogue
-  position: 14, 33
+  position: 14, 23
 
 - type: technology
   id: RogueJaws
@@ -27,7 +27,7 @@
   cost: 15000
   recipeUnlocks:
   - JawsOfLifeRogue
-  position: 15, 32
+  position: 15, 22
 
 - type: technology
   id: RogueHypospray
@@ -40,7 +40,7 @@
   cost: 25000
   recipeUnlocks:
   - HyposprayRogue
-  position: 15, 31
+  position: 15, 21
 
 - type: technology
   id: RogueEmag
@@ -53,7 +53,7 @@
   cost: 25000
   recipeUnlocks:
   - EmagRogue
-  position: 14, 31
+  position: 14, 21
 
 - type: technology
   id: RogueEmag2
@@ -68,7 +68,7 @@
   - AccessBreakerRogue
   technologyPrerequisites:
   - RogueEmag
-  position: 14, 32
+  position: 14, 22
 
 - type: technology
   id: RogueThermals
@@ -81,4 +81,4 @@
   cost: 15000
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
-  position: 14, 30
+  position: 14, 20
