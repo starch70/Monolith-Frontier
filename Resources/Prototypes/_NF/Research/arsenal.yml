@@ -3,9 +3,7 @@
 - type: technology
   id: BountyHunting
   name: research-technology-bounty-hunting
-  icon:
-    sprite: Objects/Weapons/Throwable/bola.rsi
-    state: icon
+  entityIcon: WeaponShotgunKammerer
   discipline: Arsenal
   tier: 1
   cost: 20000
@@ -30,9 +28,7 @@
 - type: technology
   id: MagnetsTechCombat
   name: research-technology-magnets-tech-combat
-  icon:
-    sprite: _NF/Clothing/Shoes/Boots/magboots-security.rsi
-    state: icon
+  entityIcon: ClothingShoesBootsMagSecurity
   discipline: Experimental
   tier: 1
   cost: 15000
@@ -47,9 +43,7 @@
 - type: technology
   id: HardsuitsArmored
   name: research-technology-hardsuits-armored
-  icon:
-    sprite: _NF/Clothing/OuterClothing/Hardsuits/mercenary.rsi
-    state: icon
+  entityIcon: ClothingOuterHardsuitPrivateSecurity
   discipline: Arsenal
   tier: 2
   cost: 25000
@@ -64,9 +58,7 @@
 - type: technology
   id: ArsenalStyle
   name: research-technology-arsenal-style
-  icon:
-    sprite: Objects/Weapons/Melee/katana.rsi
-    state: icon
+  entityIcon: Katana
   discipline: Arsenal
   tier: 2
   cost: 15000
@@ -100,9 +92,7 @@
 - type: technology
   id: HardsuitsArmoredAdvanced
   name: research-technology-hardsuits-armored-advanced
-  icon:
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
-    state: icon
+  entityIcon: ClothingOuterHardsuitScaf
   discipline: Arsenal
   tier: 3
   cost: 50000

@@ -5,9 +5,7 @@
 - type: technology
   id: TsfBasicGuns
   name: research-technology-tsfmc-guns
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/lecter.rsi
-    state: icon
+  entityIcon: WeaponRifleLecter
   discipline: TsfmcWeaponry
   tier: 1
   cost: 20000
@@ -33,9 +31,7 @@
 - type: technology
   id: TsfPracticeAmmo
   name: research-technology-faction-practice-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_practice.rsi
-    state: base
+  entityIcon: AmmoBox68x52mmCaselessPractice
   discipline: TsfmcWeaponry
   tier: 1
   cost: 2000
@@ -56,9 +52,7 @@
 - type: technology
   id: TsfIncendiaryAmmo
   name: research-technology-faction-incendiary-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_incendiary.rsi
-    state: base
+  entityIcon: AmmoBox8x65mmSKRIncendiary
   discipline: TsfmcWeaponry
   tier: 3
   cost: 20000
@@ -80,9 +74,7 @@
 - type: technology
   id: TsfAnnie
   name: research-technology-tsfmc-annie
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/annie.rsi
-    state: icon
+  entityIcon: WeaponRifleAnnie
   discipline: TsfmcWeaponry
   tier: 2
   cost: 15000
@@ -99,9 +91,7 @@
 - type: technology
   id: TsfGrizzly
   name: research-technology-tsfmc-grizzly
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/LMGs/grizzly/Grizzly-icon.rsi
-    state: icon
+  entityIcon: WeaponLMGGrizzly
   discipline: TsfmcWeaponry
   tier: 2
   cost: 40000
@@ -116,9 +106,7 @@
 - type: technology
   id: TsfMarsocGuns
   name: research-technology-tsfmc-mr8
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/mr8c.rsi
-    state: icon
+  entityIcon: WeaponRifleMR8C
   discipline: TsfmcWeaponry
   tier: 3
   cost: 40000 # Raise back to 75k when MR-8B is balanced (never)
@@ -135,9 +123,7 @@
 - type: technology
   id: TsfIcws
   name: research-technology-tsfmc-xlr556
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/xlr556.rsi
-    state: icon
+  entityIcon: WeaponRifleXlr556
   discipline: TsfmcWeaponry
   tier: 3
   cost: 15000

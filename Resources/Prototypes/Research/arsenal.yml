@@ -37,9 +37,7 @@
 - type: technology
   id: SalvageWeapons
   name: research-technology-salvage-weapons
-  icon:
-    sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
-    state: icon
+  entityIcon: WeaponProtoKineticAccelerator
   discipline: Arsenal
   tier: 1
   cost: 25000
@@ -59,9 +57,7 @@
 - type: technology
   id: DraconicMunitions
   name: research-technology-draconic-munitions
-  icon:
-    sprite: Structures/Storage/tanks.rsi
-    state: fueltank
+  entityIcon: AmmoBox9x19mmIncendiary
   discipline: Arsenal
   tier: 2
   cost: 50000
@@ -100,9 +96,7 @@
 - type: technology
   id: WeaponizedLaserManipulation
   name: research-technology-weaponized-laser-manipulation
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
-    state: icon
+  entityIcon: WeaponLaserCarbine
   discipline: Arsenal
   tier: 1
   cost: 15000
@@ -116,9 +110,7 @@
 - type: technology
   id: NonlethalAmmunition
   name: research-technology-nonlethal-ammunition
-  icon:
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
-    state: beanbag
+  entityIcon: WeaponDisabler
   discipline: Arsenal
   tier: 1
   cost: 10000
@@ -132,9 +124,7 @@
 - type: technology
   id: UraniumMunitions
   name: research-technology-uranium-munitions
-  icon:
-    sprite: Objects/Materials/Sheets/other.rsi
-    state: uranium
+  entityIcon: AmmoBox9x19mmUranium
   discipline: Arsenal
   tier: 2
   cost: 25000
@@ -174,9 +164,7 @@
 - type: technology
   id: AdvancedRiotControl
   name: research-technology-advanced-riot-control
-  icon:
-    sprite: Objects/Weapons/Melee/truncheon.rsi
-    state: icon
+  entityIcon: Truncheon
   discipline: Arsenal
   tier: 1
   cost: 16000
@@ -192,9 +180,7 @@
 - type: technology
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
-  icon:
-    sprite: Objects/Devices/payload.rsi
-    state: payload-explosive-armed
+  entityIcon: ExplosivePayload
   discipline: Arsenal
   tier: 1
   cost: 40000
@@ -214,9 +200,7 @@
 - type: technology
   id: SpecialMeans
   name: research-technology-special-means
-  icon:
-    sprite: Clothing/Back/Backpacks/electropack.rsi
-    state: icon
+  entityIcon: ClothingBackpackElectropack
   discipline: Arsenal
   tier: 1
   cost: 15000
@@ -231,9 +215,7 @@
 - type: technology
   id: ConcentratedLaserWeaponry
   name: research-technology-concentrated-laser-weaponry
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
-    state: icon
+  entityIcon: WeaponLaserCannon
   discipline: Arsenal
   tier: 2
   cost: 30000
@@ -247,9 +229,7 @@
 - type: technology
   id: WaveParticleHarnessing
   name: research-technology-wave-particle-harnessing
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
-    state: icon
+  entityIcon: WeaponXrayCannon
   discipline: Arsenal
   tier: 2
   cost: 30000
@@ -263,9 +243,7 @@
 - type: technology
   id: BasicShuttleArmament
   name: research-technology-basic-shuttle-armament
-  icon:
-    sprite: Structures/Power/cage_recharger.rsi
-    state: full
+  entityIcon: PowerCageHigh
   discipline: Arsenal
   tier: 2
   cost: 25000
@@ -291,9 +269,7 @@
 - type: technology
   id: PortableMicrofusionWeaponry
   name: research-technology-portable-microfusion-weaponry
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
-    state: icon
+  entityIcon: WeaponAdvancedLaser
   discipline: Arsenal
   tier: 3
   cost: 25000
@@ -310,9 +286,7 @@
 - type: technology
   id: ExperimentalBatteryAmmo
   name: research-technology-experimental-battery-ammo
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
-    state: icon
+  entityIcon: WeaponLaserSvalinn
   discipline: Arsenal
   tier: 3
   cost: 25000

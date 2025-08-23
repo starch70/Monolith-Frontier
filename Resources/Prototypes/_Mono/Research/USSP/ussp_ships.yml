@@ -7,9 +7,7 @@
 - type: technology
   id: UsspBasicShips
   name: research-technology-ussp-ships-basic
-  icon:
-    sprite: _Mono/Interface/Misc/research_icons_ussp.rsi
-    state: icon-tier1
+  entityIcon: ShipVoucherUSSPBasic
   discipline: UsspShipyard
   tier: 1
   cost: 45000
@@ -20,9 +18,7 @@
 - type: technology
   id: UsspMediumShips
   name: research-technology-ussp-ships-medium
-  icon:
-    sprite: _Mono/Interface/Misc/research_icons_ussp.rsi
-    state: icon-tier2
+  entityIcon: ShipVoucherUSSPIntermediate
   discipline: UsspShipyard
   tier: 2
   cost: 65000
@@ -35,9 +31,7 @@
 - type: technology
   id: UsspAdvancedShips
   name: research-technology-ussp-ships-advanced
-  icon:
-    sprite: _Mono/Interface/Misc/research_icons_ussp.rsi
-    state: icon-tier3
+  entityIcon: ShipVoucherUSSPAdvanced
   discipline: UsspShipyard
   tier: 3
   cost: 95000
@@ -50,9 +44,7 @@
 - type: technology
   id: UsspLedokol
   name: research-technology-ussp-ships-ledokol
-  icon:
-    sprite: _Mono/Interface/Misc/research_icons_ussp.rsi
-    state: icon-tier4
+  entityIcon: ShipVoucherUSSPLedokol
   discipline: UsspShipyard
   tier: 3
   cost: 100000

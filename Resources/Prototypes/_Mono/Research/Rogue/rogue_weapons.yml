@@ -7,9 +7,7 @@
 - type: technology
   id: RogueEdagger
   name: research-technology-rogue-energy-dagger
-  icon:
-    sprite: Objects/Weapons/Melee/e_dagger_loud.rsi
-    state: icon
+  entityIcon: EnergyDaggerLoud
   discipline: RogueWeaponry
   tier: 1
   cost: 25000
@@ -22,9 +20,7 @@
 - type: technology
   id: RoguePracticeAmmo
   name: research-technology-faction-practice-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_practice.rsi
-    state: base
+  entityIcon: AmmoBox7.62x51mmPractice
   discipline: RogueWeaponry
   tier: 1
   cost: 2000
@@ -48,9 +44,7 @@
 - type: technology
   id: RogueIncendiaryAmmo
   name: research-technology-faction-incendiary-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_incendiary.rsi
-    state: base
+  entityIcon: AmmoBox7.62x51mmIncendiary
   discipline: RogueWeaponry
   tier: 3
   cost: 20000
@@ -77,9 +71,7 @@
 - type: technology
   id: RogueEsword
   name: research-technology-rogue-energy-weapon
-  icon:
-    sprite: Objects/Weapons/Melee/e_sword.rsi
-    state: icon
+  entityIcon: EnergySword
   discipline: RogueWeaponry
   tier: 3
   cost: 75000
@@ -94,9 +86,7 @@
 - type: technology
   id: HFSwordTech
   name: research-technology-rogue-hf-sword
-  icon:
-    sprite: _Mono/Objects/Weapons/Melee/murasama.rsi
-    state: icon
+  entityIcon: WeaponVT7
   discipline: RogueWeaponry
   tier: 3
   cost: 85000
@@ -109,9 +99,7 @@
 - type: technology
   id: RogueBasicGuns
   name: research-technology-rogue-basic-guns
-  icon:
-    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
-    state: icon
+  entityIcon: WeaponSubMachineGunC20r
   discipline: RogueWeaponry
   tier: 1
   cost: 30000
@@ -129,9 +117,7 @@
 - type: technology
   id: RogueAdvancedGuns
   name: research-technology-rogue-advanced-guns
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/m90.rsi
-    state: icon
+  entityIcon: WeaponRifleM90
   discipline: RogueWeaponry
   tier: 2
   cost: 55000
@@ -152,9 +138,7 @@
 - type: technology
   id: RogueCQCGuns
   name: research-technology-rogue-cqc-guns
-  icon:
-    sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
-    state: icon
+  entityIcon: WeaponShotgunBulldog
   discipline: RogueWeaponry
   tier: 2
   cost: 65000
@@ -176,9 +160,7 @@
 - type: technology
   id: RogueHristov
   name: research-technology-rogue-hristov
-  icon:
-    sprite: Objects/Weapons/Guns/Snipers/hristov.rsi
-    state: base
+  entityIcon: WeaponSniperHristov
   discipline: RogueWeaponry
   tier: 3
   cost: 35000
@@ -193,9 +175,7 @@
 - type: technology
   id: RogueSubsonic
   name: research-technology-rogue-subsonic
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
-    state: icon
+  entityIcon: WeaponSubMachineGunMla73
   discipline: RogueWeaponry
   tier: 2
   cost: 35000

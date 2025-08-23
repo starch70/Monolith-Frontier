@@ -1,9 +1,7 @@
 - type: technology
   id: ModsuitsTech
   name: research-technology-modsuits
-  icon:
-    sprite: _Goobstation/Objects/Specific/Robotics/modsuit_parts.rsi
-    state: mod-core-standard
+  entityIcon: ModsuitCoreStandard
   discipline: Experimental
   tier: 2 # Mono
   cost: 75000 # Mono

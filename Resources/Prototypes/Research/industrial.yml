@@ -35,9 +35,7 @@
 - type: technology
   id: SalvageEquipment
   name: research-technology-salvage-equipment
-  icon:
-    sprite: Objects/Tools/handdrill.rsi
-    state: handdrill
+  entityIcon: MiningDrill
   discipline: Industrial
   tier: 1
   cost: 10000
@@ -53,9 +51,7 @@
 - type: technology
   id: SpaceScanning
   name: research-technology-space-scanning
-  icon:
-    sprite: Objects/Tools/handheld_mass_scanner.rsi
-    state: icon
+  entityIcon: HandHeldMassScanner
   discipline: Industrial
   tier: 1
   cost: 15000
@@ -68,9 +64,7 @@
 - type: technology
   id: AdvancedPowercells
   name: research-technology-advanced-powercells
-  icon:
-    sprite: Structures/Power/turbo_recharger.rsi
-    state: empty
+  entityIcon: PowerCellHigh
   discipline: Industrial
   tier: 1
   cost: 25000
@@ -85,9 +79,7 @@
 - type: technology
   id: MechanicalCompression
   name: research-technology-mechanical-compression
-  icon:
-    sprite: Structures/Machines/flatpacker.rsi
-    state: base
+  entityIcon: MachineFlatpacker
   discipline: Industrial
   tier: 1
   cost: 30000
@@ -100,9 +92,7 @@
 - type: technology
   id: IndustrialEngineering
   name: research-technology-industrial-engineering
-  icon:
-    sprite: Structures/Machines/protolathe_hypercon.rsi
-    state: building
+  entityIcon: LatheUpgradeKitHyper
   discipline: Industrial
   tier: 1
   cost: 40000
@@ -131,9 +121,7 @@
 - type: technology
   id: PowerGeneration
   name: research-technology-power-generation
-  icon:
-    sprite: Structures/Power/Generation/portable_generator.rsi
-    state: portgen0
+  entityIcon: PortableGeneratorPacman
   discipline: Industrial
   tier: 1
   cost: 25000
@@ -152,9 +140,7 @@
 - type: technology
   id: AtmosphericTech
   name: research-technology-atmospheric-tech
-  icon:
-    sprite: Structures/Piping/Atmospherics/thermomachine.rsi
-    state: freezerOff
+  entityIcon: GasThermoMachineFreezerEnabled
   discipline: Industrial
   tier: 1
   cost: 8500
@@ -170,9 +156,7 @@
 - type: technology
   id: Shuttlecraft
   name: research-technology-shuttlecraft
-  icon:
-    sprite: Structures/Shuttles/gyroscope.rsi
-    state: base
+  entityIcon: Thruster
   discipline: Industrial
   tier: 2
   cost: 30000
@@ -191,9 +175,7 @@
 - type: technology
   id: AdvancedAtmospherics
   name: research-technology-advanced-atmospherics
-  icon:
-    sprite: Objects/Devices/Holoprojectors/atmos.rsi
-    state: icon
+  entityIcon: Crystallizer
   discipline: Industrial
   tier: 2
   cost: 25000
@@ -210,9 +192,7 @@
 - type: technology
   id: AdvancedToolsTechnology
   name: research-technology-advanced-tools
-  icon:
-    sprite: Objects/Tools/welder_experimental.rsi
-    state: icon
+  entityIcon: WelderExperimental
   discipline: Industrial
   tier: 2
   cost: 75000
@@ -235,9 +215,7 @@
 - type: technology
   id: MassExcavation
   name: research-technology-excavation
-  icon:
-    sprite: Objects/Tools/handdrilldiamond.rsi
-    state: handdrill
+  entityIcon: MiningDrillDiamond
   discipline: Industrial
   tier: 2
   cost: 50000
@@ -278,9 +256,7 @@
 - type: technology
   id: PortableFission
   name: research-technology-portable-fission
-  icon:
-    sprite: Objects/Power/power_cells.rsi
-    state: microreactor
+  entityIcon: PowerCellMicroreactor
   discipline: Industrial
   tier: 3
   cost: 80000
@@ -297,9 +273,7 @@
 - type: technology
   id: RapidConstruction
   name: research-technology-rapid-construction
-  icon:
-    sprite: _NF/Objects/Tools/rcd.rsi
-    state: icon # Mono
+  entityIcon: RCD
   discipline: Industrial
   tier: 2
   cost: 60000

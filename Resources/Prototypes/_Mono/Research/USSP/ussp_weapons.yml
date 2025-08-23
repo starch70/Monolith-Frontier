@@ -7,9 +7,7 @@
 - type: technology
   id: UsspBasicGuns
   name: research-technology-ussp-guns-basic
-  icon:
-    sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
-    state: base
+  entityIcon: WeaponSubMachineGunAK220
   discipline: UsspWeapons
   tier: 1
   cost: 20000
@@ -28,9 +26,7 @@
 - type: technology
   id: UsspPracticeAmmo
   name: research-technology-faction-practice-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_practice.rsi
-    state: base
+  entityIcon: AmmoBox7.62x39mmPractice
   discipline: UsspWeapons
   tier: 1
   cost: 2000
@@ -48,9 +44,7 @@
 - type: technology
   id: UsspIncendiaryAmmo
   name: research-technology-faction-incendiary-ammo
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/8x65mm_incendiary.rsi
-    state: base
+  entityIcon: AmmoBox7.62x39mmIncendiary
   discipline: UsspWeapons
   tier: 3
   cost: 20000
@@ -71,9 +65,7 @@
 - type: technology
   id: UsspMediumGuns
   name: research-technology-ussp-guns-medium
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Rifles/ak502.rsi
-    state: icon
+  entityIcon: WeaponRifleAK502
   discipline: UsspWeapons
   tier: 2
   cost: 35000
@@ -92,25 +84,20 @@
 - type: technology
   id: UsspAk410
   name: research-technology-ussp-guns-ak410
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Snipers/ak410.rsi
-    state: icon
+  entityIcon: WeaponRifleAK410
   discipline: UsspWeapons
   tier: 2
   cost: 25000
   recipeUnlocks:
   - WeaponRifleAK410USSP
   technologyPrerequisites:
-  - UsspBasicGuns
   - UsspMediumGuns
   position: 13, 10
 
 - type: technology
   id: UsspAdvancedGuns
   name: research-technology-ussp-guns-advanced
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/LMGs/dp29.rsi
-    state: icon
+  entityIcon: WeaponDP29
   discipline: UsspWeapons
   tier: 3
   cost: 80000
@@ -129,9 +116,7 @@
 - type: technology
   id: UsspAdvancedAmmo
   name: research-technology-ussp-ammo-advanced
-  icon:
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.rsi
-    state: base
+  entityIcon: AmmoBox45_magnumAP
   discipline: UsspWeapons
   tier: 3
   cost: 30000

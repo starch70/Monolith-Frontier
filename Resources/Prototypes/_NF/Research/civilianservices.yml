@@ -11,9 +11,7 @@
 - type: technology
   id: FoodService
   name: research-technology-food-service
-  icon:
-    sprite: Structures/Machines/juicer.rsi
-    state: juicer1
+  entityIcon: KitchenReagentGrinder
   discipline: CivilianServices
   tier: 1
   cost: 15000
@@ -28,9 +26,7 @@
 - type: technology
   id: MiscellaneousItemsOrganization
   name: research-technology-personal-storage-solutions
-  icon:
-    sprite: _NF/Objects/Storage/Pouches/pouch.rsi
-    state: closed
+  entityIcon: NFPouchContractor
   discipline: CivilianServices
   tier: 1
   cost: 15000
@@ -60,9 +56,7 @@
 - type: technology
   id: ChemicalDispensary
   name: research-technology-chemical-dispensary
-  icon:
-    sprite: Structures/dispensers.rsi
-    state: industrial-working
+  entityIcon: ChemDispenser
   discipline: CivilianServices
   tier: 2
   cost: 30000
@@ -76,9 +70,7 @@
 - type: technology
   id: IndustrialMedicine
   name: research-technology-industrial-medicine
-  icon:
-    sprite: _NF/Structures/Machines/medical_assembler.rsi
-    state: icon
+  entityIcon: MedicalAssembler
   discipline: CivilianServices
   tier: 2
   cost: 25000
@@ -90,9 +82,7 @@
 - type: technology
   id: AdvancedPersonalPropulsion
   name: research-technology-advanced-personal-propulsion
-  icon:
-    sprite: Objects/Tanks/Jetpacks/void.rsi
-    state: icon
+  entityIcon: JetpackVoid
   discipline: CivilianServices
   tier: 2 # 3->2 - Mono
   cost: 65000
@@ -105,9 +95,7 @@
 - type: technology
   id: AdvancedFoodService
   name: research-technology-advanced-food-service
-  icon:
-    sprite: _NF/Structures/Machines/oven.rsi
-    state: composite_off
+  entityIcon: KitchenDeepFryer
   discipline: CivilianServices
   tier: 2
   cost: 15000
@@ -123,9 +111,7 @@
 - type: technology
   id: MobileSanitation
   name: research-technology-mobile-sanitation
-  icon:
-    sprite: Objects/Vehicles/janicart.rsi
-    state: icon
+  entityIcon: NFVehicleJanicart
   discipline: CivilianServices
   tier: 2
   cost: 5000

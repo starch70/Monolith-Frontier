@@ -1,9 +1,7 @@
 - type: technology
   id: TsfMaterialResearchT1
   name: research-technology-tsfmc-matsci-1
-  icon:
-    sprite: /Textures/Objects/Materials/Sheets/metal.rsi
-    state: steel_2
+  entityIcon: SheetSteel
   discipline: TsfmcGear
   tier: 1
   cost: 100000
@@ -15,9 +13,7 @@
 - type: technology
   id: TsfMaterialResearchT2
   name: research-technology-tsfmc-matsci-2
-  icon:
-    sprite: /Textures/_Mono/Objects/Materials/plastitanium.rsi
-    state: plastitanium_2
+  entityIcon: SheetPlastitanium
   discipline: TsfmcGear
   tier: 2
   cost: 150000

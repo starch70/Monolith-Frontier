@@ -8,9 +8,7 @@
 - type: technology
   id: ShuttleArmamentComponentsResearch
   name: research-technology-shuttle-armaments-components
-  icon:
-    sprite: _Mono/Structures/ShuttleComponents/shield.rsi
-    state: control
+  entityIcon: ShieldGeneratorSmall
   discipline: Arsenal
   tier: 3
   cost: 50000
@@ -28,9 +26,7 @@
 - type: technology
   id: ShuttleRadarResearch
   name: research-technology-shuttle-radar-components
-  icon:
-    sprite: Structures/Shuttles/iff.rsi
-    state: helm
+  entityIcon: ComputerAdvancedRadar
   discipline: CivilianServices
   tier: 3
   cost: 80000
@@ -44,9 +40,7 @@
 - type: technology
   id: ShuttleCtla25DriveResearch
   name: research-technology-bluespace-drive-ctla25
-  icon:
-    sprite: _Mono/Structures/ShuttleComponents/drive.rsi
-    state: control
+  entityIcon: MachineFTLDrive
   discipline: Experimental
   tier: 2
   cost: 50000
@@ -59,9 +53,7 @@
 - type: technology
   id: ShuttleCtlaAdvancedDriveResearch
   name: research-technology-bluespace-drive-ctla-advanced
-  icon:
-    sprite: _Mono/Structures/ShuttleComponents/drive.rsi
-    state: control
+  entityIcon: MachineFTLDrive50
   discipline: Experimental
   tier: 3
   cost: 75000

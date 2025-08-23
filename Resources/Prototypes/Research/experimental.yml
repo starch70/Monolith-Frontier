@@ -26,9 +26,7 @@
 - type: technology
   id: BasicRobotics
   name: research-technology-basic-robotics
-  icon:
-    sprite: Structures/Machines/exosuit_fabricator.rsi
-    state: fab-idle
+  entityIcon: ExosuitFabricator
   discipline: Experimental
   tier: 1
   cost: 15000
@@ -39,9 +37,7 @@
 - type: technology
   id: BasicAnomalousResearch
   name: research-technology-basic-anomalous-research
-  icon:
-    sprite: Objects/Specific/Research/anomalyscanner.rsi
-    state: icon
+  entityIcon: AnomalyScanner
   discipline: Experimental
   tier: 1
   cost: 25000
@@ -57,9 +53,7 @@
 - type: technology
   id: BasicXenoArcheology
   name: research-technology-basic-xenoarcheology
-  icon:
-    sprite: Structures/Machines/artifact_analyzer.rsi
-    state: display
+  entityIcon: MachineArtifactAnalyzer
   discipline: Experimental
   tier: 1
   cost: 15000
@@ -87,9 +81,7 @@
 - type: technology
   id: MagnetsTech
   name: research-technology-magnets-tech
-  icon:
-    sprite: Clothing/Shoes/Boots/magboots-science.rsi
-    state: icon
+  entityIcon: ClothingShoesBootsMagSci
   discipline: Experimental
   tier: 1
   cost: 22500
@@ -101,9 +93,7 @@
 - type: technology
   id: AnomalyCoreHarnessing
   name: research-technology-anomaly-harnessing
-  icon:
-    sprite: Objects/Weapons/Melee/gorilla.rsi
-    state: icon
+  entityIcon: WeaponGauntletGorilla
   discipline: Experimental
   tier: 1
   cost: 15000
@@ -119,9 +109,7 @@
 - type: technology
   id: AdvancedParts
   name: research-technology-advanced-parts
-  icon:
-    sprite: _NF/Objects/Misc/stock_parts.rsi # Frontier
-    state: advanced_matter_bin
+  entityIcon: AdvancedCapacitorStockPart
   discipline: Experimental
   tier: 2
   cost: 40000
@@ -134,9 +122,7 @@
 - type: technology
   id: AbnormalArtifactManipulation
   name: research-technology-abnormal-artifact-manipulation
-  icon:
-    sprite: Structures/Machines/artifact_crusher.rsi
-    state: icon
+  entityIcon: MachineArtifactCrusher
   discipline: Experimental
   tier: 2
   cost: 25000
@@ -150,9 +136,7 @@
 - type: technology
   id: AdvancedAnomalyResearch
   name: research-technology-advanced-anomaly-research
-  icon:
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
-    state: base
+  entityIcon: WeaponPistolCHIMP
   discipline: Experimental
   tier: 2
   cost: 25000
@@ -168,9 +152,7 @@
 - type: technology
   id: DeterrenceTechnologies
   name: research-technology-deterrence
-  icon:
-    sprite: Objects/Devices/Holoprojectors/field.rsi # Frontier particle_decelerator.rsi<field.rsi
-    state: icon # Frontier base<icon
+  entityIcon: HoloprojectorField
   discipline: Experimental
   tier: 2
   cost: 75000
@@ -184,9 +166,7 @@
 - type: technology
   id: AiTechnology
   name: research-technology-ai
-  icon:
-    sprite: Mobs/Silicon/station_ai.rsi
-    state: ai
+  entityIcon: PlayerStationAiEmpty
   discipline: Experimental
   tier: 2
   cost: 100000
