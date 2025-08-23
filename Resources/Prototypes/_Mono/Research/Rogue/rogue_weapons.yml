@@ -16,8 +16,8 @@
   recipeUnlocks:
   - EnergyDaggerRogue
   technologyPrerequisites:
-  - RogueBasicGuns
-  position: 18, 15
+  - RogueEngineeringResearchT1
+  position: 17, 16
 
 - type: technology
   id: RoguePracticeAmmo
@@ -43,7 +43,7 @@
   - AmmoBox4.6x30mmPractice
   - Magazine12_gaugePractice
   - AmmoBox12_gaugePractice
-  position: 16, 16
+  position: 16, 15
 
 - type: technology
   id: RogueIncendiaryAmmo
@@ -70,8 +70,9 @@
   - Magazine12_gaugeIncendiary
   - AmmoBox12_gaugeIncendiary
   technologyPrerequisites:
-  - RogueEsword
-  position: 16, 15
+  - RoguePracticeAmmo
+  - RogueEngineeringResearchT2
+  position: 16, 17
 
 - type: technology
   id: RogueEsword
@@ -87,8 +88,8 @@
   - EnergySwordRogue
   technologyPrerequisites:
   - RogueEdagger
-  - RogueSyndicateTacsuits
-  position: 17, 15
+  - RogueEngineeringResearchT2
+  position: 17, 18
 
 - type: technology
   id: HFSwordTech
@@ -103,7 +104,7 @@
   - HFSwordVT7
   technologyPrerequisites:
   - RogueEsword
-  position: 16, 14
+  position: 17, 20
 
 - type: technology
   id: RogueBasicGuns
@@ -123,7 +124,7 @@
   - Magazine9x19mmSubMachineGunFMJ
   - Magazine9x19mmSubMachineGunEmpty
   - AmmoBox9x19mmFMJ
-  position: 18, 16
+  position: 18, 17
 
 - type: technology
   id: RogueAdvancedGuns
@@ -145,7 +146,8 @@
   - AmmoBox4.6x30mmFMJ
   technologyPrerequisites:
   - RogueBasicGuns
-  position: 18, 17
+  - RogueEngineeringResearchT1
+  position: 18, 19
 
 - type: technology
   id: RogueCQCGuns
@@ -168,9 +170,8 @@
   - AmmoBox12_gaugeBuckshot
   - AmmoBox12_gaugeSlug
   technologyPrerequisites:
-  - RogueBasicGuns
-  - RogueSyndicateTacsuits
-  position: 19, 17
+  - RogueAdvancedGuns
+  position: 19, 18
 
 - type: technology
   id: RogueHristov
@@ -186,8 +187,8 @@
   - AmmoBox145x114mmBig
   technologyPrerequisites:
   - RogueAdvancedGuns
-  - RogueSyndicateTacsuits
-  position: 18, 18
+  - RogueEngineeringResearchT2
+  position: 18, 20
 
 - type: technology
   id: RogueSubsonic
@@ -206,5 +207,5 @@
   - Magazine635x40mmCaseless
   - AmmoBox635x40mmCaseless
   technologyPrerequisites:
-  - RogueAdvancedGuns
-  position: 19, 18
+  - RogueCQCGuns
+  position: 19, 19

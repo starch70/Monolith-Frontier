@@ -17,7 +17,8 @@
   technologyPrerequisites:
   - RogueStealthsuit
   - RogueEmag
-  position: 14, 20
+  - RogueEngineeringResearchT2
+  position: 14, 21
 
 - type: technology
   id: RogueJaws
@@ -31,8 +32,8 @@
   recipeUnlocks:
   - JawsOfLifeRogue
   technologyPrerequisites:
-  - RogueSyndicateTacsuits
-  position: 11, 19
+  - RogueEngineeringResearchT1
+  position: 13, 17
 
 - type: technology
   id: RogueHypospray
@@ -46,8 +47,8 @@
   recipeUnlocks:
   - HyposprayRogue
   technologyPrerequisites:
-  - RogueSyndicateTacsuits
-  position: 11, 18
+  - RogueEngineeringResearchT1
+  position: 12, 17
 
 - type: technology
   id: RogueEmag
@@ -62,7 +63,7 @@
   - EmagRogue
   technologyPrerequisites:
   - RogueAdvancedEquipment
-  position: 13, 16
+  position: 12, 18
 
 - type: technology
   id: RogueEmag2
@@ -77,8 +78,8 @@
   - AccessBreakerRogue
   technologyPrerequisites:
   - RogueEmag
-  - RogueSyndicateTacsuitsT3
-  position: 12, 17
+  - RogueEngineeringResearchT2
+  position: 11, 18
 
 - type: technology
   id: RogueThermals
@@ -93,4 +94,4 @@
   - ClothingEyesThermalVisionGoggles
   technologyPrerequisites:
   - RogueBasicEquipment
-  position: 11, 15
+  position: 16, 18
