@@ -15,7 +15,7 @@
             <EntityPrototypeView
                 Name="ResearchDisplay"
                 Scale="1.75 1.75"
-                SetSize="50 50">
+                SetSize="56 56">
             </EntityPrototypeView> <!-- Frontier: "2" < "1.75", "64 64" < "56 56" -->
         </PanelContainer>
     </BoxContainer>
