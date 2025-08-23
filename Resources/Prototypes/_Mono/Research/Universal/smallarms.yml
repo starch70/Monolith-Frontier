@@ -1,0 +1,66 @@
+- type: technology
+  id: UniversalSteelCore
+  name: research-technology-universal-ap-steel
+  icon:
+    sprite: /Textures/Objects/Materials/Sheets/metal.rsi
+    state: steel_2
+  discipline: FactionUniversal
+  tier: 1
+  cost: 30000
+  technologyPrerequisites:
+  - UniversalBallisticSci1
+  position: 6, 8
+
+- type: technology
+  id: UniversalPlastitaniumCore
+  name: research-technology-universal-ap-plastitanium
+  icon:
+    sprite: /Textures/_Mono/Objects/Materials/plastitanium.rsi
+    state: plastitanium_2
+  discipline: FactionUniversal
+  tier: 2
+  cost: 50000
+  technologyPrerequisites:
+  - UniversalSteelCore
+  position: 6, 7
+
+- type: technology
+  id: UniversalSynthalloyCore
+  name: research-technology-universal-ap-synthalloy
+  icon:
+    sprite: _Mono/Objects/Materials/synthalloy.rsi
+    state: synthalloy
+  discipline: FactionUniversal
+  tier: 3
+  cost: 80000
+  technologyPrerequisites:
+  - UniversalPlastitaniumCore
+  - UniversalBallisticSci2
+  position: 6, 6
+
+- type: technology
+  id: UniversalHollowPoint
+  name: research-technology-universal-ap-hp
+  icon:
+    sprite: /Textures/_Mono/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.rsi
+    state: base
+  discipline: FactionUniversal
+  tier: 1
+  cost: 30000
+  technologyPrerequisites:
+  - UniversalBallisticSci1
+  position: 8, 7
+
+- type: technology
+  id: UniversalRIP
+  name: research-technology-universal-ap-rip
+  icon:
+    sprite: /Textures/_Mono/Objects/Weapons/Guns/Ammunition/Boxes/14.5x114mm.rsi
+    state: base
+  discipline: FactionUniversal
+  tier: 2
+  cost: 50000
+  technologyPrerequisites:
+  - UniversalHollowPoint
+  - UniversalBallisticSci2
+  position: 8, 6

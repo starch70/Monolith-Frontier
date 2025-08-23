@@ -8,9 +8,6 @@ research-technology-tsfmc-advanced-equipment = Advanced TSFMC Equipment
 research-technology-tsfmc-experimental-equipment = Experimental TSFMC Equipment
 research-technology-tsfmc-mopp-equipment = Chemical Protection Gear
 
-research-technology-tsfmc-matsci-1 = Basic Material Research
-research-technology-tsfmc-matsci-2 = Advanced Material Research
-
 # T1 TSFMC
 research-technology-tsfmc-guns = Ballistics Production
 research-technology-tsfmc-forensics = Forensics Analysis
