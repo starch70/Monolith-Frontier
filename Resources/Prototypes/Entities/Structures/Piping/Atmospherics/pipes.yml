@@ -103,11 +103,11 @@
     bodyType: static
   - type: StaticPrice
     price: 12 # Frontier: 30<12
-  - type: AmbientSound # Mono
-    volume: -8
-    range: 1 # we don't want you hearing pipes in walls since they aren't covered like ones under tile
-    sound:
-      path: /Audio/_Mono/Effects/Ambience/airflow.ogg
+  #- type: AmbientSound # Mono
+  #  volume: -8
+  #  range: 1 # we don't want you hearing pipes in walls since they aren't covered like ones under tile
+  #  sound:
+  #    path: /Audio/_Mono/Effects/Ambience/airflow.ogg
 
 - type: entity
   abstract: true
