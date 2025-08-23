@@ -153,6 +153,11 @@
     - FootstepSound
     - Clarke
     - CivilianMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechClarkeBattery
@@ -228,6 +233,11 @@
     - FootstepSound
     - Gygax
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechGygaxBattery
@@ -295,6 +305,11 @@
     - FootstepSound
     - Durand
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechDurandBattery
@@ -364,6 +379,11 @@
     - DoorBumpOpener
     - FootstepSound
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechMarauderBattery
@@ -443,6 +463,11 @@
     - DoorBumpOpener
     - FootstepSound
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechSeraphBattery
@@ -525,6 +550,11 @@
     - DoorBumpOpener
     - FootstepSound
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechGygaxSyndieBattery
@@ -603,6 +633,11 @@
     - DoorBumpOpener
     - FootstepSound
     - MilitaryMechBounty # Mono
+  - type: RadarBlip # Mono
+    radarColor: "#E3E3E3"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
 
 - type: entity
   id: MechMaulerSyndieBattery
