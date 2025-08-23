@@ -1,28 +1,20 @@
 <Control xmlns="https://spacestation14.io"
          xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:customControls="clr-namespace:Content.Client.Administration.UI.CustomControls;assembly=Content.Client"
-         Margin="0"
-         MinWidth="400"
-         SetWidth="400"
+         Margin="5"
+         MinWidth="450"
          VerticalExpand="True"
          HorizontalExpand="True">
     <BoxContainer Orientation="Vertical"
-                  VerticalExpand="True"
-                  HorizontalExpand="True">
-    <PanelContainer Name="ResearchesContainer" VerticalExpand="True" HorizontalExpand="True">
-        <PanelContainer.PanelOverride>
-            <gfx:StyleBoxFlat BackgroundColor="#191919" />
-        </PanelContainer.PanelOverride>
-    <BoxContainer Orientation="Vertical"
-            VerticalExpand="False"
-            HorizontalExpand="False">
+            VerticalExpand="True"
+            HorizontalExpand="True">
         <BoxContainer
             Name="InfoContainer"
             Orientation="Vertical"
             VerticalExpand="True"
-            HorizontalExpand="False"
+            HorizontalExpand="True"
             Margin="5"
-            SizeFlagsStretchRatio="1">
+            SizeFlagsStretchRatio="3">
             <BoxContainer Orientation="Horizontal"
                     HorizontalExpand="True">
                 <BoxContainer Orientation="Horizontal"
@@ -32,13 +24,13 @@
                             TextureScale="7 7"
                             VerticalAlignment="Center"
                             Margin="4"/>
-                    <TextureRect Name="TechnologyTexture"
-                                 TextureScale="2 2"
+                    <EntityPrototypeView Name="TechnologyTexture"
+                                 Scale="2 2"
                                  VerticalAlignment="Center"
                                  Margin="4"/>
                 </BoxContainer>
                 <Control HorizontalExpand="True"
-                         SizeFlagsStretchRatio="1"/>
+                         SizeFlagsStretchRatio="2"/>
             </BoxContainer>
             <Label Name="TechnologyNameLabel"
                     StyleClasses="LabelKeyText"
@@ -51,19 +43,17 @@
                     Margin="0 4"/>
         </BoxContainer>
         <Control SizeFlagsStretchRatio="1"
-                 HorizontalExpand="False"/>
+                 HorizontalExpand="True"/>
         <BoxContainer
             Orientation="Vertical"
             VerticalExpand="True"
             Margin="5"
             SizeFlagsStretchRatio="5">
-            <RichTextLabel Name="NoPrereqLabel" HorizontalAlignment="Center" Text="{Loc 'research-console-no-tech-requirements'}" Visible="True"/>
             <BoxContainer Name="PrereqsContainer"
                           Orientation="Vertical"
                           VerticalExpand="True"
                           Margin="5"
-                          SizeFlagsStretchRatio="1"
-                          Visible="False">
+                          SizeFlagsStretchRatio="1"> <!-- Frontier: remove Visible-->
                 <Label Text="{Loc 'research-console-required-text'}"
                         HorizontalAlignment="Center"/>
                 <customControls:HSeparator StyleClasses="LowDivider"
@@ -80,6 +70,9 @@
                             Name="RequiredTechContainer"
                             Orientation="Vertical"
                             VerticalExpand="True">
+                            <!-- Frontier: move NoPrereqLabel into RequiredTechContainer-->
+                            <RichTextLabel Name="NoPrereqLabel" HorizontalAlignment="Center" Text="{Loc 'research-console-no-tech-requirements'}" Visible="True"/>
+                            <!-- End Frontier: move NoPrereqLabel into RequiredTechContainer-->
                         </BoxContainer>
                     </ScrollContainer>
                 </PanelContainer>
@@ -111,7 +104,5 @@
                 </PanelContainer>
             </BoxContainer>
         </BoxContainer>
-    </BoxContainer>
-    </PanelContainer>
     </BoxContainer>
 </Control>

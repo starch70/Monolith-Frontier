@@ -1,13 +1,7 @@
-// SPDX-FileCopyrightText: 2025 gluesniffler
-// SPDX-FileCopyrightText: 2025 starch
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
-using System.Linq;
 using System.Numerics;
+using Content.Client.Parallax; // Frontier: Parallax control for the background
 using Content.Client.Research;
 using Content.Client.UserInterface.Controls;
-using Content.Client._Goobstation.Research.UI;
 using Content.Shared._Goobstation.Research;
 using Content.Shared.Access.Systems;
 using Content.Shared.Research.Components;
@@ -45,12 +39,12 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
 
     /// <summary>
     /// Currently selected tech
-    /// Exsists for better UI refreshing
+    /// Exists for better UI refreshing
     /// </summary>
     public ProtoId<TechnologyPrototype>? CurrentTech;
 
     /// <summary>
-    /// All technologies and their availablity
+    /// All technologies and their availability
     /// </summary>
     public Dictionary<string, ResearchAvailability> List = new();
 
@@ -68,11 +62,38 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
     /// Global position that all tech relates to.
     /// For dragging mostly
     /// </summary>
-    private Vector2 _position = new Vector2(45, 250);
-    private float _zoom = 1f;
-    private const float MinZoom = 0.15f;
-    private const float MaxZoom = 3f;
-    private const float ZoomSpeed = 0.125f;
+    private Vector2 _position = DefaultPosition;
+
+    /// <summary>
+    /// Captures the initial position to use with recenter button
+    /// </summary>
+    private Vector2 _initialViewPosition;
+
+    /// <summary>
+    /// Tracks if first initialization has happened
+    /// </summary>
+    private bool _firstInitialization = true;
+
+    /// <summary>
+    /// Frontier: the distance between elements on the grid.
+    /// </summary>
+    private const int GridSize = 90;
+
+    /// <summary>
+    /// Frontier: technology cards size.
+    /// </summary>
+    private const int CardSize = 64;
+
+    /// <summary>
+    /// Frontier: the distance between elements on the grid.
+    /// </summary>
+    private static readonly Vector2i DefaultPosition = Vector2i.Zero; //Frontier: 45,250 < 0,0
+
+    private Box2i _bounds = new(DefaultPosition, DefaultPosition);
+
+    private ParallaxControl _parallaxControl; // Frontier: Parallax control for the background
+
+    private float _verticalScrollSpeed = 50; // Frontier: Allow mouse scroll
 
     public FancyResearchConsoleMenu()
     {
@@ -82,13 +103,35 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
         _sprite = _entity.System<SpriteSystem>();
         _accessReader = _entity.System<AccessReaderSystem>();
 
+        // Frontier: Initialize parallax background
+        _parallaxControl = new ParallaxControl
+        {
+            ParallaxPrototype = "Default",
+            HorizontalExpand = true,
+            VerticalExpand = true,
+        };
+
+        // Add the parallax control to the ResearchesContainer at the beginning (bottom layer)
+        ResearchesContainer.AddChild(_parallaxControl);
+
+        // Set the proper rendering order by adjusting positions in the parent's child list
+        // Controls with a higher position value are drawn on top (foreground)
+        // Make sure the parallax is at the bottom of the z-order (drawn first)
+        _parallaxControl.SetPositionInParent(0);
+
+        // The drag container should be in the middle
+        DragContainer.SetPositionInParent(1);
+
+        // The recenter button should be at the top of the z-order (drawn last)
+        RecenterButton.SetPositionInParent(2);
+
         ServerButton.OnPressed += _ => OnServerButtonPressed?.Invoke();
         DragContainer.OnKeyBindDown += OnKeybindDown;
         DragContainer.OnKeyBindUp += OnKeybindUp;
         RecenterButton.OnPressed += _ => Recenter();
 
+        // Empty initialization
         UpdatePanels(List);
-        Recenter();
     }
 
     public void SetEntity(EntityUid entity)
@@ -98,6 +141,44 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
     {
         DragContainer.RemoveAllChildren();
         List = dict;
+        var bounds = new Box2i(); // Frontier
+        var boundsSet = false; // Frontier
+
+        // Frontier: generate bounding box, ensure position is within bounds
+        foreach (var tech in List)
+        {
+            var proto = _prototype.Index<TechnologyPrototype>(tech.Key);
+            var position = DefaultPosition + (GridSize * proto.Position.X, GridSize * -proto.Position.Y); // Invert Y: higher coordinates are lower on the grid
+            if (!boundsSet)
+            {
+                bounds.BottomLeft = position;
+                bounds.TopRight = position;
+                boundsSet = true;
+            }
+            else
+            {
+                bounds.Left = int.Min(position.X, bounds.Left);
+                bounds.Bottom = int.Min(position.Y, bounds.Bottom);
+                bounds.Right = int.Max(position.X, bounds.Right);
+                bounds.Top = int.Max(position.Y, bounds.Top);
+            }
+        }
+
+        if (boundsSet)
+        {
+            _bounds = bounds;
+
+            // First-time initialization
+            if (_firstInitialization)
+            {
+                _position = DefaultPosition;
+                ClampPosition(ref _position);
+
+                // Store the initial position for recenter
+                _initialViewPosition = _position;
+                _firstInitialization = false;
+            }
+        }
 
         foreach (var tech in List)
         {
@@ -107,7 +188,8 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
             DragContainer.AddChild(control);
 
             // Set position for all tech, relating to _position
-            LayoutContainer.SetPosition(control, _position + proto.Position * 150 * _zoom);
+            var uiPosition = _position + proto.Position * GridSize;
+            LayoutContainer.SetPosition(control, uiPosition);
             control.SelectAction += SelectTech;
 
             if (tech.Key == CurrentTech)
@@ -167,41 +249,20 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
         if (!_draggin)
             return;
 
+        // Frontier: bound motion to a box
+        var originalPosition = _position;
         _position += args.Relative;
+
+        ClampPosition(ref _position);
+
+        var diff = _position - originalPosition;
+        // End Frontier: bound motion to a box
 
         // Move all tech
         foreach (var child in DragContainer.Children)
         {
-            LayoutContainer.SetPosition(child, child.Position + args.Relative);
+            LayoutContainer.SetPosition(child, child.Position + diff); // Frontier: args.Relative<diff
         }
-    }
-
-    protected override void MouseWheel(GUIMouseWheelEventArgs args)
-    {
-        base.MouseWheel(args);
-
-        var oldZoom = _zoom;
-
-        if (args.Delta.Y > 0)
-            _zoom += ZoomSpeed;
-        else
-            _zoom -= ZoomSpeed;
-
-        _zoom = Math.Clamp(_zoom, MinZoom, MaxZoom);
-
-        if (MathHelper.CloseTo(oldZoom, _zoom))
-            return;
-
-        foreach (var child in DragContainer.Children)
-        {
-            if (child is not FancyResearchConsoleItem research)
-                continue;
-
-            var pos = research.Prototype.Position * 150;
-            LayoutContainer.SetPosition(child, _position + pos * _zoom);
-            research.SetScale(_zoom);
-        }
-        args.Handle();
     }
 
     /// <summary>
@@ -230,7 +291,7 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
     /// Selects a tech prototype and opens info panel
     /// </summary>
     /// <param name="proto">Tech proto</param>
-    /// <param name="availability">Tech availablity</param>
+    /// <param name="availability">Tech availability</param>
     public void SelectTech(TechnologyPrototype proto, ResearchAvailability availability)
     {
         InfoContainer.RemoveAllChildren();
@@ -244,17 +305,20 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
     }
 
     /// <summary>
-    /// Sets <see cref="_position"/> to its default value
+    /// Resets the view exactly to the initial position when the UI was first opened
     /// </summary>
     public void Recenter()
     {
-        _position = new(45, 250);
-        foreach (var item in DragContainer.Children)
-        {
-            if (item is not FancyResearchConsoleItem research)
-                continue;
+        // Preserve the current tech items but reset the positions
+        var diff = _initialViewPosition - _position;
 
-            LayoutContainer.SetPosition(item, _position + research.Prototype.Position * 150 * _zoom);
+        // First update the master position
+        _position = _initialViewPosition;
+
+        // Now update all child positions by the same delta
+        foreach (var child in DragContainer.Children)
+        {
+            LayoutContainer.SetPosition(child, child.Position + diff);
         }
     }
 
@@ -264,10 +328,52 @@ public sealed partial class FancyResearchConsoleMenu : FancyWindow
 
         DragContainer.RemoveAllChildren();
         InfoContainer.RemoveAllChildren();
+        _firstInitialization = true;
     }
 
     private sealed partial class DisciplineButton(TechDisciplinePrototype proto) : Button
     {
         public TechDisciplinePrototype Proto = proto;
     }
+
+    // Frontier: clamp view bounds
+    private void ClampPosition(ref Vector2 position)
+    {
+        var viewSize = DragContainer.Size;
+
+        var minX = _bounds.Left;
+        var maxX = _bounds.Right - viewSize.X - CardSize;
+        if (maxX <= minX)
+            position.X = minX;
+        else
+            position.X = Math.Clamp(position.X, minX, maxX);
+
+        var minY = _bounds.Bottom + viewSize.Y - RecenterButton.Height - CardSize; // positive window coords towards the bottom
+        var maxY = _bounds.Top;
+        if (maxY <= minY)
+            position.Y = maxY;
+        else
+            position.Y = Math.Clamp(position.Y, minY, maxY);
+    }
+
+    protected override void MouseWheel(GUIMouseWheelEventArgs args)
+    {
+        base.MouseWheel(args);
+
+        var originalPosition = _position;
+        _position.Y += args.Delta.Y * _verticalScrollSpeed;
+
+        ClampPosition(ref _position);
+
+        var diff = _position - originalPosition;
+
+        // Move all tech
+        foreach (var child in DragContainer.Children)
+        {
+            LayoutContainer.SetPosition(child, child.Position + diff);
+        }
+
+        args.Handle();
+    }
+    // End Frontier: clamp view bounds
 }
