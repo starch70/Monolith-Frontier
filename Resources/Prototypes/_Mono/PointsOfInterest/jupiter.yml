@@ -25,7 +25,7 @@
 - type: pointOfInterest
   id: Jupiter
   parent: BaseMobilePOI
-  name: 'ASR Jupiter-Class Carrier'
+  name: 'ASR Jupiter Class Carrier'
   minimumDistance: 17000
   maximumDistance: 19000
   spawnGroup: Required
@@ -34,11 +34,11 @@
   - type: IFF
     color: "#FF0D0D"
     flags: [HideLabel]
-    readOnly: true # mono
+    readOnly: false
 
 - type: gameMap
   id: Jupiter
-  mapName: 'ASR Jupiter-Class Carrier'
+  mapName: 'ASR Jupiter Class Carrier'
   mapPath: /Maps/_Mono/POI/jupiter.yml
   minPlayers: 0
   stations:
@@ -46,7 +46,7 @@
       stationProto: RecordsFrontierOutpostCargo
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'ASR Jupiter-Class Carrier'
+          mapNameTemplate: 'ASR Jupiter Class Carrier'
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Interface/Pirate/piratelogo.png
           stationSubtext: 'frontier-lobby-jupiter-subtext'
@@ -55,8 +55,8 @@
         - type: StationJobs
           availableJobs:
             PirateCaptain: [ 1, 1 ]
-            PirateFirstMate: [ 4, 4 ] # Mono
-            Pirate: [ -1, -1 ] # Mono
+            PirateFirstMate: [ 2, 2 ] # Mono
+            Pirate: [ 8, 8 ] # Mono
           tags:
           - RogueCommander
         - type: StationDeadDropReporting
