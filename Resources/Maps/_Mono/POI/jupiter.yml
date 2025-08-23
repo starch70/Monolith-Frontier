@@ -26888,7 +26888,7 @@ entities:
     - type: Transform
       pos: -6.5,27.5
       parent: 1
-- proto: PlasmaWindoorSecureArmoryLocked
+- proto: PlasmaWindoorSecureRogueLocked
   entities:
   - uid: 4084
     components:
