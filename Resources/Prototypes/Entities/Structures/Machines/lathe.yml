@@ -386,8 +386,8 @@
     staticPacks:
     - ChemistryStatic
     - SurgeryStatic
-    dynamicPacks:
     - PartsStatic
+    dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
     - ScienceExplosives
@@ -639,7 +639,6 @@
     - SecurityWeaponsStatic
     dynamicPacks:
     - SecurityEquipment
-    - SecurityBoards
     - SecurityExplosives
     - AdvancedAmmoRecipePack
     - SecurityWeapons

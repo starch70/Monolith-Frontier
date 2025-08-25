@@ -31,32 +31,28 @@
     producingSound: /Audio/Machines/circuitprinter.ogg
     idleState: icon
     runningState: icon
+    staticPacks:
+    - CivilianAmmoRecipePack
     dynamicPacks:
     # rogue start
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueVouchersDynamic
     - MonoRogueMiscDynamic
-    - MonoRogueAmmo
     - MonoRogueGearDynamic
     - MonoRogueGearProDynamic
-    - MonoRogueSpecialAmmo
     # TSF start
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFVouchersDynamic
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - MonoTSFGearDynamic
     - MonoTSFStructuresDynamic
-    - MonoTSFSpecialAmmo
     # USSP start
     - MonoUSSPVouchersDynamic
     - MonoUSSPArmorDynamic
     - MonoUSSPMiscDynamic
     - MonoUSSPWeaponsDynamicRanged
-    - MonoUSSPAmmo
-    - MonoUSSPSpecialAmmo
     # Universal shit (stuff like shipgun ammo)
     - UniversalRailgunAmmo
     - UniversalMissileAmmo

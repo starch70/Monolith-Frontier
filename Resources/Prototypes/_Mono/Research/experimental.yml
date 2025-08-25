@@ -34,9 +34,5 @@
   entityIcon: CapacitorStockPart
   discipline: Experimental
   tier: 1
-  cost: 1000
-  recipeUnlocks:
-  - CapacitorStockPart
-  - MatterBinStockPart
-  - MicroManipulatorStockPart
+  cost: 5000
   position: 0, 0
