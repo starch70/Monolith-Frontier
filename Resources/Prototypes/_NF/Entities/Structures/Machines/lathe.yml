@@ -177,7 +177,6 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - UniversalShellAmmo
     - UniversalRailgunAmmo
     - UniversalMissileAmmo
@@ -224,14 +223,11 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
-    - MonoRogueAmmo
     - MonoUSSPMiscDynamic
     - MonoUSSPWeaponsDynamicRanged
-    - MonoUSSPAmmo
     - UniversalShellAmmo
     # Mono end
   - type: EmagLatheRecipes
@@ -289,14 +285,11 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
-    - MonoRogueAmmo
     - MonoUSSPMiscDynamic
     - MonoUSSPWeaponsDynamicRanged
-    - MonoUSSPAmmo
     - UniversalShellAmmo
     # Mono end
   - type: PirateBountyItem # Mono

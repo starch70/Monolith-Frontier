@@ -652,14 +652,11 @@
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
     - MonoTSFMiscDynamic
-    - MonoTSFAmmo
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
-    - MonoRogueAmmo
     - MonoUSSPMiscDynamic
     - MonoUSSPWeaponsDynamicRanged
-    - MonoUSSPAmmo
     - UniversalShellAmmo
     # Mono end
   - type: MaterialStorage
