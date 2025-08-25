@@ -101,16 +101,6 @@
   - WeaponPistolPollock
   ## Cyborg Modules
   - BorgModuleMercenary # mono
-#Mono start
-  - WeaponLMGRatel
-  - WeaponShotgunBigBuddy
-  - WeaponShotgunBigJohnny
-  - WeaponShotgunEnforcerMerc
-  - WeaponRifleVulcanMerc
-  - WeaponRiflePrometheus
-  - WeaponRifleVulcanFCMC
-  - WeaponShotgunKammererNF
-#Mono end
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecated
@@ -186,6 +176,15 @@
   - WeaponLaserCannon
   - WeaponXrayCannon
 ## Ammo boxes
+  #Mono start
+  - WeaponLMGRatel
+  - WeaponShotgunBigBuddy
+  - WeaponShotgunBigJohnny
+  - WeaponShotgunEnforcerMerc
+  - WeaponRifleVulcanMerc
+  - WeaponRiflePrometheus
+  - WeaponRifleVulcanFCMC
+#Mono end
 
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecatedEmag

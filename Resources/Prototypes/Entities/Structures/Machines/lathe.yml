@@ -700,6 +700,7 @@
     - CivilianAmmoRecipePack
     dynamicPacks:
     - AdvancedAmmoRecipePack
+    - AllTheAmmo # Mono
   - type: MaterialStorage
     whitelist:
       tags:
