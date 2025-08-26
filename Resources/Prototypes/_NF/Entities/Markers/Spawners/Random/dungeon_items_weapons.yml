@@ -349,6 +349,8 @@
     - WeaponCaseLongAk
     - WeaponCaseLongEnforcerExpedition
     - WeaponCaseLongLaserCannonExpedition
+    - WeaponCaseDP29
+    - WeaponCaseMla34
     - WeaponCaseAbielle # Mono
     - WeaponCaseWspr # Mono
     - WeaponCaseAnnie # Mono
@@ -434,7 +436,7 @@
     - WeaponCaseLongJackdaw
     - WeaponCaseLongHristovExpedition
     - WeaponCaseMr8c # Mono
-    - WeaponSmartLmg # Mono
+    - WeaponCaseMla79 # Mono
     chance: 1.0
     offset: 0.0
 
