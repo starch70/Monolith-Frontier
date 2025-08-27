@@ -217,7 +217,7 @@
 - type: entity
   parent: VendingMachineTraderBaikal
   id: VendingMachineTraderTradeMall
-  name: Trade Mall Goods Vendor
+  name: Trade Mall Trade Goods Vendor
   components:
   - type: VendingMachine
     pack: TraderTradeMall
