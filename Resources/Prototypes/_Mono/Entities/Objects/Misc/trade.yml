@@ -1,6 +1,6 @@
 - type: entity
-  parent: BaseTradeItemVolatile
-  id: BaseTradeItem
+  parent: BaseTradeItem
+  id: BaseTradeItemVolatile
   abstract: true
   components:
   - type: Destructible
