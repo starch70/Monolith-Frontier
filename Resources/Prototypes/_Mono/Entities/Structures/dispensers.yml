@@ -1,16 +1,17 @@
 - type: entity
   parent: BaseDispenser
-  id: TestingCargoChute
-  name: testing cargo turn-in chute
+  id: BaseCargoChute
+  name: base cargo turn-in chute
+  abstract: true
   description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
   components:
   - type: Anchorable
     flags:
     - None
   - type: Dispenser
-    defaultItem: SpaceCash1000
+    defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.
     inventory:
-      WeaponRifleLecter: SpaceCash15000
+      WeaponRifleLecter: SpaceCash15000 # Example listing
   - type: Sprite
     sprite: _Crescent/Structures/cargochute.rsi # Normally we cant use hullrot sprites because they're commissioned, but this one is from CEV-Eris according to metadata, so its fine.
     layers:
@@ -19,3 +20,55 @@
     radius: 1.5
     energy: 1.6
     color: "#9dc5c9"
+
+- type: entity
+  id: PaperWrittenDispenserInstructions
+  name: "cargo dispenser instructions"
+  parent: Paper
+  components:
+  - type: Paper
+    content: book-text-cargo-instructions
+
+- type: entity
+  parent: BaseCargoChute
+  id: CargoChuteDepot
+  name: depot cargo turn-in chute
+  description: A machine with piping systems that lead into the bowels of the cargo depot, accepting export goods for trade deeds.
+  components:
+  - type: Dispenser
+    defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.
+    inventory:
+      WeaponRifleLecter: SpaceCash15000
+
+- type: entity
+  parent: BaseCargoChute
+  id: CargoChuteDepotAlt
+  name: alternate depot cargo turn-in chute
+  description: A machine with piping systems that lead into the bowels of the cargo depot, accepting export goods for trade deeds.
+  components:
+  - type: Dispenser
+    defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.
+    inventory:
+      WeaponRifleLecter: SpaceCash15000
+
+- type: entity
+  parent: BaseCargoChute
+  id: CargoChuteBaikal
+  name: Baikal cargo turn-in chute
+  description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
+  components:
+  - type: Dispenser
+    defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.
+    inventory:
+      WeaponRifleLecter: SpaceCash15000
+
+- type: entity
+  parent: BaseCargoChute
+  id: CargoChuteTradeMall
+  name: Trade Mall cargo turn-in chute
+  description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
+  components:
+  - type: Dispenser
+    defaultItem: PaperWrittenDispenserInstructions # Lol, dont put this as anything thats worth something, you can just get items by clicking with a empty hand.
+    inventory:
+      WeaponRifleLecter: SpaceCash15000
