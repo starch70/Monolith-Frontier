@@ -73,4 +73,10 @@ book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
 
 book-text-cargo-instructions = Either you have tried to insert a invalid product, or you have tried to activate the machine without any product.
       To use the machine properly, insert one of the requested materials for a port's specific dispenser with your hands, and the reward will be deposited on top of the machine.
-      Valid cargo to insert per-port is listed in your survival guidebook.
+      These cargo crates can be bought and/or sold at the following locations:
+      TSFMC Flagship Halcyon - Sell Only
+      Baikal Station - Buy and Sell
+      Trade Mall - Buy and Sell
+      Cargo Depots - Buy and Sell
+      ASR Base - Sell Only
+      ASR Jupiter - Sell Only

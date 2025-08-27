@@ -17,6 +17,54 @@
     },
     {
       "name": "icon"
+    },
+    {
+      "name": "fertilizer"
+    },
+    {
+      "name": "supplies"
+    },
+    {
+      "name": "metal"
+    },
+    {
+      "name": "fabric"
+    },
+    {
+      "name": "components"
+    },
+    {
+      "name": "ship-components"
+    },
+    {
+      "name": "equipment"
+    },
+    {
+      "name": "luxury"
+    },
+    {
+      "name": "scrap"
+    },
+    {
+      "name": "weapon-components"
+    },
+    {
+      "name": "fission"
+    },
+    {
+      "name": "fusion"
+    },
+    {
+      "name": "chems-volatile"
+    },
+    {
+      "name": "chems"
+    },
+    {
+      "name": "supplies-med"
+    },
+    {
+      "name": "ammo"
     }
   ]
 }
