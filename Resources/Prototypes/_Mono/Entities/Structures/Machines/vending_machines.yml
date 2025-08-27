@@ -196,8 +196,6 @@
     radius: 1.5
     energy: 1.6
     color: "#B0ADA9"
-  - type: MarketModifier
-    mod: 1
 
 - type: entity
   parent: VendingMachineTraderBaikal
