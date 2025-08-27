@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseDispenser
+  id: TestingCargoChute
+  name: testing cargo turn-in chute
+  description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
+  components:
+  - type: Anchorable
+    flags:
+    - None
+  - type: Dispenser
+    defaultItem: SpaceCash1000
+    inventory:
+      WeaponRifleLecter: SpaceCash15000
+  - type: Sprite
+    sprite: _Crescent/Structures/cargochute.rsi # Normally we cant use hullrot sprites because they're commissioned, but this one is from CEV-Eris according to metadata, so its fine.
+    layers:
+    - state: "icon"
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#9dc5c9"
