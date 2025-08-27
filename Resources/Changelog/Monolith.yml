@@ -11407,3 +11407,66 @@ Entries:
   id: 1265
   time: '2025-08-26T19:49:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2063
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Vespera and Tovek acceleration increased. ASM, Vespera, Tovek detection
+        range increased.
+  id: 1266
+  time: '2025-08-26T22:09:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2072
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Exped Lounge is now Titlecard (invincible).
+  id: 1267
+  time: '2025-08-26T22:48:21.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2076
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: Bawk
+  id: 1268
+  time: '2025-08-27T01:04:49.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2083
+- author: Rubeebeebee
+  changes:
+    - type: Tweak
+      message: 'Tweaked the price of the Leaf from 72k to 64k '
+  id: 1269
+  time: '2025-08-27T12:29:55.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2068
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Wrecks should be common again.
+  id: 1270
+  time: '2025-08-27T12:31:10.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2085
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: You can now scan your ID on derelict borgs too.
+  id: 1271
+  time: '2025-08-27T12:32:06.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2086
+- author: Rubeebeebee
+  changes:
+    - type: Add
+      message: >-
+        Added a material reclaimer and a hotplate to the Bratan. Also fixed the
+        outer docking airlocks not being powered. 
+  id: 1272
+  time: '2025-08-27T13:08:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2067
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: >-
+        Diagonal walls, tables, etc, all items will always properly trigger ship
+        projectile explosions on collision. Projectiles probably will explode on
+        shields too.
+  id: 1273
+  time: '2025-08-27T17:34:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2090
