@@ -71,16 +71,16 @@ book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
       Glass Shard x 1
       Cook Time: 5 seconds
 
-book-text-cargo-instructions = [bold]You have tried to activate the machine without any product.[/bold]
+book-text-cargo-instructions = You have tried to activate the machine without any product.
 
       To use the machine properly, insert one of the requested materials for a port's specific dispenser with your hands, and the reward will be deposited on top of the machine.
 
-      [bold]These cargo crates can be bought and/or sold at the following locations:[/bold]
-      TSFMC Flagship Halcyon - [color=orange]Sell Only[/color]
-      Baikal Station - [color=green]Buy and Sell[/color]
-      Trade Mall - [color=green]Buy and Sell[/color]
-      Cargo Depots - [color=green]Buy and Sell[/color]
-      ASR Base - [color=orange]Sell Only[/color]
-      ASR Jupiter - [color=orange]Sell Only[/color]
+      These cargo crates can be bought and/or sold at the following locations:
+      - TSFMC Flagship Halcyon - Sell Only
+      - Baikal Station - Buy and Sell
+      - Trade Mall - Buy and Sell
+      - Cargo Depots - Buy and Sell
+      - ASR Base - Sell Only
+      - ASR Jupiter - Sell Only
 
-      [italic]This paper will automatically disintegrate after 2 minutes.[/italic]
+      This paper will automatically disintegrate after 2 minutes.
