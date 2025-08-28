@@ -32,6 +32,8 @@
   components:
   - type: Paper
     content: book-text-cargo-instructions
+  - type: TimedDespawn # So you cant spam it to lag the server.
+    lifetime: 120
 
 - type: entity
   parent: BaseCargoChute

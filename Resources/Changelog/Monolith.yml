@@ -11482,3 +11482,38 @@ Entries:
   id: 1274
   time: '2025-08-27T23:16:01.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2094
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Cargo crate instruction papers now despawn after 20 minutes.
+    - type: Fix
+      message: Fixed insurgency hideout not having a crate chute.
+    - type: Fix
+      message: >-
+        Fixed Jupiter spawnroom being commander locked, having no
+        defibs/extinguishers/ATMs, and fixed Jupiter crate chute spawning in a
+        vending machine.
+  id: 1275
+  time: '2025-08-28T00:35:29.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2095
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: GLASK
+  id: 1276
+  time: '2025-08-28T00:40:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2096
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: I am a parrot. CL fix also
+  id: 1277
+  time: '2025-08-28T01:09:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2097
+- author: Redrover1760
+  changes:
+    - type: Fix
+      message: goobers
+  id: 1278
+  time: '2025-08-28T01:41:36.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2098
