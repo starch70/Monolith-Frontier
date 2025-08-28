@@ -76,11 +76,11 @@ book-text-cargo-instructions = [bold]You have tried to activate the machine with
       To use the machine properly, insert one of the requested materials for a port's specific dispenser with your hands, and the reward will be deposited on top of the machine.
 
       [bold]These cargo crates can be bought and/or sold at the following locations:[/bold]
-      - TSFMC Flagship Halcyon - [color=orange]Sell Only[/color]
-      - Baikal Station - [color=green]Buy and Sell[/color]
-      - Trade Mall - [color=green]Buy and Sell[/color]
-      - Cargo Depots - [color=green]Buy and Sell[/color]
-      - ASR Base - [color=orange]Sell Only[/color]
-      - ASR Jupiter - [color=orange]Sell Only[/color]
+      TSFMC Flagship Halcyon - [color=orange]Sell Only[/color]
+      Baikal Station - [color=green]Buy and Sell[/color]
+      Trade Mall - [color=green]Buy and Sell[/color]
+      Cargo Depots - [color=green]Buy and Sell[/color]
+      ASR Base - [color=orange]Sell Only[/color]
+      ASR Jupiter - [color=orange]Sell Only[/color]
 
       [italic]This paper will automatically disintegrate after 2 minutes.[/italic]
