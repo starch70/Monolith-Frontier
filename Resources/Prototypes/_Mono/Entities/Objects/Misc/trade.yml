@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodFusionFuel
-  name: fission reactor fuel crate
-  description: A sealed crate of packaged DT fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.
+  name: fusion reactor fuel crate
+  description: A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.
   components:
   - type: Sprite
     state: fusion
