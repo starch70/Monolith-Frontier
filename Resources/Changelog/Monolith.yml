@@ -11596,3 +11596,12 @@ Entries:
   id: 1286
   time: '2025-08-29T00:20:25.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2115
+- author: tonotom1
+  changes:
+    - type: Fix
+      message: >-
+        Sounds for manually cycling shotgun shells don't break after the first
+        mag anymore
+  id: 1287
+  time: '2025-08-29T13:25:01.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2119
