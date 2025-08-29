@@ -18,6 +18,29 @@
     baseWalkSpeed : 2.7
     baseSprintSpeed : 4.65
     weightlessAcceleration: 1.5 # Slightly more manueverable in space.
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.42
+        density: 260 # Its an abandoned bioweapon species with 4 arms, of course it should be able to fight a Oni.
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Sprite
+    scale: 1.2, 1.2
+  - type: PlayerToolModifier
+    pryTimeMultiplier: 0.7
+  - type: BonusMeleeDamage
+    damageModifierSet:
+      coefficients:
+        Blunt: 1.1
+        Slash: 1.1
+        Piercing: 1.1
+        Asphyxiation: 1
   - type: Thirst
   - type: Icon
     sprite: _Mono/Mobs/Species/Asakim/parts.rsi
@@ -93,6 +116,9 @@
       295: 0.6
       285: 0.4
   - type: Wagging
+  - type: NpcFactionMember
+    factions:
+    - Xeno # Making new AI factions is annoying with all the hostilities I have to add, whatever.
   - type: Inventory
     speciesId: asakim
     # WWDP-Edit-Start
