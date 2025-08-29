@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urisst' MzAsakim
+  name: Urist McAsakim
   parent: BaseMobSpeciesOrganic
   id: BaseMobAsakim
   abstract: true
@@ -122,7 +122,7 @@
 
 - type: entity
   save: false
-  name: Urist McScales
+  name: Urist McAsakim
   suffix: Urisst' MzAsakim
   parent: BaseMobAsakim
   id: MobAsakim
