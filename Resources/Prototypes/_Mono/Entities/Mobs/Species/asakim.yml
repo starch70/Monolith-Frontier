@@ -172,6 +172,12 @@
       301: 0.8
       295: 0.6
       285: 0.4
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      165: Critical
+      250: Dead
+    allowRevives: true
   - type: Wagging
   - type: NpcFactionMember
     factions:
