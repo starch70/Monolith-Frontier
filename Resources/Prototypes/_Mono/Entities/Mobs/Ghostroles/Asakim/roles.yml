@@ -20,7 +20,7 @@
       settings: default
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # 30 hrs
+      time: 180000 # 50 hrs
   - type: GhostTakeoverAvailable
   - type: RandomMetadata
     nameSegments:
@@ -28,7 +28,7 @@
     - NamesLastMilitary
   - type: NpcFactionMember
     factions:
-    - Xeno
+    - Syndicate
   - type: MindShield
   - type: SurgerySpeedModifier
     speedModifier: 1.5
