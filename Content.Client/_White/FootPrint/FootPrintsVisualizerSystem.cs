@@ -1,4 +1,8 @@
-﻿using Content.Shared._White.FootPrint;
+// SPDX-FileCopyrightText: 2024 Aiden
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared._White.FootPrint;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Shared.Random;
