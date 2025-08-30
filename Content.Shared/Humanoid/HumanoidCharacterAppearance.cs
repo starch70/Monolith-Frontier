@@ -188,8 +188,8 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
                 break;
         }
 
-        var newHeight = random.NextFloat(0.8f, 1.2f); // Random height between 80% and 120% of normal
-        var newWidth = random.NextFloat(0.8f, 1.2f); // Random width between 80% and 120% of normal
+        var newHeight = random.NextFloat(0.95f, 1.05f); // Random height between 95% and 105% of normal
+        var newWidth = random.NextFloat(0.95f, 1.05f); // Random width between 95% and 105% of normal
         return new HumanoidCharacterAppearance(newHairStyle, newHairColor, newFacialHairStyle, newHairColor, newEyeColor, newSkinColor, new (), newHeight, newWidth);
 
         float RandomizeColor(float channel)

@@ -17,6 +17,7 @@
     suitStorage: OxygenTankFilled
   inhand:
   - WeaponRifleAsakimAutopulser
+  - WeaponHFKatana
   storage:
     back:
     - RadioHandheldNF
@@ -27,7 +28,6 @@
     - JetpackMiniFilled
     - StorageImplanter
     - FreedomImplanter
-    - WeaponHFKatana
     belt:
     - CombatMedipen
     - CombatMedipen
