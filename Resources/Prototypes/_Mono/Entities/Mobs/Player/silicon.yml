@@ -98,13 +98,13 @@
     access: [["SyndicateAgent"], ["NuclearOperative"]]
   - type: IntrinsicRadioTransmitter
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Syndicate
     - Traffic
   - type: ActiveRadio
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Syndicate
     - Traffic
@@ -271,13 +271,13 @@
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Syndicate
     - Traffic
   - type: ActiveRadio
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Syndicate
     - Traffic
@@ -379,7 +379,7 @@
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
@@ -388,7 +388,7 @@
     - Medical
   - type: ActiveRadio
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
@@ -479,7 +479,7 @@
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
@@ -490,7 +490,7 @@
     - Command
   - type: ActiveRadio
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
@@ -583,7 +583,7 @@
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
@@ -593,7 +593,7 @@
     - Freelance
   - type: ActiveRadio
     channels:
-    - RobotTalk
+    - Binary
     - Common
     - Traffic
     - Science
