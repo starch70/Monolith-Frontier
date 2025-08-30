@@ -1,7 +1,7 @@
 ghost-role-information-asakim-name = Asakim Warrior
 ghost-role-information-asakim-description = A pre-fracture genetically enhanced bioweapon, stranded in the sector after cryostasis failure.
-ghost-role-information-asakim-rules = Your only allies are your [color=#05e6ff][bold]other Asakim wariors[/bold][/color]. You should generally not seek to harm your fellow warriors or their ships.
-                                             As a member of [color=#05e6ff][bold]a Asakim Warrior group[/bold][/color], you have little knowledge of the sector and its factions.
+ghost-role-information-asakim-rules = Your only allies are your [color=#05e6ff][bold]other Asakim wariors[/bold][/color], and potentially [color=#00CCFF]ADS systems[/color]. You should generally not seek to harm your fellow warriors or their ships.
+                                             As a member of [color=#05e6ff][bold]an Asakim Warrior group[/bold][/color], you have little knowledge of the sector and its factions (excluding ADS).
                                              You're goal is to [color=red][bold]Major POI[/bold][/color], such as Sevastopol, or Faction Bases, fight with honor, and destroy or secure any [color=#00CCFF]Pre-Fracture[/color] data you find..
                                              Reading the guidebook [color=red][bold]is expected for this role[/bold][/color].
                                              You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
