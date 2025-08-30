@@ -17,6 +17,10 @@
     time: 54000 # 15 hours
   - !type:OverallPlaytimeRequirement
     time: 72000 # 20 hrs
+  - !type:SpeciesRequirement # Mono
+    inverted: true
+    species:
+    - IPC
   startingGear: USSPSergeantGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

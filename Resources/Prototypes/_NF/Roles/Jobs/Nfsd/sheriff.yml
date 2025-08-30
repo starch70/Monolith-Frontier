@@ -64,6 +64,10 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 36000 # 10 hours - mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -74,6 +78,10 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 21600 # 6 hours - mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true

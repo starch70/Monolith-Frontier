@@ -45,10 +45,18 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 7200 # 2 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
       time: 18000 # 5 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: NFDetectiveGear
   icon: JobIconNFDetective
   supervisors: job-supervisors-bailiff

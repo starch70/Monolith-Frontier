@@ -61,6 +61,10 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 10800 # 3 hours
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -71,6 +75,10 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 7200 # 2 hours
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

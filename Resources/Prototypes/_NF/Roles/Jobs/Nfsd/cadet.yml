@@ -45,6 +45,10 @@
       department: Security
       time: 72000 # 20 hours # mono
       inverted: true # Leave slots open for newer, less confident players.
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet

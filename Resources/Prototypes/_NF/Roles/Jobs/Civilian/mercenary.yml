@@ -21,6 +21,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 54000 # mono - change to 15 hr
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   canBeAntag: true
   icon: "JobIconMercenary"
   supervisors: job-supervisors-hire

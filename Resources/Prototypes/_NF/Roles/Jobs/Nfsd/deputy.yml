@@ -50,6 +50,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 72000 # 20 hours
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: DeputyGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant

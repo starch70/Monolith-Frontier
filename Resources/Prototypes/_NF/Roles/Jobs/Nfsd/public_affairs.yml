@@ -50,10 +50,18 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 7200 # 2 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: PublicAffairGear
   icon: "JobIconPublicAffairsLiaison"
   supervisors: job-supervisors-cadet

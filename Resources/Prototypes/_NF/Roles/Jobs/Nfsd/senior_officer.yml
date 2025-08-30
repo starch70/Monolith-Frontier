@@ -33,6 +33,10 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 90000 # 25 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -40,6 +44,10 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 21600 # 6 hours
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-sheriff

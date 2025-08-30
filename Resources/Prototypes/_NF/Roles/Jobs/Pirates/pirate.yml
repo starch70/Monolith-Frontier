@@ -18,6 +18,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 90000 # 25 hrs - mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: PirateNFGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

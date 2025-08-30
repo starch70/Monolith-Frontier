@@ -59,6 +59,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 21600 # 6 hours # mono
+    - !type:SpeciesRequirement # Mono
+      inverted: true
+      species:
+      - IPC
   startingGear: TsfEngiGear
   icon: JobIconTSFEngi
   supervisors: job-supervisors-sergeant
