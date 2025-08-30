@@ -1,5 +1,5 @@
 - type: entity
-  name: asakim plasma autopulser
+  name: kunisa-pattern plasma autopulser
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponRifleAsakimAutopulser
   description: An advanced handheld plasma rifle. The design bears similarities to pre-fracture plasma weapons.
@@ -11,6 +11,10 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
+  - type: WieldedCrosshair
+    rsi:
+      sprite: _RMC14/Interface/MousePointer/flamer_mouse.rsi
+      state: all
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/Battery/asakimrifle.rsi
   - type: GunWieldBonus

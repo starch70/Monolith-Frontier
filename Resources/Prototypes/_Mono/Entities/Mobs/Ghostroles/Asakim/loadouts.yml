@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: startingGear
+  id: AsakimGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNinja
+    back: ClothingBackpackSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitAsakim
+    shoes: ClothingShoesBootsMagAsakim
+    pocket1: CrowbarPocket
+    pocket2: DoubleEmergencyOxygenTank
+    belt: ClothingBeltWebbingsBigBlack
+    suitStorage: OxygenTankFilled
+  inhand:
+  - WeaponRifleAsakimAutopulser
+  storage:
+    back:
+    - RadioHandheldNF
+    - DoubleEmergencyOxygenTank
+    - MedkitCombatFilled
+    - MedkitCombatFilled
+    - SyringeCaseAltFilled
+    - JetpackMiniFilled
+    - StorageImplanter
+    - WeaponHFKatana
+    belt:
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - CombatMedipen
+    - HandHeldMassScannerBorg
