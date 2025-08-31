@@ -30,8 +30,8 @@
   - type: Gun
     minAngle: 21
     maxAngle: 48
-    angleIncrease: 27
-    angleDecay: 8
+    angleIncrease: 5
+    angleDecay: 14
     fireRate: 3 # 180 rpm
     selectedMode: SemiAuto
     availableModes:
