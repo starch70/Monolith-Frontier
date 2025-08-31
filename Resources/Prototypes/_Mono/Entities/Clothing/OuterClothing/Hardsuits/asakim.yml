@@ -22,7 +22,7 @@
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
-    damageCoefficient: 0.1
+    damageCoefficient: 0.35
   - type: FireProtection
     reduction: 0.7
   - type: ProtectedFromStepTriggers
