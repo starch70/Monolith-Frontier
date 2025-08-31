@@ -5,7 +5,7 @@
 
 - type: entity
   id: ComputerShipyardUSSP
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyardBase]
+  parent: ComputerShipyardBase
   name: USSP shipyard console
   description: Used to buy ships from USSP naval reserves.
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: ComputerShipyardSHM
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyardBase]
+  parent: ComputerShipyardBase
   name: SHM shipyard console
   description: Used to transfer ships from the SHM employ reserves.
   components:
@@ -62,7 +62,7 @@
 
 - type: entity
   id: ComputerShipyardDrakeIndustries
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyardBase]
+  parent: ComputerShipyardBase
   name: drake industries shipyard console
   description: Used by Drake Industries affiliates to purchase specialty cargo shuttles.
   components:
