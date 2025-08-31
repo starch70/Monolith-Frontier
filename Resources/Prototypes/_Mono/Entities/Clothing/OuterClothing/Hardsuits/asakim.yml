@@ -39,7 +39,7 @@
       coefficients:
         Blunt: 0.35
         Slash: 0.85
-        Piercing: 0.2
+        Piercing: 0.3
         Heat: 0.4
         Radiation: 0
         Shock: 0.8
@@ -57,8 +57,6 @@
       head: ClothingHelmetHardsuitAsakim
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
-  - type: ClothingSlowOnDamageModifier # Mono
-    modifier: 0.5 # Mono
   - type: PirateBountyItem
     id: ClothingOuterHardsuitTacsuit
   - type: StaminaDamageResistance
