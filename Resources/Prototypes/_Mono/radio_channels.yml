@@ -32,3 +32,10 @@
   keycode: 'z'
   color: "#d842fc"
   longRange: true
+
+- type: radioChannel
+  id: Remnants
+  name: chat-radio-remnants
+  keycode: 'j'
+  color: "#21b0a4"
+  longRange: true
