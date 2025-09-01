@@ -12222,7 +12222,7 @@ entities:
     - type: Transform
       pos: -0.5,25.5
       parent: 1
-- proto: GunneryServerStation
+- proto: GunneryServerOmega
   entities:
   - uid: 1984
     components:
