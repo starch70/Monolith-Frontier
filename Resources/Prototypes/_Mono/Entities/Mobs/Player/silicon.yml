@@ -145,12 +145,10 @@
     speaks:
     - TauCetiBasic
     - RobotTalk
-    - Draconic
     - Azaziba
     understands:
     - TauCetiBasic
     - RobotTalk
-    - Draconic
     - Azaziba
   - type: BorgChassis
     maxModules: 8
