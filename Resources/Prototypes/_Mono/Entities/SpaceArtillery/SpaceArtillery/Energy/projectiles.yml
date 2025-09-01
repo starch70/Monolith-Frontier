@@ -111,10 +111,10 @@
     muzzleFlash: null
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    radarColor: "#C92BCC"
-    scale: 4
+    radarColor: "#FF00AA"
+    scale: 2.4
     requireNoGrid: true
-    shape: triangle
+    shape: arrow
   - type: TimedDespawn
     lifetime: 6.5
   - type: PointLight
