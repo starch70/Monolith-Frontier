@@ -37,7 +37,7 @@
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
-    - Remnant
+    - Remnants
   - type: ActiveRadio
     channels:
-    - Remnant
+    - Remnants
