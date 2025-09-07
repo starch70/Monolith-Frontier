@@ -25,13 +25,14 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPBasic
-  name: USSP basic shuttle voucher
+  name: USSP basic shuttle LPC
   description: A small card that authorizes the acquisition of a basic USSP shuttle.
   components:
   - type: Sprite
     layers:
     - state: ltech
-    - state: vouchermilitary
+    - state: stripeussp
+    - state: icon1
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: USSP
@@ -44,13 +45,14 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPIntermediate
-  name: USSP intermediate shuttle voucher
+  name: USSP intermediate shuttle LPC
   description: A small card that authorizes the acquisition of an intermediate USSP shuttle.
   components:
   - type: Sprite
     layers:
     - state: ltech
-    - state: vouchermilitary
+    - state: stripeussp
+    - state: icon2
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: USSP
@@ -63,13 +65,14 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPAdvanced
-  name: USSP advanced shuttle voucher
+  name: USSP advanced shuttle LPC
   description: A small card that authorizes the acquisition of an advanced USSP shuttle.
   components:
   - type: Sprite
     layers:
     - state: ltech
-    - state: vouchermilitary
+    - state: stripeussp
+    - state: icon3
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: USSP
@@ -81,12 +84,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokol
-  name: USSP ledokol voucher
+  name: USSP ledokol LPC
   description: A small card that authorizes the acquisition of a Ledokol.
   components:
   - type: Sprite
     layers:
     - state: mtech
+    - state: stripeussp
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
@@ -98,12 +102,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokolRam
-  name: USSP ledokol ram voucher
+  name: USSP ledokol ram LPC
   description: A small card that authorizes the acquisition of a Ledokol ram.
   components:
   - type: Sprite
     layers:
     - state: mtech
+    - state: stripeussp
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: Custom
@@ -115,12 +120,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherUSSPLedokolAttatchment
-  name: USSP ledokol attatchment voucher
+  name: USSP ledokol attatchment LPC
   description: A small card that authorizes the acquisition of a Ledokol attatchment.
   components:
   - type: Sprite
     layers:
     - state: mtech
+    - state: stripeussp
   - type: ShipyardVoucher
     destroyOnEmpty: true
     consoleType: Custom
@@ -150,12 +156,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherProwler
-  name: rogue prowler voucher
+  name: ASR prowler LPC
   description: A small card that authorizes the procurement of a Prowler.
   components:
   - type: Sprite
     layers:
     - state: mtech
+    - state: stripeasr
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
@@ -169,12 +176,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherFlyssa
-  name: TSF flyssa voucher
+  name: TSF flyssa LPC
   description: A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
   components:
   - type: Sprite
     layers:
     - state: htech
+    - state: stripetsfmc
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
@@ -188,12 +196,13 @@
 - type: entity
   parent: BaseShipLPC
   id: ShipVoucherPolaris
-  name: TSF polaris voucher
+  name: TSF polaris LPC
   description: A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
   components:
   - type: Sprite
     layers:
-    - state: ltech
+    - state: mtech
+    - state: stripetsfmc
     - state: vouchermilitary
   - type: ShipyardVoucher
     destroyOnEmpty: true
