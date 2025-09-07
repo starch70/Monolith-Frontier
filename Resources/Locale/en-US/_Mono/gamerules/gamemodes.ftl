@@ -16,5 +16,5 @@ mono-ads-description = Native ASR insurgents threatens TSF colonial expansion in
 mono-chimera-title = Biothreat (TSF|USSP|ASR)
 mono-chimera-description = Native ASR insurgents threatens TSF colonial expansion into the sector. A tense cold war between the TSF Marine Corps detachment and USSP efforts also takes place. The effects of a far away letoferol outbreak seep in.
 
-mono-allatonce-title = Apocalypse (TSF|USSP|ASR)
+mono-allatonce-title = Apocalypse (ALL)
 mono-allatonce-description = A battleground between ASR, TSF, and USSP forces alike, with ancient ADS systems and Chimera bioweapons seeping in.
