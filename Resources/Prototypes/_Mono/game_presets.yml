@@ -99,7 +99,7 @@
   id: MonoAllAtOnce
   name: mono-allatonce-title
   description: mono-allatonce-description
-  showInVote: false # Bad idea sir.
+  showInVote: true # Good idea sir!
   rules:
   - NFAdventure
   - BasicStationEventScheduler
