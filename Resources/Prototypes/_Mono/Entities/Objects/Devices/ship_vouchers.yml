@@ -200,6 +200,6 @@
     consoleType: Security
     companyName: TSF
     vessels:
-    - Polaris
+    - PolarisShip
   - type: StaticPrice
     vendPrice: 300000
