@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: vessel
-  id: Polaris
+  id: PolarisShip
   parent: BaseVesselAntag
   name: TSF-SKR Polaris
   description: A heavily-armed frigate with 6 CYREXAs and 1 CHARON mass-driver. While having heavy firepower, and multiple redundant substations and SMES systems, it lacks heavily in PD.
@@ -27,12 +27,12 @@
   - AME
 
 - type: gameMap
-  id: Polaris
+  id: PolarisShip
   mapName: 'TSF-SKR Polaris'
   mapPath: /Maps/_Mono/Shuttles/Nfsd/polaris.yml
   minPlayers: 0
   stations:
-    Polaris:
+    PolarisShip:
       stationProto: StandardFrontierSecurityVessel
       components:
       - type: StationNameSetup
