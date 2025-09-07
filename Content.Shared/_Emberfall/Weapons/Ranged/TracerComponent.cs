@@ -1,7 +1,7 @@
 // SPDX-FileCopyrightText: 2025 MilonPL
 // SPDX-FileCopyrightText: 2025 starch
 //
-// SPDX-License-Identifier: MPL
+// SPDX-License-Identifier: MIT
 
 using System.Numerics;
 using Robust.Shared.GameStates;
