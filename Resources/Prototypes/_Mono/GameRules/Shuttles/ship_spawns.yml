@@ -49,10 +49,10 @@
 
 - type: preloadedGrid
   id: ChimeraTethys
-  path: /Maps/_Mono/ShuttleEvent/Tethys_chimera.yml
+  path: /Maps/_Mono/ShuttleEvent/tethys_chimera.yml
   copies: 2
 
 - type: preloadedGrid
   id: ChimeraLegionnaire
-  path: /Maps/_Mono/ShuttleEvent/Legionnaire_chimera.yml
+  path: /Maps/_Mono/ShuttleEvent/legionnaire_chimera.yml
   copies: 2
