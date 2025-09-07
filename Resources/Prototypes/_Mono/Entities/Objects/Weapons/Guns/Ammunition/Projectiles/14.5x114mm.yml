@@ -35,3 +35,6 @@
     - Structural
   - type: StaminaDamageOnCollide
     damage: 60
+  - type: Tracer
+    color: "#FFFFFFFF"
+    length: 3
