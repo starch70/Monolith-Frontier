@@ -12,7 +12,7 @@
 #LPC base (just different sprites)
 - type: entity
   abstract: true
-  parent: BaseShipLPC
+  parent: BaseShipVoucher
   id: BaseShipLPC
   name: ship LPC
   description: Contains the necessary data for a shipyard console to produce a certain design.
@@ -135,10 +135,6 @@
   name: TSFMC colonel ship voucher
   description: Allows for two TSFMC ship purchases of any size, and allows for the procurement of a Polaris. Destroyed on sale.
   components:
-  - type: Sprite
-    layers:
-    - state: htech
-    - state: vouchermilitary
   - type: ShipyardVoucher
     redemptionsLeft: 2
     access: # note - removed HOS/colonel access to prevent free flyssa (its only ship that uses HOS access, so it should be fine)
