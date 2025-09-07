@@ -118,6 +118,7 @@
   - BluespaceSalvageEventScheduler
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
+  - MonoChimeraSTCShuttleSpawnerScheduler
 
 - type: gamePreset
   id: MonoAllAtOnce
@@ -140,4 +141,5 @@
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
   - MonoAsakimSTCShuttleSpawnerScheduler
+  - MonoChimeraSTCShuttleSpawnerScheduler
 

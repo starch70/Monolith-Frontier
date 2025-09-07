@@ -1,0 +1,74 @@
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entityTable
+  id: ChimeraShipsTable
+  table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
+    children:
+      - id: UnknownShuttleChimeraSakuratsu
+      - id: UnknownShuttleChimeraOlympus
+      - id: UnknownShuttleChimeraTethys
+      - id: UnknownShuttleChimeraLegionnaire
+
+- type: entity
+  parent: BaseRandomShuttleRule
+  id: UnknownShuttleChimeraSakuratsu
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-chimera-shuttle-detected
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    weight: 2
+    maxOccurrences: 1
+  - type: GameRule
+    minPlayers: 40
+  - type: LoadMapRule
+    preloadedGrid: SakuratsuChimera
+
+- type: entity
+  parent: BaseRandomShuttleRule
+  id: UnknownShuttleChimeraOlympus
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-chimera-shuttle-detected
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    weight: 2
+    maxOccurrences: 1
+  - type: GameRule
+    minPlayers: 40
+  - type: LoadMapRule
+    preloadedGrid: OlympusChimera
+
+- type: entity
+  parent: BaseRandomShuttleRule
+  id: UnknownShuttleChimeraTethys
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-chimera-shuttle-detected
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    weight: 2
+    maxOccurrences: 2
+  - type: GameRule
+    minPlayers: 40
+  - type: LoadMapRule
+    preloadedGrid: TethysChimera
+
+- type: entity
+  parent: BaseRandomShuttleRule
+  id: UnknownShuttleChimeraLegionnaire
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-chimera-shuttle-detected
+    startAudio:
+      path: /Audio/Misc/notice1.ogg
+    weight: 2
+    maxOccurrences: 2
+  - type: GameRule
+    minPlayers: 40
+  - type: LoadMapRule
+    preloadedGrid: LegionnaireChimera
+
