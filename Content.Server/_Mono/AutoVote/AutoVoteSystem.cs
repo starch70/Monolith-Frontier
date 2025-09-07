@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 starch
+//
+// SPDX-License-Identifier: MPL-2.0
+
 using Robust.Shared.Configuration;
 using Content.Server.Voting.Managers;
 using Content.Shared.GameTicking;
