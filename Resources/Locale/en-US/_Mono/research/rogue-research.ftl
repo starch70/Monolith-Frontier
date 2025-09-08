@@ -1,11 +1,11 @@
-research-discipline-rogue-weaponry = Rogue Arsenal
-research-discipline-rogue-gear = Rogue Gear
-research-discipline-rogue-equipment = Rogue Equipment
-research-discipline-rogue-shipyard = Rogue Heavy Industry
+research-discipline-rogue-weaponry = ASR Arsenal
+research-discipline-rogue-gear = ASR Gear
+research-discipline-rogue-equipment = ASR Equipment
+research-discipline-rogue-shipyard = ASR Heavy Industry
 
-research-technology-rogue-basic-equipment = Basic Rogue Equipment
-research-technology-rogue-advanced-equipment = Advanced Rogue Equipment
-research-technology-rogue-experimental-equipment = Experimental Rogue Equipment
+research-technology-rogue-basic-equipment = Basic ASR Equipment
+research-technology-rogue-advanced-equipment = Advanced ASR Equipment
+research-technology-rogue-experimental-equipment = Experimental ASR Equipment
 
 # T1 rogue
 research-technology-rogue-jaws = Advanced Jaws of Life

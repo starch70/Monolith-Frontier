@@ -83,8 +83,8 @@ uplink-pirate-jaws-desc = A normal jaws-of-life illegally modified past restrict
 uplink-pirate-thruster-kit-name = Thruster Upgrade Kit
 uplink-pirate-thruster-kit-desc = Contains 32 super capaciters. Perfect for upgrading eight thrusters.
 
-uplink-pirate-comms-computer-circuitboard-name = Rogue communications computer board
-uplink-pirate-comms-computer-circuitboard-desc = A computer printed circuit board for a rogue communications console.
+uplink-pirate-comms-computer-circuitboard-name = ASR communications computer board
+uplink-pirate-comms-computer-circuitboard-desc = A computer printed circuit board for an ASR communications console.
 
 uplink-pirate-security-cyborg-module-name = Security Cyborg Module
 uplink-pirate-security-cyborg-module-desc = A machete, an energy gun, and a stun baton, made specifically for borgs. Wait, doesn't TFSMC have the same thing?
@@ -220,7 +220,7 @@ uplink-pirate-webvest-desc = A webvest smuggled into the sector that hasn't been
 uplink-pirate-syndie-mask-name = Syndicate Gas Mask
 uplink-pirate-syndie-mask-desc = A tactical flash resistant gas mask that can be connected to an air supply.
 
-uplink-pirate-modsuit-name = RX-01 Rogue Modsuit
+uplink-pirate-modsuit-name = RX-01 ASR Modsuit
 uplink-pirate-modsuit-desc = An experimental modsuit prototype developed by Ullman Industries. When powered it provides enhanced agility and boosted sensors. "The original client died so uh, go nuts" - Felix Ullman
 
 # MARK: Explosives
@@ -255,7 +255,7 @@ uplink-pirate-prowler-voucher-desc = A single use voucher for a Prowler-pattern 
 # MARK: $Gambling$
 
 uplink-pirate-syndisurplus-name = Surplus Crate
-uplink-pirate-syndisurplus-desc = Contains a large amount of imported good from a company backing the Rogues. This item is non-refundable, don't argue with our lawyers.
+uplink-pirate-syndisurplus-desc = Contains a large amount of imported good from a company backing the Ashen Republic. This item is non-refundable, don't argue with our lawyers.
 
 uplink-pirate-syndisupersurplus-name = Super Surplus Crate
-uplink-pirate-syndisupersurplus-desc = Contains a huge amount of imported good from a company backing the Rogues. This item is non-refundable, don't argue with our lawyers.
+uplink-pirate-syndisupersurplus-desc = Contains a huge amount of imported good from a company backing the Ashen Republic. This item is non-refundable, don't argue with our lawyers.
