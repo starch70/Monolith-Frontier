@@ -129,7 +129,7 @@
     - NamesLastMilitary
   - type: NpcFactionMember
     factions:
-    - TSFMC
+    - TSFHighComm
   - type: Company
     companyName: TSF
   - type: MindShield
