@@ -1,0 +1,11 @@
+- type: entity
+  name: FS-421 POI shield gen spawner
+  id: SpawnShieldGeneratorPOI
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - ShieldGeneratorPOI
