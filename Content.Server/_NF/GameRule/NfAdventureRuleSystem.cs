@@ -64,7 +64,7 @@ public sealed class NFAdventureRuleSystem : GameRuleSystem<NFAdventureRuleCompon
 
     private readonly HttpClient _httpClient = new();
 
-    private readonly ProtoId<GamePresetPrototype> _fallbackPresetID = "MonoStandard"; // Mono - change to MonoStandard from NFPirates
+    private readonly ProtoId<GamePresetPrototype> _fallbackPresetID = "NFPirates";
 
     private const int LeaderboardLimit = 20;
 
