@@ -1,3 +1,5 @@
+# It testfails if I dont do this. I dont know why.
+
 - type: entity
   name: FS-421 POI shield gen spawner
   id: SpawnShieldGeneratorPOI
@@ -9,3 +11,51 @@
   - type: ConditionalSpawner
     prototypes:
     - ShieldGeneratorPOI
+
+- type: entity
+  name: LM-121 shield gen spawner
+  id: SpawnShieldGeneratorTSFCapital
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - ShieldGeneratorTSFCapital
+
+- type: entity
+  name: MS-500 shield gen spawner
+  id: SpawnShieldGenerator
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - ShieldGenerator
+
+- type: entity
+  name: MS-250 shield gen spawner
+  id: SpawnShieldGeneratorMedium
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - ShieldGeneratorMedium
+
+- type: entity
+  name: FS-100 shield gen spawner
+  id: SpawnShieldGeneratorSmall
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - ShieldGeneratorSmall

@@ -46,3 +46,7 @@ ClothingOuterHardsuitNfsdCombat: ClothingOuterHardsuitM86
 ClothingOuterHardsuitNfsdCommand: ClothingOuterHardsuitM86
 
 ShieldGeneratorPOI: SpawnShieldGeneratorPOI
+ShieldGeneratorTSFCapital: SpawnShieldGeneratorTSFCapital
+ShieldGenerator: SpawnShieldGenerator
+ShieldGeneratorMedium: SpawnShieldGeneratorMedium
+ShieldGeneratorSmall: SpawnShieldGeneratorSmall
