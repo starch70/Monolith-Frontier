@@ -12225,3 +12225,70 @@ Entries:
   id: 1355
   time: '2025-09-07T05:30:42.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2248
+- author: starch70
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed USSP modsuits and L-27 pierce resist, and buffed explosion resist
+        for the heavy modsuit.
+    - type: Tweak
+      message: Buffed M86 hardsuit speed.
+  id: 1356
+  time: '2025-09-07T12:41:40.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2253
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Added Polaris-class frigate to TSF shipyard. Get it via T2 research or
+        via the Colonel's voucher.
+    - type: Tweak
+      message: Vouchers have different sprites now.
+  id: 1357
+  time: '2025-09-07T18:28:14.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2247
+- author: starch70
+  changes:
+    - type: Tweak
+      message: Asakim hardsuits now take 120 seconds to strip.
+  id: 1358
+  time: '2025-09-07T22:52:46.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2257
+- author: starch70
+  changes:
+    - type: Add
+      message: Ported tracers from Emberfall.
+  id: 1359
+  time: '2025-09-07T22:54:24.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2256
+- author: ScyronX
+  changes:
+    - type: Tweak
+      message: Hoverbikes are worse on land and better in space.
+  id: 1360
+  time: '2025-09-08T02:07:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2249
+- author: Rubeebeebee
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Sunrise security airlocks being public access. left the public
+        room + office public access though, so clients can come in and out for
+        RP. Also fixed the duplicated radar consoles. 
+  id: 1361
+  time: '2025-09-08T02:08:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2250
+- author: kyres1
+  changes:
+    - type: Tweak
+      message: Capital plastitanium walls use a separate texture and name now.
+  id: 1362
+  time: '2025-09-09T00:12:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2262
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Tayfun and Strayk to USSP shipyard.
+  id: 1363
+  time: '2025-09-09T00:13:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2254
