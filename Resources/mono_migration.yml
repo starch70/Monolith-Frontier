@@ -44,9 +44,3 @@ SuitStorageNfsdCommand: SuitStorageM86
 # T2 hardsuits
 ClothingOuterHardsuitNfsdCombat: ClothingOuterHardsuitM86
 ClothingOuterHardsuitNfsdCommand: ClothingOuterHardsuitM86
-
-ShieldGeneratorPOI: SpawnShieldGeneratorPOI
-ShieldGeneratorTSFCapital: SpawnShieldGeneratorTSFCapital
-ShieldGenerator: SpawnShieldGenerator
-ShieldGeneratorMedium: SpawnShieldGeneratorMedium
-ShieldGeneratorSmall: SpawnShieldGeneratorSmall
