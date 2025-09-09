@@ -57,5 +57,5 @@
     - Flash
     - RubberStampSr
     - DoorRemoteCommand
-     - EncryptionKeyCentCom
-    #- EncryptionKeyStationMaster # Mono - comment out to seperate from TSFMC
+    - EncryptionKeyCentCom
+   #- EncryptionKeyStationMaster # Mono - comment out to seperate from TSFMC
