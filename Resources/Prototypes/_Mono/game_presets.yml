@@ -78,6 +78,7 @@
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
+  - MonoAISTCShuttleSpawnerSchedulerTier2
   - MonoAsakimSTCShuttleSpawnerScheduler
 
 - type: gamePreset
@@ -108,7 +109,7 @@
   - BluespaceSalvageEventScheduler
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
-  - MonoAISTCShuttleSpawnerScheduler
-  - MonoAsakimSTCShuttleSpawnerScheduler
-  - MonoChimeraSTCShuttleSpawnerScheduler
+  - MonoChimeraSTCShuttleSpawnerSchedulerApocalypse
+  - MonoAISTCShuttleSpawnerSchedulerApocalypse
+  - MonoAsakimSTCShuttleSpawnerSchedulerApocalypse
 
