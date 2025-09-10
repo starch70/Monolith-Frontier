@@ -1153,6 +1153,9 @@ entities:
       powerLoad: 5
     - type: Battery
       startingCharge: 0
+    missingComponents:
+    - Construction
+    - Anchorable
 - proto: ComputerShuttle
   entities:
   - uid: 147
