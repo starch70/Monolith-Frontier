@@ -23,7 +23,7 @@
   name: ASR Insurgency Hideout
   minimumDistance: 22500 # Mono
   maximumDistance: 24000 # Mono
-  spawnGamePreset: [ NFPirate ]
+  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoAllAtOnce ]
   spawnGroup: Required
   gridPath: /Maps/_Mono/POI/cove.yml
   hideWarp: true

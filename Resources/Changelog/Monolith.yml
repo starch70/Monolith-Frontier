@@ -12278,3 +12278,74 @@ Entries:
   id: 1361
   time: '2025-09-08T02:08:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2250
+- author: kyres1
+  changes:
+    - type: Tweak
+      message: Capital plastitanium walls use a separate texture and name now.
+  id: 1362
+  time: '2025-09-09T00:12:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2262
+- author: starch70
+  changes:
+    - type: Add
+      message: Added Tayfun and Strayk to USSP shipyard.
+  id: 1363
+  time: '2025-09-09T00:13:53.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2254
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: >-
+        The RAC-30 Now has a DOUBLED Fire rate thanks to optimizations by The
+        Pantheon collective
+  id: 1364
+  time: '2025-09-09T00:55:07.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2264
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: Reworked shuttle detection.
+    - type: Add
+      message: Shuttles now have a thermal and visual signature.
+    - type: Add
+      message: >-
+        Thermal signature is produced by generators, working thrusters, and a
+        lot by firing ship guns. Some by living things.
+    - type: Add
+      message: >-
+        Visual signature scales off a ship's diagonal (building long and thin
+        ships is bad for visual signature).
+    - type: Add
+      message: >-
+        You now see ships if you're close enough, depending on their visual and
+        thermal signature.
+    - type: Add
+      message: Radar consoles (and mass scanners) can now be panned.
+    - type: Tweak
+      message: Massively increased max zoomout on most mass scanner interfaces.
+  id: 1365
+  time: '2025-09-09T19:24:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2260
+- author: Ilya246
+  changes:
+    - type: Fix
+      message: Borgs can now actually AME fuel. - Goob port
+  id: 1366
+  time: '2025-09-09T21:44:41.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2266
+- author: starch70
+  changes:
+    - type: Add
+      message: >-
+        Now you can vote for what factions and ghostrole threats you want every
+        round. Not my problem anymore.
+  id: 1367
+  time: '2025-09-09T23:15:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2252
+- author: Avalon-Proto
+  changes:
+    - type: Tweak
+      message: Turbolaser batteries have been given a pretty new shine!
+  id: 1368
+  time: '2025-09-09T23:20:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2268

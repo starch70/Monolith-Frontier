@@ -3,6 +3,9 @@
 station-event-ai-shuttle-detected = Unidentified dilapidated combat vessel detected near local space. Caution is advised.
 station-event-ai-capital-detected = Capital Class dilapidated combat vessel detected near local space. Heavy caution is advised.
 
+# chimera ship spawns
+station-event-chimera-shuttle-detected = Unidentified vessel detected near local space. Caution is advised.
+
 # asakim ship spawns
 station-event-asakim-shuttle-detected = Unidentified Pre-Fracture vessel detected near local space. Caution is advised.
 
