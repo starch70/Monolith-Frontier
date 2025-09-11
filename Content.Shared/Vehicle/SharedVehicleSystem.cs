@@ -14,6 +14,7 @@
 // SPDX-FileCopyrightText: 2024 themias
 // SPDX-FileCopyrightText: 2025 HacksLua
 // SPDX-FileCopyrightText: 2025 ScyronX
+// SPDX-FileCopyrightText: 2025 starch
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
