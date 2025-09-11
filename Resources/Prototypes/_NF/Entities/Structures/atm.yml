@@ -270,7 +270,7 @@
   - type: StationBankATM
     account: Frontier
   - type: CompanyAccessReader
-    requiredCompany: TSF
+    requiredCompany: Colonial
 
 - type: entity
   parent: BaseStationAdminBankATM
