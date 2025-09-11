@@ -183,6 +183,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
@@ -207,6 +208,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
@@ -231,3 +233,4 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono

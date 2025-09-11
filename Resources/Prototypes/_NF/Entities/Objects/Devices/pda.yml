@@ -405,6 +405,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: PiratePDA
@@ -422,6 +423,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: PiratePDA
@@ -439,6 +441,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: PassengerPDA

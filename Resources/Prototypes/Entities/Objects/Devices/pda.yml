@@ -805,6 +805,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: BasePDA
@@ -828,6 +829,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1073,6 +1075,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     notificationsEnabled: false
@@ -1239,6 +1242,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1263,6 +1267,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1489,6 +1494,7 @@
     showExamine: true
     showControl: true
     isEnabled: true
+    attachedToSuit: true # Mono
 
 - type: entity
   parent: BasePDA
