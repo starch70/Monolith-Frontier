@@ -65,7 +65,7 @@
   - Frontier
   special:
   - !type:AddImplantSpecial
-    implants: MindShieldImplant # Mono - remove TSFMC implant
+    implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
   - !type:GiveItemOnHolidaySpecial
     holiday: FrontierBirthday
     prototype: FrontierBirthdayGift
