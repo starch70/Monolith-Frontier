@@ -399,6 +399,11 @@
 - type: Tag
   id: LightFighterOrdinance
 
+# Man portable rockets :trollface:
+
+- type: Tag
+  id: MPSSMMissile
+
 # Kudzu ignore tag
 
 - type: Tag
