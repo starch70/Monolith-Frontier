@@ -180,6 +180,9 @@
   - type: Icon
     state: pda-lifesupporttech
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
@@ -201,6 +204,9 @@
     - AstroNavCartridge
     - MailMetricsCartridge # Frontier
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
@@ -222,3 +228,6 @@
     - AstroNavCartridge
     - MailMetricsCartridge # Frontier
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true

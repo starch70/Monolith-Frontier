@@ -802,6 +802,9 @@
   - type: Icon
     state: pda-ce
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: BasePDA
@@ -822,6 +825,9 @@
   - type: Icon
     state: pda-engineer
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1064,6 +1070,9 @@
     scanDelay: 0
     silent: true
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     notificationsEnabled: false
@@ -1227,6 +1236,9 @@
       - AstroNavCartridge
       - MailMetricsCartridge # Frontier
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1248,6 +1260,9 @@
   - type: Pda
     id: ERTEngineerIDCard
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1471,6 +1486,9 @@
   - type: Icon
     state: pda-seniorengineer
   - type: Geiger # Mono
+    showExamine: true
+    showControl: true
+    isEnabled: true
 
 - type: entity
   parent: BasePDA
