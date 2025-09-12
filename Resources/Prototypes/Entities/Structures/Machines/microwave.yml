@@ -85,6 +85,15 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Breakage"]
+    - trigger: # Mono - why the fuck was this indestructible?
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
   - type: Explosive
     explosionType: Default
     maxIntensity: 10
