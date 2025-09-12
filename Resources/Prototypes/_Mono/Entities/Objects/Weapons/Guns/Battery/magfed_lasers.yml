@@ -86,6 +86,7 @@
     slots:
       gun_magazine:
         name: Magazine
+        startingItem: PulsedPlasmaLaserCanister
         whitelist:
           tags:
           - PPLCell
@@ -99,6 +100,10 @@
       visible: false
     - state: base
       map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+      visible: false
+      shader: unshaded
   - type: Item
     sprite: _Mono/Objects/Weapons/Guns/Battery/nt_longarm_inhands_32x.rsi
     size: Huge
@@ -106,8 +111,9 @@
     - 0,0,5,1
   - type: MagazineVisuals
     magState: mag
-    steps: 1
-    zeroVisible: true
+    steps: 2
+    zeroVisible: false
+    zeroNoAmmo: true
   - type: Clothing
     sprite: _Mono/Objects/Weapons/Guns/Battery/nt_longarm_inhands_32x.rsi
     quickEquip: false
@@ -134,3 +140,4 @@
     rsi:
       sprite: _RMC14/Interface/MousePointer/smartgun_mouse.rsi
       state: all
+  - type: Appearance
