@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 - type: entity
-  name: NT SM-27 MPSSM missile launcher
+  name: NT-WS SM-27 MPSSM missile launcher
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseC2ContrabandUnredeemable ]
   id: WeaponLauncherMPSSM
   suffix: HEAT

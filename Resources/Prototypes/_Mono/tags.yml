@@ -199,8 +199,13 @@
 - type: Tag
   id: Magazine57x28mmFMJBox
 
+# Misc ammo shit
+
 - type: Tag
   id: MilitaryPowerCellMG
+
+- type: Tag
+  id: PPLCell
 
 - type: Tag
   id: MagazineDP29
