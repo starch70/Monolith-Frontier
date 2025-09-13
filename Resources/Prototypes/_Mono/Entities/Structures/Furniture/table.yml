@@ -1,0 +1,13 @@
+- type: entity
+  id: TableMetalGrate
+  parent: Table
+  name: metal table
+  description: A cold handmade metal table made from grating.
+  components:
+  - type: Sprite
+    sprite: _Mono/Structures/Furniture/Tables/metalgrate.rsi
+  - type: Icon
+    sprite: _Mono/Structures/Furniture/Tables/metalgrate.rsi
+  - type: Construction
+    graph: Table
+    node: Table

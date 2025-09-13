@@ -12,7 +12,7 @@
 - type: gameMap
   id: NFDev
   mapName: NFDev
-  mapPath: /Maps/_Mono/Test/dev_map.yml # Mono
+  mapPath: /Maps/_Mono/Test/dev_map.yml
   minPlayers: 0
   stations:
     NFDev:
@@ -32,23 +32,17 @@
             StationRepresentative: [ -1, -1 ]
             StationTrafficController: [ -1, -1 ]
             DirectorOfCare: [ -1, -1 ]
-            MdMedic: [ -1, -1 ] # mono
+            MdMedic: [ -1, -1 ]
             SecurityGuard: [ -1, -1 ]
-            Valet: [ -1, -1 ]
             NFJanitor: [ -1, -1 ]
             MailCarrier: [ -1, -1 ]
             Sheriff: [ -1, -1]
-            # Bailiff: [ -1, -1] Mono
             SeniorOfficer: [ -1, -1]
             Brigmedic: [ -1, -1]
-            # NFDetective: [ -1, -1] Mono
             Deputy: [ -1, -1]
-            # Cadet: [ -1, -1] Mono
-            # PublicAffairsLiaison: [ -1, -1] Mono
             PirateCaptain: [ -1, -1]
             PirateFirstMate: [ -1, -1]
             Pirate: [ -1, -1]
-            # Prisoner: [ -1, -1] # Mono
             USSPCommissar: [ -1, -1]
             USSPSergeant: [ -1, -1]
             USSPCorporal: [ -1, -1]

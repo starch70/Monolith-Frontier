@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: BaseC2ContrabandColonialSecurity
+  id: WeaponLoadoutColSecBase
+  abstract: true
+  components:
+  - type: StaticPrice
+    price: 250
+
+- type: entity
+  parent: [WeaponLoadoutColSecBase, WeaponSubMachineGunVector45_ACP]
+  id: WeaponSubMachineGunVector45_ACPColSec
+  suffix: Colonial Security

@@ -372,7 +372,7 @@
   price: 0
   storage:
     back:
-    - WeaponSubMachineGunDrozd
+    - WeaponSubMachineGunVector45_ACPColSec
 
 - type: loadout #Drozd Rubber Ammo
   id: SecurityGuardAcpSmgAmmoRubberLoadout

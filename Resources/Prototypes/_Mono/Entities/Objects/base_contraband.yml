@@ -18,6 +18,14 @@
     allowedDepartments: [ PMC, Security, Command, CentralCommand ]
 
 - type: entity
+  parent: BaseC2ContrabandUnredeemable
+  id: BaseC2ContrabandColonialSecurity
+  abstract: true
+  components:
+  - type: Contraband
+    allowedDepartments: [ Frontier ]
+
+- type: entity
   parent: BaseC3Contraband
   id: BaseC3ChemContraband
   abstract: true

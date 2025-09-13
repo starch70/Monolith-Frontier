@@ -20,7 +20,7 @@
   mapName: 'Colonial Outpost'
   mapPath: /Maps/_Mono/Outpost/colonial.yml # Mono
   minPlayers: 0
-  maxPlayers: 100
+  maxPlayers: 150
   randomRotation: false
   maxRandomOffset: 0
   stations:
@@ -48,10 +48,10 @@
             Borg: [ -1, -1 ]
             StationRepresentative: [ 1, 1 ]
             StationTrafficController: [ 2, 2 ]
+            DirectorOfCare: [ 1, 1 ]
+            MdMedic: [ -1, -1 ] # mono
             SecurityGuard: [ 2, 2 ]
-            Valet: [ 2, 2 ]
             NFJanitor: [ 2, 2 ]
             MailCarrier: [ 2, 2 ]
           tags:
           - HeadOfPersonnel
-          - HeadOfSecurity

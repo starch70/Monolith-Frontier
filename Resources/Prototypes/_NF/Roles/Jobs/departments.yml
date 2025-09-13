@@ -11,6 +11,8 @@
   - NFJanitor
   - MailCarrier # nyano
   - SecurityGuard
+  - DirectorOfCare # Mono
+  - MdMedic # Mono
 
 - type: department
   id: Antag
