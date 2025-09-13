@@ -14,3 +14,15 @@
   parent: [WeaponLoadoutColSecBase, WeaponSubMachineGunVector45_ACP]
   id: WeaponSubMachineGunVector45_ACPColSec
   suffix: Colonial Security
+
+- type: entity
+  parent: [WeaponLoadoutColSecBase, WeaponSniperHristov]
+  id: WeaponSniperHristovColSec
+  suffix: Colonial Security
+
+
+# Its hilarious.
+- type: entity
+  parent: [WeaponLoadoutColSecBase, WeaponLauncherMk348]
+  id: WeaponLauncherMk348ColSec
+  suffix: Colonial Security
