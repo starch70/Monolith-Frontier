@@ -16,7 +16,7 @@
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/peregine.yml
-  guidebookPage: ShipyardPeregine
+  guidebookPage: Null
   class:
   - Salvage
   engine:
