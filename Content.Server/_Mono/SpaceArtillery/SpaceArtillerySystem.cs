@@ -100,6 +100,12 @@ public sealed partial class SpaceArtillerySystem : EntitySystem
             return;
         }
 
+        var parentGrid = xform.GridUid;
+        if (HasComp<SpaceArtilleryDisabledGridComponent>(parentGrid) || !xform.Anchored)
+        {
+            return;
+        }
+
         if (!_gun.TryGetGun(uid, out var gunUid, out var gun))
         {
             OnMalfunction(uid, component);
