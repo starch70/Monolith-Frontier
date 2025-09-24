@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022 Francesco
+﻿# SPDX-FileCopyrightText: 2022 Francesco
 # SPDX-FileCopyrightText: 2023 DrSmugleaf
 # SPDX-FileCopyrightText: 2023 Leon Friedrich
 # SPDX-FileCopyrightText: 2023 Morb
@@ -139,7 +139,7 @@
   description: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
   components:
   - type: Sprite
-    sprite: Structures/Machines/Medical/cryopod.rsi
+    sprite: Structures/Machines/cryogenics.rsi
     drawdepth: Mobs
     noRot: true
     offset: 0, 0.5
