@@ -16,7 +16,7 @@
 # Implanters
 - type: latheRecipe
   id: GaryTranslatorImplanter
-  result: GaryTranslatorImplanter
+  result: GaryTranslatorImplant
   completetime: 2
   materials:
     Steel: 500
