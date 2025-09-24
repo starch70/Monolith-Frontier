@@ -18,6 +18,7 @@
   - AnimalTranslator
   - ValyrianStandardTranslator
   - ChittinTranslator
+  - GaryTranslator # Mono
   # - SiikMaasTranslator
   # - MarishTranslator
 
@@ -35,5 +36,6 @@
   - MofficTranslatorImplanter
   - ValyrianStandardTranslatorImplanter
   - ChittinTranslatorImplanter
+  - GaryTranslatorImplanter # Mono
 #  - SiikMaasTranslatorImplanter
 #  - MarishTranslatorImplanter

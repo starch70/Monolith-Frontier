@@ -1,0 +1,16 @@
+- type: entity
+  id: GaryTranslator
+  parent: [ TranslatorPoweredBase ]
+  name: gary translator
+  description: Translates speech between Gary and Andromeda Standard. Haha, Gary!
+  components:
+  - type: HandheldTranslator
+    spoken:
+    - TauCetiBasic
+    - Gary
+    understood:
+    - TauCetiBasic
+    - Gary
+    requires:
+    - TauCetiBasic
+    - Gary
