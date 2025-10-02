@@ -11,7 +11,7 @@
         lungs: OrganAnimalLungs
         stomach: OrganAnimalStomach
         liver: OrganAnimalLiver
-        heart: OrganCobraHeart # Allows you to become invisible.
+        heart: OrganAnimalHeart #OrganCobraHeart # Allows you to become invisible. # Mono - change to normal animal heart
         kidneys: OrganAnimalKidneys
     legs:
       part: LegsAnimal
