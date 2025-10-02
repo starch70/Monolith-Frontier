@@ -8,7 +8,7 @@
       connections:
       - legs
       organs:
-        lungs: OrganSpaceAnimalLungs # Immunity to airloss - Mono
+        lungs: OrganAnimalLungs
         stomach: OrganBloodsuckerStomach
         liver: OrganBloodsuckerLiver
         heart: OrganBloodsuckerHeart
