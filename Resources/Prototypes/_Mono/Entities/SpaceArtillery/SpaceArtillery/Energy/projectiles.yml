@@ -309,7 +309,7 @@
   - type: EmpOnTrigger
     range: 3
     energyConsumption: 6000000
-    disableDuration: 40
+    disableDuration: 27.5
   - type: LightningOnTrigger
     chance: 1
     count: 5
