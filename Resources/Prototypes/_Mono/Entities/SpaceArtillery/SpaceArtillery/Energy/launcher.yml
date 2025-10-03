@@ -575,7 +575,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.05
+    fireRate: 0.04 # 25s
     shootThermalSignature: 18000000 # ~8.5km after firing
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
@@ -647,7 +647,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.05
+    fireRate: 0.025 # 40s
     projectileSpeed: 750
     shootThermalSignature: 18000000 # ~8.5km after firing
     soundGunshot:
@@ -719,7 +719,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 1.5
+    fireRate: 1.2
     shootThermalSignature: 4000000 # ~2.8km with continuous fire
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg

@@ -307,13 +307,13 @@
   - type: PointLight
     color: "#FB00FF"
   - type: EmpOnTrigger
-    range: 9.5
-    energyConsumption: 4000000
-    disableDuration: 20
+    range: 3
+    energyConsumption: 6000000
+    disableDuration: 40
   - type: LightningOnTrigger
     chance: 1
     count: 5
-    range: 30
+    range: 24
     lightningProto: LightningEMP
     lightningEffects: false
 
@@ -456,6 +456,7 @@
     damage:
      types:
       Piercing: 125
+      Heat: 25
       Structural: 200
   - type: HitscanBasicRaycast
     maxDistance: 500
@@ -483,9 +484,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: HardBombShipGun
-    totalIntensity: 7500
+    totalIntensity: 7000
     intensitySlope: 100
-    maxIntensity: 6000
+    maxIntensity: 2400
 
 - type: entity
   id: SunderExplosion
@@ -495,6 +496,6 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: HardBombShipGun
-    totalIntensity: 30
+    totalIntensity: 22
     intensitySlope: 2
     maxIntensity: 5
